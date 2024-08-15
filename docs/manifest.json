@@ -1,0 +1,2539 @@
+{
+  "source_base_path": "C:/_MyProjects/SipLibDocumentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Body.BinaryBodyParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Body.BinaryBodyParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Body.BodyParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Body.BodyParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Body.ContentTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Body.ContentTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Body.MessageContentsContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Body.MessageContentsContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Body.MultipartBinaryBodyBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Body.MultipartBinaryBodyBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Body.SipBodyBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Body.SipBodyBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Body.SipBodyContents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Body.SipBodyContents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Body.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Body.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.AcceptCertificateDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.AcceptCertificateDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.AcceptClientCertificateDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.AcceptClientCertificateDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.AcceptConnectionDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.AcceptConnectionDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.DscpSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.DscpSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.LogInvalidSipMessageDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.LogInvalidSipMessageDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.LogSipRequestDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.LogSipRequestDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.LogSipResponseDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.LogSipResponseDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.Qos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.Qos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SIPChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SIPChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SIPConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SIPConnection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SIPConnectionDisconnectedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SIPConnectionDisconnectedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SIPConnectionsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SIPConnectionsEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SIPMessageReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SIPMessageReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SIPTCPChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SIPTCPChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SIPTLSChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SIPTLSChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SIPUDPChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SIPUDPChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SipConnectionFailedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SipConnectionFailedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SipRequestReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SipRequestReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SipResponseReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SipResponseReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SipTransactionCompleteDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SipTransactionCompleteDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.SipTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.SipTransport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.WindowsQos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.WindowsQos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Channels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Channels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Collections.ThreadSafeGenericList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Collections.ThreadSafeGenericList-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Collections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.AuthHeaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.AuthHeaders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.ByteBufferInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.ByteBufferInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.CallProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.CallProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.Crypto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.Crypto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.HTTPDigest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.HTTPDigest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.IPSocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.IPSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPAuthenticationHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPAuthenticationHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPAuthorisationDigest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPAuthorisationDigest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPAuthorisationHeadersEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPAuthorisationHeadersEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPCallInfoHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPCallInfoHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPConstants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPContactHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPContactHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPEndPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPEndPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPEscape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPEscape.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPFromHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPFromHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPGeolocationHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPGeolocationHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPHeaderAncillary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPHeaderAncillary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPHeaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPHeaders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPMessageTypesEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPMessageTypesEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPMethods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPMethodsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPMethodsEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPPaiHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPPaiHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPPpiHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPPpiHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPProtocolsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPProtocolsEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPProtocolsType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPProtocolsType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPReplacesParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPReplacesParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPResponseStatusCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPResponseStatusCodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPResponseStatusCodesEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPResponseStatusCodesEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPRoute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPRoute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPRouteSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPRouteSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPSchemesEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPSchemesEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPSchemesType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPSchemesType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPToHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPToHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPURI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPURI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPUserField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPUserField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPValidationException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPValidationFieldsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPValidationFieldsEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPViaHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPViaHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPViaSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPViaSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SipUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SipUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.TypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.TypeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.AlertLevelsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.AlertLevelsEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.AlertTypesEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.AlertTypesEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.DtlsClientUdpTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.DtlsClientUdpTransport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.DtlsServerUdpTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.DtlsServerUdpTransport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.DtlsSrtpClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.DtlsSrtpClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.DtlsSrtpServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.DtlsSrtpServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.DtlsSrtpTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.DtlsSrtpTransport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.DtlsUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.DtlsUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.IDtlsSrtpPeer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.IDtlsSrtpPeer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.IPacketTransformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.IPacketTransformer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.ITransformEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.ITransformEngine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.NetConvert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.NetConvert.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.RTCDtlsFingerprint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.RTCDtlsFingerprint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.RawPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.RawPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.SrtcpCryptoContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.SrtcpCryptoContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.SrtcpTransformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.SrtcpTransformer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.SrtpCipherCTR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.SrtpCipherCTR.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.SrtpCipherF8.F8Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.SrtpCipherF8.F8Context.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.SrtpCipherF8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.SrtpCipherF8.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.SrtpCryptoContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.SrtpCryptoContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.SrtpParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.SrtpParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.SrtpPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.SrtpPolicy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.SrtpTransformEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.SrtpTransformEngine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.SrtpTransformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.SrtpTransformer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Dtls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Dtls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Logging.SipLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Logging.SipLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.ALawDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.ALawDecoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.ALawEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.ALawEncoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.AudioDestination.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.AudioDestination.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.AudioDestinationDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.AudioDestinationDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.AudioSampleData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.AudioSampleData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.AudioSamplesReadyDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.AudioSamplesReadyDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.AudioSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.AudioSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.AudioSourceBase.AudioSourceStateEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.AudioSourceBase.AudioSourceStateEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.AudioSourceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.AudioSourceBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.Band.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.Band.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.FileAudioSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.FileAudioSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.G722Codec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.G722Codec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.G722CodecState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.G722CodecState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.G722Decoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.G722Decoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.G722Encoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.G722Encoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.G722Flags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.G722Flags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.HighResolutionTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.HighResolutionTimer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.HighResolutionTimerDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.HighResolutionTimerDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.IAudioDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.IAudioDecoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.IAudioEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.IAudioEncoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.IAudioSampleSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.IAudioSampleSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.MediaPortManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.MediaPortManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.MediaPortSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.MediaPortSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.MuLawDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.MuLawDecoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.MuLawEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.MuLawEncoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.PcmaDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.PcmaDecoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.PcmaEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.PcmaEncoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.PcmuDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.PcmuDecoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.PcmuEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.PcmuEncoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.PortRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.PortRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.ByteRangeHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.ByteRangeHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.CpimMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.CpimMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpCompletionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpCompletionStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpConnection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpConnectionStatusDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpConnectionStatusDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpMessageDeliveryFailedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpMessageDeliveryFailedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpMessageReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpMessageReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpMessageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpMessageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpPathHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpPathHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpStatusHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpStatusHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpStreamParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpStreamParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpUri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpUri.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.ReportReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.ReportReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Network.IpUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Network.IpUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Network.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Network.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RealTimeText.RttCharactersReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RealTimeText.RttCharactersReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RealTimeText.RttParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RealTimeText.RttParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RealTimeText.RttReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RealTimeText.RttReceiver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RealTimeText.RttRedundantBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RealTimeText.RttRedundantBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RealTimeText.RttRtpSendDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RealTimeText.RttRtpSendDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RealTimeText.RttSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RealTimeText.RttSender.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RealTimeText.RttUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RealTimeText.RttUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RealTimeText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RealTimeText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.ByePacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.ByePacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.DtlsHandshakeFailedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.DtlsHandshakeFailedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.DtmfEventEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.DtmfEventEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.DtmfPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.DtmfPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.JitterStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.JitterStatistics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.MeanOpinionScore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.MeanOpinionScore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.ReceiverReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.ReceiverReport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.ReportBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.ReportBlock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.RtcpCompoundPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.RtcpCompoundPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.RtcpHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.RtcpHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.RtcpPacketReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.RtcpPacketReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.RtcpPacketSentDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.RtcpPacketSentDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.RtcpPacketType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.RtcpPacketType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.RtpChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.RtpChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.RtpPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.RtpPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.RtpPacketReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.RtpPacketReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.RtpPacketSentDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.RtpPacketSentDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.RtpUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.RtpUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.SdesChunk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.SdesChunk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.SdesItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.SdesItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.SdesItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.SdesItemType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.SdesPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.SdesPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.SenderInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.SenderInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.SenderReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.SenderReport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.AesFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.AesFunctions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.CryptoAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.CryptoAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.CryptoContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.CryptoContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.CryptoSuites.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.CryptoSuites.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.InlineParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.InlineParams.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.MasterKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.MasterKeys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.RocVals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.RocVals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.RocValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.RocValues.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.SRtpErrorsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.SRtpErrorsEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.SRtpUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.SRtpUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.SessionKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.SessionKeys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.SrtpDecryptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.SrtpDecryptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.SrtpEncryptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.SrtpEncryptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.SrtpLabelItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.SrtpLabelItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.SrtpTransformBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.SrtpTransformBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.RtpCrypto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.RtpCrypto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Sdp.ConnectionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Sdp.ConnectionData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Sdp.MediaDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Sdp.MediaDescription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Sdp.MediaDirectionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Sdp.MediaDirectionEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Sdp.Origin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Sdp.Origin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Sdp.RtpMapAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Sdp.RtpMapAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Sdp.Sdp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Sdp.Sdp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Sdp.SdpAnswerSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Sdp.SdpAnswerSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Sdp.SdpAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Sdp.SdpAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Sdp.SdpUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Sdp.SdpUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Sdp.SetupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Sdp.SetupType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Sdp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Sdp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.ClientInviteTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.ClientInviteTransaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.ClientNonInviteTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.ClientNonInviteTransaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.ServerInviteTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.ServerInviteTransaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.ServerNonInviteTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.ServerNonInviteTransaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.SipInviteTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.SipInviteTransaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.SipTimers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.SipTimers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.SipTransactionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.SipTransactionBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.SipTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.SipTransport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.TransactionRequestReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.TransactionRequestReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.TransactionResponseReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.TransactionResponseReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.TransactionStateEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.TransactionStateEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.TransactionTerminationReasonEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.TransactionTerminationReasonEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Transactions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Transactions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Video.H264Depacketiser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Video.H264Depacketiser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Video.H264Packetiser.H264Nal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Video.H264Packetiser.H264Nal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Video.H264Packetiser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Video.H264Packetiser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Video.H264RtpReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Video.H264RtpReceiver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Video.H264RtpSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Video.H264RtpSender.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Video.RtpSendDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Video.RtpSendDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Video.RtpVP8Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Video.RtpVP8Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Video.VP8RtpReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Video.VP8RtpReceiver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Video.VP8RtpSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Video.VP8RtpSender.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Video.VideoRtpReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Video.VideoRtpReceiver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Video.VideoRtpSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Video.VideoRtpSender.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Video.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Video.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/ConfigureSipLibLogging.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ConfigureSipLibLogging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/RealTimeProtocol.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/RealTimeProtocol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/SessionDescriptionProtocol.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/SessionDescriptionProtocol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/SipChannelClasses.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/SipChannelClasses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/SipTransportManagement.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/SipTransportManagement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/WorkingWithSipMessages.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/WorkingWithSipMessages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
