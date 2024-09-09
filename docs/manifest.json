@@ -11,6 +11,26 @@
       }
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/SipLib.Body.BinaryBodyParser.yml",
       "output": {
@@ -1512,6 +1532,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpTextMessageReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpTextMessageReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SipLib.Msrp.MsrpUri.yml",
       "output": {
         ".html": {
@@ -1702,6 +1732,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.ReceiveStatisticsReadyDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.ReceiveStatisticsReadyDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SipLib.Rtp.ReceiverReport.yml",
       "output": {
         ".html": {
@@ -1806,6 +1846,16 @@
       "output": {
         ".html": {
           "relative_path": "api/SipLib.Rtp.RtpPacketSentDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Rtp.RtpReceiveStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Rtp.RtpReceiveStatistics.html"
         }
       },
       "version": ""
@@ -2442,10 +2492,30 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/MessageSessionRelayProtocol.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/MessageSessionRelayProtocol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/RealTimeProtocol.md",
       "output": {
         ".html": {
           "relative_path": "articles/RealTimeProtocol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/RealTimeText.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/RealTimeText.html"
         }
       },
       "version": ""

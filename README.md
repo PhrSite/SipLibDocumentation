@@ -1,7 +1,7 @@
 # The SipLibDocumentation Project
 This is the GitHub Pages documentation project for the SipLib class library.
 
-This is a [DocFX](https://dotnet.github.io/docfx) project so DocFX must be installed on you system before you can build the documentation GitHub Pages static web site for the Ng911Lib project.
+This is a [DocFX](https://dotnet.github.io/docfx) project so DocFX must be installed on you system before you can build the documentation GitHub Pages static web site for the SipLib project.
 
 To build the documentation, open a command prompt and change to the the SipLibDocumentation directory and then type docfx.
 

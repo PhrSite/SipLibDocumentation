@@ -532,6 +532,9 @@
                             <a href="SipLib.Msrp.MsrpStreamParser.html" title="MsrpStreamParser" class="">MsrpStreamParser</a>
                           </li>
                           <li class="">
+                            <a href="SipLib.Msrp.MsrpTextMessageReceivedDelegate.html" title="MsrpTextMessageReceivedDelegate" class="">MsrpTextMessageReceivedDelegate</a>
+                          </li>
+                          <li class="">
                             <a href="SipLib.Msrp.MsrpUri.html" title="MsrpUri" class="">MsrpUri</a>
                           </li>
                           <li class="">
@@ -595,6 +598,9 @@
                             <a href="SipLib.Rtp.MeanOpinionScore.html" title="MeanOpinionScore" class="">MeanOpinionScore</a>
                           </li>
                           <li class="">
+                            <a href="SipLib.Rtp.ReceiveStatisticsReadyDelegate.html" title="ReceiveStatisticsReadyDelegate" class="">ReceiveStatisticsReadyDelegate</a>
+                          </li>
+                          <li class="">
                             <a href="SipLib.Rtp.ReceiverReport.html" title="ReceiverReport" class="">ReceiverReport</a>
                           </li>
                           <li class="">
@@ -626,6 +632,9 @@
                           </li>
                           <li class="">
                             <a href="SipLib.Rtp.RtpPacketSentDelegate.html" title="RtpPacketSentDelegate" class="">RtpPacketSentDelegate</a>
+                          </li>
+                          <li class="">
+                            <a href="SipLib.Rtp.RtpReceiveStatistics.html" title="RtpReceiveStatistics" class="">RtpReceiveStatistics</a>
                           </li>
                           <li class="">
                             <a href="SipLib.Rtp.RtpUtils.html" title="RtpUtils" class="">RtpUtils</a>
@@ -866,10 +875,14 @@ received from the network. See RFC 3550.</p>
       <section><p>Class for creating and parsing Real Time Control Protocol (RTCP) headers.</p>
 </section>
       <h4><a class="xref" href="SipLib.Rtp.RtpChannel.html">RtpChannel</a></h4>
-      <section><p>Class for sending and receiving Real Time Protocol (RTP) media such as audio, video and text (RTT).</p>
+      <section><p>Class for sending and receiving Real Time Protocol (RTP) media such as audio, video and text (RTT).
+Each instance of an RtpChannel class handles a single media type.</p>
 </section>
       <h4><a class="xref" href="SipLib.Rtp.RtpPacket.html">RtpPacket</a></h4>
       <section><p>Class for handling Real Time Protocol (RTP) network packets. See RFC 3550.</p>
+</section>
+      <h4><a class="xref" href="SipLib.Rtp.RtpReceiveStatistics.html">RtpReceiveStatistics</a></h4>
+      <section><p>Class for storing statistics related to received RTP packets.</p>
 </section>
       <h4><a class="xref" href="SipLib.Rtp.RtpUtils.html">RtpUtils</a></h4>
       <section><p>This class contains various static functions for reading and writing words, double words (4 bytes) and
@@ -908,6 +921,9 @@ Delegates
       <h4><a class="xref" href="SipLib.Rtp.DtlsHandshakeFailedDelegate.html">DtlsHandshakeFailedDelegate</a></h4>
       <section><p>Delegate type for the DtlsHandshakeFailed event of the RtpChannel class</p>
 </section>
+      <h4><a class="xref" href="SipLib.Rtp.ReceiveStatisticsReadyDelegate.html">ReceiveStatisticsReadyDelegate</a></h4>
+      <section><p>Delegate type for the ReceiveStatisticsReady event of the RtpChannel class.</p>
+</section>
       <h4><a class="xref" href="SipLib.Rtp.RtcpPacketReceivedDelegate.html">RtcpPacketReceivedDelegate</a></h4>
       <section><p>Delegate type for the RtcpPacketReceived event of the RtpChannel class.</p>
 </section>
@@ -929,6 +945,9 @@ Delegates
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/PhrSite/SipLibDocumentation/blob/master/Namespaces/SipLib.Rtp.md/#L2" class="contribution-link">Edit this page</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

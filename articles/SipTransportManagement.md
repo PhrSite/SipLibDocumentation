@@ -1,5 +1,5 @@
 # SIP Message Transport and Transaction Management
-The SipTransport class can be used to manage User Agent Server (UAS) and User Agent Client (UAC) SIP transactions.
+The [SipTransport](~/api/SipLib.Transactions.SipTransport.yml) class can be used to manage User Agent Server (UAS) and User Agent Client (UAC) SIP transactions.
 
 Each instance of a SipTransport class can manage SIP transactions over a single SIP channel. It is possible to handle SIP transactions over multiple SIP channels by creating multiple SipTransport objects, one for each individual SIP channel.
 
@@ -14,6 +14,8 @@ The user of a SipTransport object should store a reference to the object.
 When the user of a SipTransport object has no further need for it, it should perform the following steps.
 1. Unhook the events (optional if the SipTransport object is shut down when the application is shutting down)
 2. Call the Shutdown() method of the SipTransport object.
+
+The Shutdown() method of the SipTransport class calls the Close() method of the SIPChannel that it is using so it is not necessary to call SIPChannel.Close().
 
 The following code snippet shows how to create and use the SipTransport class.
 ```
@@ -76,7 +78,7 @@ The the SipTransport class provides the following events.
 The event handler functions are called asynchronously from a thread context that is managed by the SipTransport class so the event handler functions are responsible for managing synchronization of objects that are shared by different thread contexts.
 
 ## Handling SIP Requests
-The SipRequestReceived event is fired by the SipTransport class when a new SIP request message is received. The following code sample provides an example of how to handle this event.
+The SipRequestReceived event is fired by the SipTransport class when a new SIP request message is received. The following code snippet provides an example of how to handle this event.
 
 ~~~
 class CallManager
@@ -224,7 +226,7 @@ If the transaction user does not wish to receive a callback notification when a 
 To fire and forget a transaction, the transaction user must set the completeDelegate parameter to null in the call to the SipTransport method used to start the transaction and must not await for completion of the transaction.
 
 ### <a name="ClientNonInvite">Client Non-INVITE Transactions</a>
-A client non-INVITE transaction is a SIP transaction for any SIP request except an INVITE request. In a client non-INVITE transaction, the client builds a SIP request and starts a SIP transaction by calling the StartClientNonInviteTransaction() method of a SipTransport object. The SipTranspor object sends the request message to a server and notifies the client when the transaction is completed doe to receipt of a final response or if the transaction times out.
+A client non-INVITE transaction is a SIP transaction for any SIP request except an INVITE request. In a client non-INVITE transaction, the client builds a SIP request and starts a SIP transaction by calling the StartClientNonInviteTransaction() method of a SipTransport object. The SipTransport object sends the request message to a server and notifies the client when the transaction is completed due to receipt of a final response or if the transaction times out.
 
 The declaration of the StartClientNonInviteTransaction is:
 ```
@@ -459,7 +461,7 @@ public ServerInviteTransaction StartServerInviteTransaction(SIPRequest request,
 ```
 The request parameter is the INVITE request from the client. The remoteEndPoint is the IP endpoint of the client that sent the request. The ResponseToSend is the response to immediately send to the client. This is typically an intermediate response such as 100 Trying, but may be a final response that will end the transaction.
 
-The complete delegate parameter is a callback function that the SipTransport class will call when the transaction is completed. This parameter is optional and may be set to null if the server user agent does not need to be notified when the transaction is completed.
+The completeDelegate parameter is a callback function that the SipTransport class will call when the transaction is completed. This parameter is optional and may be set to null if the server user agent does not need to be notified when the transaction is completed.
 
 A server user agent may also asynchronously await the completion of the transaction by calling the WaitForCompletionAsync() method of the ServerInviteTransaction object.
 

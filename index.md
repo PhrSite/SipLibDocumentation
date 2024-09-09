@@ -1,5 +1,5 @@
 # The SipLib Class Library
-The SipLib class library is a portable, cross-platform class library written in the C# language that targets the .NET 8.0 environment. It may be used by applications that target the Windows Desktop(version 10 or later), Windows Server or Linux operating systems.
+The SipLib class library is a portable, cross-platform class library written in the C# language that targets the .NET 8.0 environment. It may be used by applications that target the Windows Desktop (version 10 or later), Windows Server or Linux operating systems.
 
 As a basic protocol class library, this project does not provide implementation of SIP user agents or device specific media endpoints as these components are very application specific.
 
@@ -13,6 +13,7 @@ The primary focus of this project is to provide protocol support (message buildi
 The classes in this library support the following protocols.
 1. Session Initiation Protocol (SIP, RFC 3261) over UDP, TCP and TLS
 2. Session Description Protocol (SDP, RFC 8866)
+3. An Offer/Answer Model with the Session Description Protocol (SDP) (RFC 3264)
 3. Real Time Protocol (RTP, RFC 3550) for transport of audio, video and Real Time Text
 4. Real Time Text (RTT, RFC 4103)
 5. Message Session Relay Protocol (MSRP, RFC 4975) using TCP or TLS

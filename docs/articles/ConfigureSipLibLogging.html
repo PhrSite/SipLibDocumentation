@@ -108,6 +108,12 @@
                     <li class="">
                       <a href="RealTimeProtocol.html" title="Real Time Protocol" class="">Real Time Protocol</a>
                     </li>
+                    <li class="">
+                      <a href="RealTimeText.html" title="Real Time Text" class="">Real Time Text</a>
+                    </li>
+                    <li class="">
+                      <a href="MessageSessionRelayProtocol.html" title="Message Session Relay Protocol (MSRP)" class="">Message Session Relay Protocol (MSRP)</a>
+                    </li>
                     <li class="active">
                       <a href="ConfigureSipLibLogging.html" title="SipLib Application Logging" class="active">SipLib Application Logging</a>
                     </li>
@@ -123,7 +129,7 @@
 <h1 id="configuring-siplib-logging">Configuring SipLib Logging</h1>
 
 <p>The SipLib class library includes a class called <a href="../api/SipLib.Logging.SipLogger.html">SipLogger</a> that the other classes in this class library can use for logging application log messages.</p>
-<p>By default, the SipLogger class logs to a NullLogger. This means that no messages are logged. The consumer of the SipLib class librarry must configure the SipLogger class so that it writes log messages to to a logging destination such as a file or the console.</p>
+<p>By default, the SipLogger class logs to a NullLogger. This means that no messages are logged. The consumer of the SipLib class librarry must configure the SipLogger class so that it writes log messages to a logging destination such as a file or the console.</p>
 <p>The best way to configure SipLib logging is to use a logging framework such as <a href="https://serilog.net">Serilog</a> to create a ILogger interface and then pass that interface to SipLogger using the Log setter property. The following code snippet shows how an application can configure the SipLibLogger class.</p>
 <pre><code>using Serilog;
 using Serilog.Core;
@@ -184,6 +190,9 @@ internal static class Program
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/PhrSite/SipLibDocumentation/blob/master/articles/ConfigureSipLibLogging.md/#L1" class="contribution-link">Edit this page</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

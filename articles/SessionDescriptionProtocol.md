@@ -5,7 +5,7 @@ The SipLib.Sdp namespace provides classes for working with the Session Descripti
 
 The [Sdp](~/api/SipLib.Sdp.Sdp.yml) class represents a complete SDP media session. The Sdp class provides methods and properties for setting up parameters that describe the entire session. Each media stream or media type (audio, video, text, etc.) is represented by media description block within the SDP. The [MediaDescription](~/api/SipLib.Sdp.MediaDescription.yml) class provides methods and properties for creating a media description and setting up prameters that describe the media stream.
 
-SIP clients and servers negotiate media sessions according to the offer/answer model described in [RFC 3264](https://www.ietf.org/rfc/rfc3264.txt). When a client wants to start a media session, it contructs an SDP text block that describes the session capabilities and the media capabilities that it can support. It then attaches the SDP text block to the body of a SIP INVITE request message and sends the INVITE request to a SIP server. The SIP server receives the SIP INVITE request and extracts the SDP text block and parses it. The server then builds its own SDP text block that describes the media session and media streams tha it is willing to accept. It then sends this SDP text block to the client in the body of a SIP 200 OK response. The client and the server then setup their media streams and start sending media back and forth.
+SIP clients and servers negotiate media sessions according to the offer/answer model described in [RFC 3264](https://www.ietf.org/rfc/rfc3264.txt). When a client wants to start a media session, it contructs an SDP text block that describes the session capabilities and the media capabilities that it can support. It then attaches the SDP text block to the body of a SIP INVITE request message and sends the INVITE request to a SIP server. The SIP server receives the SIP INVITE request and extracts the SDP text block and parses it. The server then builds its own SDP text block that describes the media session and media streams that it is willing to accept. It then sends this SDP text block to the client in the body of a SIP 200 OK response. The client and the server then setup their media streams and start sending media back and forth.
 
 This article shows how to use the classes in the SipLib.Sdp namespace to build and parse SDP data in order to support multimedia applications containing audio, text and video media.
 
@@ -118,8 +118,8 @@ a=rtpmap:101 telephone-event/8000
 a=fmtp:101 0-15
 ```
 
-### Adding Encryption to the Offer
-The SipLib class library supports media encryption for all media types that use the Real Time Protocol (RTP). This library supports two ways to negotiate encryption keys. With the Security Descriptor/Secure Real Time Protocol (SDES-SRTP), encryptions keys are negotiated using attributes in the negotiated media descriptions. With Datagram Transport Layer Security/Secure Real Time Protocol (DTLS-SRTP) security keys are negotiated using the DTLS algorithm.
+### Adding Media Encryption to the Offer
+The SipLib class library supports media encryption for all media types that use the Real Time Protocol (RTP). This library supports two ways to negotiate encryption keys. With the Security Descriptor/Secure Real Time Protocol (SDES-SRTP), encryptions keys are negotiated using attributes in the negotiated media descriptions. With Datagram Transport Layer Security/Secure Real Time Protocol (DTLS-SRTP) cipher suites and encryption keys are negotiated using the DTLS algorithm.
 
 SDES-SRTP and DTLS-SRTP operate over UDP/RTP and may not be used for Message Session Relay Protocol (MSRP, see RFC 4975)  media because MSRP operates over TCP. Use the Transport Layer Security (TLS) transport mechanism for MSRP if encryption is required as described in [Encryption for MSRP](#MsrpEncryption), below.
 

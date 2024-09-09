@@ -109,6 +109,12 @@
                       <a href="RealTimeProtocol.html" title="Real Time Protocol" class="">Real Time Protocol</a>
                     </li>
                     <li class="">
+                      <a href="RealTimeText.html" title="Real Time Text" class="">Real Time Text</a>
+                    </li>
+                    <li class="">
+                      <a href="MessageSessionRelayProtocol.html" title="Message Session Relay Protocol (MSRP)" class="">Message Session Relay Protocol (MSRP)</a>
+                    </li>
+                    <li class="">
                       <a href="ConfigureSipLibLogging.html" title="SipLib Application Logging" class="">SipLib Application Logging</a>
                     </li>
                   </ul>
@@ -122,7 +128,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="sip-message-transport-and-transaction-management">SIP Message Transport and Transaction Management</h1>
 
-<p>The SipTransport class can be used to manage User Agent Server (UAS) and User Agent Client (UAC) SIP transactions.</p>
+<p>The <a href="../api/SipLib.Transactions.SipTransport.html">SipTransport</a> class can be used to manage User Agent Server (UAS) and User Agent Client (UAC) SIP transactions.</p>
 <p>Each instance of a SipTransport class can manage SIP transactions over a single SIP channel. It is possible to handle SIP transactions over multiple SIP channels by creating multiple SipTransport objects, one for each individual SIP channel.</p>
 <p>Perform the following steps to use the SipTransport class.</p>
 <ol>
@@ -137,6 +143,7 @@
 <li>Unhook the events (optional if the SipTransport object is shut down when the application is shutting down)</li>
 <li>Call the Shutdown() method of the SipTransport object.</li>
 </ol>
+<p>The Shutdown() method of the SipTransport class calls the Close() method of the SIPChannel that it is using so it is not necessary to call SIPChannel.Close().</p>
 <p>The following code snippet shows how to create and use the SipTransport class.</p>
 <pre><code>class CallManager
 {
@@ -216,7 +223,7 @@
 </table>
 <p>The event handler functions are called asynchronously from a thread context that is managed by the SipTransport class so the event handler functions are responsible for managing synchronization of objects that are shared by different thread contexts.</p>
 <h2 id="handling-sip-requests">Handling SIP Requests</h2>
-<p>The SipRequestReceived event is fired by the SipTransport class when a new SIP request message is received. The following code sample provides an example of how to handle this event.</p>
+<p>The SipRequestReceived event is fired by the SipTransport class when a new SIP request message is received. The following code snippet provides an example of how to handle this event.</p>
 <pre><code>class CallManager
 {
     void OnSipRequestReceived(SIPRequest sipRequest, SIPEndPoint remoteEndPoint,
@@ -372,7 +379,7 @@
 <p>If the transaction user does not wish to receive a callback notification when a transaction completes or is terminated then it can asynchronously await completion of the transaction. Each method of the SipTransport class that starts a transaction returns an object derived from the <a href="../api/SipLib.Transactions.SipTransactionBase.html">SipTransactionBase</a> class. The SipTransactionBase class contains a method called WaitForCompletionAsync() that the transaction user can asynchronously wait on. If this method is used then the transacton user must set the completeDelegate parameter to null in the call to the SipTransport method used to start the transaction.</p>
 <p>To fire and forget a transaction, the transaction user must set the completeDelegate parameter to null in the call to the SipTransport method used to start the transaction and must not await for completion of the transaction.</p>
 <h3 id="client-non-invite-transactions"><a name="ClientNonInvite">Client Non-INVITE Transactions</a></h3>
-<p>A client non-INVITE transaction is a SIP transaction for any SIP request except an INVITE request. In a client non-INVITE transaction, the client builds a SIP request and starts a SIP transaction by calling the StartClientNonInviteTransaction() method of a SipTransport object. The SipTranspor object sends the request message to a server and notifies the client when the transaction is completed doe to receipt of a final response or if the transaction times out.</p>
+<p>A client non-INVITE transaction is a SIP transaction for any SIP request except an INVITE request. In a client non-INVITE transaction, the client builds a SIP request and starts a SIP transaction by calling the StartClientNonInviteTransaction() method of a SipTransport object. The SipTransport object sends the request message to a server and notifies the client when the transaction is completed due to receipt of a final response or if the transaction times out.</p>
 <p>The declaration of the StartClientNonInviteTransaction is:</p>
 <pre><code>public ClientNonInviteTransaction StartClientNonInviteTransaction(SIPRequest request,
     IPEndPoint remoteEndPoint, SipTransactionCompleteDelegate completeDelegate,
@@ -581,7 +588,7 @@ private void OnInviteComplete(SIPRequest sipRequest, SIPResponse? sipResponse,
     SIPResponse ResponseToSend);
 </code></pre>
 <p>The request parameter is the INVITE request from the client. The remoteEndPoint is the IP endpoint of the client that sent the request. The ResponseToSend is the response to immediately send to the client. This is typically an intermediate response such as 100 Trying, but may be a final response that will end the transaction.</p>
-<p>The complete delegate parameter is a callback function that the SipTransport class will call when the transaction is completed. This parameter is optional and may be set to null if the server user agent does not need to be notified when the transaction is completed.</p>
+<p>The completeDelegate parameter is a callback function that the SipTransport class will call when the transaction is completed. This parameter is optional and may be set to null if the server user agent does not need to be notified when the transaction is completed.</p>
 <p>A server user agent may also asynchronously await the completion of the transaction by calling the WaitForCompletionAsync() method of the ServerInviteTransaction object.</p>
 <p>Server INVITE transactions are typically long lasting transactions because it may take several seconds or several minutes for a user to answer the call. For this reason, a server user agent will typically want to keep a reference to the ServerInviteTransaction object and use this object to send interim and final responses to the client. The server user agent can use the SendResponse() method of the ServerInviteTransaction for this purpose.</p>
 <p>The following code sample shows how to handle a server INVITE transaction using the callback notification method.</p>
@@ -664,6 +671,9 @@ private void OnServerInviteComplete(SIPRequest request, SIPResponse? sipResponse
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/PhrSite/SipLibDocumentation/blob/master/articles/SipTransportManagement.md/#L1" class="contribution-link">Edit this page</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

@@ -10,5 +10,9 @@
   href: SessionDescriptionProtocol.md
 - name: Real Time Protocol
   href: RealTimeProtocol.md
+- name: Real Time Text
+  href: RealTimeText.md
+- name: Message Session Relay Protocol (MSRP)
+  href: MessageSessionRelayProtocol.md
 - name: SipLib Application Logging
   href: ConfigureSipLibLogging.md

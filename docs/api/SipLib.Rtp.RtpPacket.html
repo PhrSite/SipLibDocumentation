@@ -532,6 +532,9 @@
                             <a href="SipLib.Msrp.MsrpStreamParser.html" title="MsrpStreamParser" class="">MsrpStreamParser</a>
                           </li>
                           <li class="">
+                            <a href="SipLib.Msrp.MsrpTextMessageReceivedDelegate.html" title="MsrpTextMessageReceivedDelegate" class="">MsrpTextMessageReceivedDelegate</a>
+                          </li>
+                          <li class="">
                             <a href="SipLib.Msrp.MsrpUri.html" title="MsrpUri" class="">MsrpUri</a>
                           </li>
                           <li class="">
@@ -595,6 +598,9 @@
                             <a href="SipLib.Rtp.MeanOpinionScore.html" title="MeanOpinionScore" class="">MeanOpinionScore</a>
                           </li>
                           <li class="">
+                            <a href="SipLib.Rtp.ReceiveStatisticsReadyDelegate.html" title="ReceiveStatisticsReadyDelegate" class="">ReceiveStatisticsReadyDelegate</a>
+                          </li>
+                          <li class="">
                             <a href="SipLib.Rtp.ReceiverReport.html" title="ReceiverReport" class="">ReceiverReport</a>
                           </li>
                           <li class="">
@@ -626,6 +632,9 @@
                           </li>
                           <li class="">
                             <a href="SipLib.Rtp.RtpPacketSentDelegate.html" title="RtpPacketSentDelegate" class="">RtpPacketSentDelegate</a>
+                          </li>
+                          <li class="">
+                            <a href="SipLib.Rtp.RtpReceiveStatistics.html" title="RtpReceiveStatistics" class="">RtpReceiveStatistics</a>
                           </li>
                           <li class="">
                             <a href="SipLib.Rtp.RtpUtils.html" title="RtpUtils" class="">RtpUtils</a>
@@ -893,11 +902,16 @@
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket__ctor_System_Byte___.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.%23ctor(System.Byte%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L46">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L69">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket__ctor_" data-uid="SipLib.Rtp.RtpPacket.#ctor*"></a>
   <h4 id="SipLib_Rtp_RtpPacket__ctor_System_Byte___" data-uid="SipLib.Rtp.RtpPacket.#ctor(System.Byte[])">RtpPacket(byte[])</h4>
   <div class="markdown level1 summary"><p>Constructs a RTP packet from an array of bytes.</p>
+<p>
+Use this constructor to encapsulate the raw bytes received in a UDP packet. You can then access the
+RTP packet header fields using the properties of the new RtpPacket object. Use the GetPayloadBytes()
+method to get a byte array containing the media bytes.
+</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -956,6 +970,65 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket__ctor_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.%23ctor(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L48">View Source</a>
+  </span>
+  <a id="SipLib_Rtp_RtpPacket__ctor_" data-uid="SipLib.Rtp.RtpPacket.#ctor*"></a>
+  <h4 id="SipLib_Rtp_RtpPacket__ctor_System_Int32_System_Int32_" data-uid="SipLib.Rtp.RtpPacket.#ctor(System.Int32,System.Int32)">RtpPacket(int, int)</h4>
+  <div class="markdown level1 summary"><p>Creates a new RtpPacket given the payload length and the RTP packet header length.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RtpPacket(int PayloadLength, int HeaderLength)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">PayloadLength</span></td>
+        <td><p>Length of the packet payload in bytes. May be 0 is only sending
+an RTP packet header.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">HeaderLength</span></td>
+        <td><p>Length of the RTP packet header in bytes. Must be at least 12.
+The HeaderLength can be calculated as: 12 + 4 * (number of CSRCs).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Thrown if the HeaderLength is less than the minimum RTP
+packet header length of 12.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
 </h3>
   <span class="small pull-right mobile-hide">
@@ -963,7 +1036,7 @@
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_CSRC_LENGTH.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.CSRC_LENGTH%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L130">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L153">View Source</a>
   </span>
   <h4 id="SipLib_Rtp_RtpPacket_CSRC_LENGTH" data-uid="SipLib.Rtp.RtpPacket.CSRC_LENGTH">CSRC_LENGTH</h4>
   <div class="markdown level1 summary"><p>Length of each CSRC in bytes</p>
@@ -1025,7 +1098,7 @@
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_CSRCs.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.CSRCs%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L136">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L159">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_CSRCs_" data-uid="SipLib.Rtp.RtpPacket.CSRCs*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_CSRCs" data-uid="SipLib.Rtp.RtpPacket.CSRCs">CSRCs</h4>
@@ -1056,7 +1129,7 @@
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_CsrcCount.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.CsrcCount%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L114">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L137">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_CsrcCount_" data-uid="SipLib.Rtp.RtpPacket.CsrcCount*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_CsrcCount" data-uid="SipLib.Rtp.RtpPacket.CsrcCount">CsrcCount</h4>
@@ -1087,7 +1160,7 @@
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_HeaderLength.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.HeaderLength%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L217">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L240">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_HeaderLength_" data-uid="SipLib.Rtp.RtpPacket.HeaderLength*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_HeaderLength" data-uid="SipLib.Rtp.RtpPacket.HeaderLength">HeaderLength</h4>
@@ -1118,7 +1191,7 @@
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_Marker.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.Marker%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L234">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L257">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_Marker_" data-uid="SipLib.Rtp.RtpPacket.Marker*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_Marker" data-uid="SipLib.Rtp.RtpPacket.Marker">Marker</h4>
@@ -1149,7 +1222,7 @@
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_PacketBytes.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.PacketBytes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L368">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L379">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_PacketBytes_" data-uid="SipLib.Rtp.RtpPacket.PacketBytes*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_PacketBytes" data-uid="SipLib.Rtp.RtpPacket.PacketBytes">PacketBytes</h4>
@@ -1180,7 +1253,7 @@
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_Padding.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.Padding%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L89">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L112">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_Padding_" data-uid="SipLib.Rtp.RtpPacket.Padding*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_Padding" data-uid="SipLib.Rtp.RtpPacket.Padding">Padding</h4>
@@ -1211,11 +1284,11 @@
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_Payload.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.Payload%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L191">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L214">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_Payload_" data-uid="SipLib.Rtp.RtpPacket.Payload*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_Payload" data-uid="SipLib.Rtp.RtpPacket.Payload">Payload</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the payload of the RTP packet.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the payload of the RTP packet. The getter returns a copy of the payload bytes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1259,7 +1332,7 @@ length for this RTP packet.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_PayloadLength.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.PayloadLength%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L319">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L330">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_PayloadLength_" data-uid="SipLib.Rtp.RtpPacket.PayloadLength*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_PayloadLength" data-uid="SipLib.Rtp.RtpPacket.PayloadLength">PayloadLength</h4>
@@ -1290,7 +1363,7 @@ length for this RTP packet.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_PayloadType.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.PayloadType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L258">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L281">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_PayloadType_" data-uid="SipLib.Rtp.RtpPacket.PayloadType*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_PayloadType" data-uid="SipLib.Rtp.RtpPacket.PayloadType">PayloadType</h4>
@@ -1321,7 +1394,7 @@ length for this RTP packet.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_SSRC.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.SSRC%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L309">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L320">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_SSRC_" data-uid="SipLib.Rtp.RtpPacket.SSRC*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_SSRC" data-uid="SipLib.Rtp.RtpPacket.SSRC">SSRC</h4>
@@ -1352,7 +1425,7 @@ length for this RTP packet.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_SequenceNumber.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.SequenceNumber%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L273">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L296">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_SequenceNumber_" data-uid="SipLib.Rtp.RtpPacket.SequenceNumber*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_SequenceNumber" data-uid="SipLib.Rtp.RtpPacket.SequenceNumber">SequenceNumber</h4>
@@ -1383,7 +1456,7 @@ length for this RTP packet.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_Timestamp.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.Timestamp%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L297">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L308">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_Timestamp_" data-uid="SipLib.Rtp.RtpPacket.Timestamp*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_Timestamp" data-uid="SipLib.Rtp.RtpPacket.Timestamp">Timestamp</h4>
@@ -1414,7 +1487,7 @@ length for this RTP packet.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_Version.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.Version%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L68">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L91">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_Version_" data-uid="SipLib.Rtp.RtpPacket.Version*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_Version" data-uid="SipLib.Rtp.RtpPacket.Version">Version</h4>
@@ -1447,7 +1520,7 @@ length for this RTP packet.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_GetCSRC_System_Int32_.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.GetCSRC(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L164">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L187">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_GetCSRC_" data-uid="SipLib.Rtp.RtpPacket.GetCSRC*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_GetCSRC_System_Int32_" data-uid="SipLib.Rtp.RtpPacket.GetCSRC(System.Int32)">GetCSRC(int)</h4>
@@ -1498,7 +1571,7 @@ range.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_GetHeaderBytes.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.GetHeaderBytes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L357">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L368">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_GetHeaderBytes_" data-uid="SipLib.Rtp.RtpPacket.GetHeaderBytes*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_GetHeaderBytes" data-uid="SipLib.Rtp.RtpPacket.GetHeaderBytes">GetHeaderBytes()</h4>
@@ -1530,7 +1603,7 @@ range.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_GetPayloadBytes.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.GetPayloadBytes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L330">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L341">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_GetPayloadBytes_" data-uid="SipLib.Rtp.RtpPacket.GetPayloadBytes*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_GetPayloadBytes" data-uid="SipLib.Rtp.RtpPacket.GetPayloadBytes">GetPayloadBytes()</h4>
@@ -1560,26 +1633,10 @@ is a payload for the RTP packet.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_IncrementSequenceNumber.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.IncrementSequenceNumber%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L282">View Source</a>
-  </span>
-  <a id="SipLib_Rtp_RtpPacket_IncrementSequenceNumber_" data-uid="SipLib.Rtp.RtpPacket.IncrementSequenceNumber*"></a>
-  <h4 id="SipLib_Rtp_RtpPacket_IncrementSequenceNumber" data-uid="SipLib.Rtp.RtpPacket.IncrementSequenceNumber">IncrementSequenceNumber()</h4>
-  <div class="markdown level1 summary"><p>Increments the SequenceNumber (SEQ) by 1 and accounts for wrap around</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void IncrementSequenceNumber()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_SetCSRC_System_Int32_System_UInt32_.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.SetCSRC(System.Int32%2CSystem.UInt32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L177">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L200">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_SetCSRC_" data-uid="SipLib.Rtp.RtpPacket.SetCSRC*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_SetCSRC_System_Int32_System_UInt32_" data-uid="SipLib.Rtp.RtpPacket.SetCSRC(System.Int32,System.UInt32)">SetCSRC(int, uint)</h4>
@@ -1619,7 +1676,7 @@ is a payload for the RTP packet.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpPacket_SetPayloadBytes_System_Byte___.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpPacket.SetPayloadBytes(System.Byte%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L345">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpPacket.cs/#L356">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpPacket_SetPayloadBytes_" data-uid="SipLib.Rtp.RtpPacket.SetPayloadBytes*"></a>
   <h4 id="SipLib_Rtp_RtpPacket_SetPayloadBytes_System_Byte___" data-uid="SipLib.Rtp.RtpPacket.SetPayloadBytes(System.Byte[])">SetPayloadBytes(byte[])</h4>

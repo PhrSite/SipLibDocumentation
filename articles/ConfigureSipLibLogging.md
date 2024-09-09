@@ -1,7 +1,7 @@
 # Configuring SipLib Logging
 The SipLib class library includes a class called [SipLogger](~/api/SipLib.Logging.SipLogger.yml) that the other classes in this class library can use for logging application log messages.
 
-By default, the SipLogger class logs to a NullLogger. This means that no messages are logged. The consumer of the SipLib class librarry must configure the SipLogger class so that it writes log messages to to a logging destination such as a file or the console.
+By default, the SipLogger class logs to a NullLogger. This means that no messages are logged. The consumer of the SipLib class librarry must configure the SipLogger class so that it writes log messages to a logging destination such as a file or the console.
 
 The best way to configure SipLib logging is to use a logging framework such as [Serilog](https://serilog.net) to create a ILogger interface and then pass that interface to SipLogger using the Log setter property. The following code snippet shows how an application can configure the SipLibLogger class.
 

@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class RtpChannel ">
     
-    <meta name="description" content="Class for sending and receiving Real Time Protocol (RTP) media such as audio, video and text (RTT).">
+    <meta name="description" content="Class for sending and receiving Real Time Protocol (RTP) media such as audio, video and text (RTT). Each instance of an RtpChannel class handles a single media type.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -532,6 +532,9 @@
                             <a href="SipLib.Msrp.MsrpStreamParser.html" title="MsrpStreamParser" class="">MsrpStreamParser</a>
                           </li>
                           <li class="">
+                            <a href="SipLib.Msrp.MsrpTextMessageReceivedDelegate.html" title="MsrpTextMessageReceivedDelegate" class="">MsrpTextMessageReceivedDelegate</a>
+                          </li>
+                          <li class="">
                             <a href="SipLib.Msrp.MsrpUri.html" title="MsrpUri" class="">MsrpUri</a>
                           </li>
                           <li class="">
@@ -595,6 +598,9 @@
                             <a href="SipLib.Rtp.MeanOpinionScore.html" title="MeanOpinionScore" class="">MeanOpinionScore</a>
                           </li>
                           <li class="">
+                            <a href="SipLib.Rtp.ReceiveStatisticsReadyDelegate.html" title="ReceiveStatisticsReadyDelegate" class="">ReceiveStatisticsReadyDelegate</a>
+                          </li>
+                          <li class="">
                             <a href="SipLib.Rtp.ReceiverReport.html" title="ReceiverReport" class="">ReceiverReport</a>
                           </li>
                           <li class="">
@@ -626,6 +632,9 @@
                           </li>
                           <li class="">
                             <a href="SipLib.Rtp.RtpPacketSentDelegate.html" title="RtpPacketSentDelegate" class="">RtpPacketSentDelegate</a>
+                          </li>
+                          <li class="">
+                            <a href="SipLib.Rtp.RtpReceiveStatistics.html" title="RtpReceiveStatistics" class="">RtpReceiveStatistics</a>
                           </li>
                           <li class="">
                             <a href="SipLib.Rtp.RtpUtils.html" title="RtpUtils" class="">RtpUtils</a>
@@ -832,7 +841,8 @@
 
 
   <h1 id="SipLib_Rtp_RtpChannel" data-uid="SipLib.Rtp.RtpChannel" class="text-break">Class RtpChannel</h1>
-  <div class="markdown level0 summary"><p>Class for sending and receiving Real Time Protocol (RTP) media such as audio, video and text (RTT).</p>
+  <div class="markdown level0 summary"><p>Class for sending and receiving Real Time Protocol (RTP) media such as audio, video and text (RTT).
+Each instance of an RtpChannel class handles a single media type.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -870,6 +880,15 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class RtpChannel</code></pre>
   </div>
+  <h5 id="SipLib_Rtp_RtpChannel_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Follow these steps to create and use an RtpChannel object.</p>
+<ol><li>Call the CreateFromSdp() method with the offered SDP and offered media description and the answered SDP
+and the answered media description after the media description negotiation has been completed.</li><li>Hook the events of the RtpChannel class. At least the RtpPacketReceived event should be handled.</li><li>Call the StartListening() method to start the RtpChannel.</li><li>Call the Send() method to send a new RTP packet containing new media.</li></ol>
+<p>
+When the media session ends, unhook the events and call the Shutdown() method to release all resources
+held by the RtpChannel object.
+</p>
+</div>
   <h3 id="properties">Properties
 </h3>
   <span class="small pull-right mobile-hide">
@@ -877,12 +896,16 @@
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_CertificateFingerprint.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.CertificateFingerprint%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L105">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L134">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpChannel_CertificateFingerprint_" data-uid="SipLib.Rtp.RtpChannel.CertificateFingerprint*"></a>
   <h4 id="SipLib_Rtp_RtpChannel_CertificateFingerprint" data-uid="SipLib.Rtp.RtpChannel.CertificateFingerprint">CertificateFingerprint</h4>
   <div class="markdown level1 summary"><p>Gets the fingerprint of the self-signed X.509 certificate that will be used for DTLS-SRTP.
 The certificate is a required SDP attribute for calls that offer or answer DTLS-SRTP media encryption.</p>
+<p>
+The RtpChannel class automatically creates a self-signed X.509 certificate that will be used for all
+instances of the RtpChannel class for an application session.
+</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -900,7 +923,8 @@ The certificate is a required SDP attribute for calls that offer or answer DTLS-
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
+        <td><p>Returns null if there was an error during creation of the self-signed X.509 certificate.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -909,7 +933,7 @@ The certificate is a required SDP attribute for calls that offer or answer DTLS-
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_MediaType.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.MediaType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L95">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L120">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpChannel_MediaType_" data-uid="SipLib.Rtp.RtpChannel.MediaType*"></a>
   <h4 id="SipLib_Rtp_RtpChannel_MediaType" data-uid="SipLib.Rtp.RtpChannel.MediaType">MediaType</h4>
@@ -931,7 +955,8 @@ The certificate is a required SDP attribute for calls that offer or answer DTLS-
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
+        <td><p>Will be one of &quot;audio&quot;, &quot;video&quot; or &quot;text&quot; (for RTT)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -940,7 +965,7 @@ The certificate is a required SDP attribute for calls that offer or answer DTLS-
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_SSRC.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.SSRC%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L193">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L230">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpChannel_SSRC_" data-uid="SipLib.Rtp.RtpChannel.SSRC*"></a>
   <h4 id="SipLib_Rtp_RtpChannel_SSRC" data-uid="SipLib.Rtp.RtpChannel.SSRC">SSRC</h4>
@@ -974,7 +999,7 @@ number so there is usually no need to change it by calling the setter.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_CreateFromSdp_System_Boolean_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_System_Boolean_System_String_.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.CreateFromSdp(System.Boolean%2CSipLib.Sdp.Sdp%2CSipLib.Sdp.MediaDescription%2CSipLib.Sdp.Sdp%2CSipLib.Sdp.MediaDescription%2CSystem.Boolean%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L224">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L267">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpChannel_CreateFromSdp_" data-uid="SipLib.Rtp.RtpChannel.CreateFromSdp*"></a>
   <h4 id="SipLib_Rtp_RtpChannel_CreateFromSdp_System_Boolean_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_System_Boolean_System_String_" data-uid="SipLib.Rtp.RtpChannel.CreateFromSdp(System.Boolean,SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription,SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription,System.Boolean,System.String)">CreateFromSdp(bool, Sdp, MediaDescription, Sdp, MediaDescription, bool, string?)</h4>
@@ -1004,25 +1029,31 @@ number so there is usually no need to change it by calling the setter.</p>
       <tr>
         <td><a class="xref" href="SipLib.Sdp.Sdp.html">Sdp</a></td>
         <td><span class="parametername">OfferedSdp</span></td>
-        <td><p>The SDP that was offered.</p>
+        <td><p>The SDP that was offered. If Incoming is true, then this parameter must
+be the Sdp object that was received in an INVITE request. Else, this parameter must be the Sdp
+object that the client sent in an INVITE request.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="SipLib.Sdp.MediaDescription.html">MediaDescription</a></td>
         <td><span class="parametername">OfferedMd</span></td>
-        <td><p>The offered media description parameter block from the offered SDP</p>
+        <td><p>The offered media description parameter block from the offered SDP for the
+media type that the RtpChannel will handle.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="SipLib.Sdp.Sdp.html">Sdp</a></td>
         <td><span class="parametername">AnsweredSdp</span></td>
-        <td><p>The SDP that was answered.</p>
+        <td><p>The SDP that was answered. If Incoming is true, then this parameter must
+be the Sdp object that the server sent in response to an INVITE request that it received. Else,
+this parameter must the the Sdp object that the client received in response to the INVITE that it sent.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="SipLib.Sdp.MediaDescription.html">MediaDescription</a></td>
         <td><span class="parametername">AnsweredMd</span></td>
-        <td><p>The answered media description parameter block from the answered SDP</p>
+        <td><p>The answered media description parameter block from the answered SDP for
+the media type that the RtpChannel will handle.</p>
 </td>
       </tr>
       <tr>
@@ -1063,7 +1094,7 @@ return value is not null then the string return value will be null.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_Send_SipLib_Rtp_RtpPacket_.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.Send(SipLib.Rtp.RtpPacket)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L707">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L756">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpChannel_Send_" data-uid="SipLib.Rtp.RtpChannel.Send*"></a>
   <h4 id="SipLib_Rtp_RtpChannel_Send_SipLib_Rtp_RtpPacket_" data-uid="SipLib.Rtp.RtpChannel.Send(SipLib.Rtp.RtpPacket)">Send(RtpPacket)</h4>
@@ -1096,11 +1127,11 @@ return value is not null then the string return value will be null.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_Shutdown.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.Shutdown%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L580">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L629">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpChannel_Shutdown_" data-uid="SipLib.Rtp.RtpChannel.Shutdown*"></a>
   <h4 id="SipLib_Rtp_RtpChannel_Shutdown" data-uid="SipLib.Rtp.RtpChannel.Shutdown">Shutdown()</h4>
-  <div class="markdown level1 summary"><p>Shuts down this RtpChannel and releases all resources. This object cannot be used after this
+  <div class="markdown level1 summary"><p>Shuts down this RtpChannel and releases all resources. The RtpChannel object cannot be used after this
 method is called.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1113,7 +1144,7 @@ method is called.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_StartListening.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.StartListening%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L406">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L452">View Source</a>
   </span>
   <a id="SipLib_Rtp_RtpChannel_StartListening_" data-uid="SipLib.Rtp.RtpChannel.StartListening*"></a>
   <h4 id="SipLib_Rtp_RtpChannel_StartListening" data-uid="SipLib.Rtp.RtpChannel.StartListening">StartListening()</h4>
@@ -1131,10 +1162,10 @@ method is called.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_DtlsHandshakeFailed.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.DtlsHandshakeFailed%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L148">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L178">View Source</a>
   </span>
   <h4 id="SipLib_Rtp_RtpChannel_DtlsHandshakeFailed" data-uid="SipLib.Rtp.RtpChannel.DtlsHandshakeFailed">DtlsHandshakeFailed</h4>
-  <div class="markdown level1 summary"><p>Event that is fired fired if the DTLS-SRTP handshake failed</p>
+  <div class="markdown level1 summary"><p>Event that is fired if the DTLS-SRTP handshake failed</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1158,10 +1189,42 @@ method is called.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_ReceiveStatisticsReady.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.ReceiveStatisticsReady%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L185">View Source</a>
+  </span>
+  <h4 id="SipLib_Rtp_RtpChannel_ReceiveStatisticsReady" data-uid="SipLib.Rtp.RtpChannel.ReceiveStatisticsReady">ReceiveStatisticsReady</h4>
+  <div class="markdown level1 summary"><p>Event that is fired when new receive side statistics are ready. This event if fired only if
+RTCP is enabled for the RtpChannel and the media type is audio. This event will be fired every
+5 seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event ReceiveStatisticsReadyDelegate? ReceiveStatisticsReady</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SipLib.Rtp.ReceiveStatisticsReadyDelegate.html">ReceiveStatisticsReadyDelegate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_RtcpPacketReceived.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.RtcpPacketReceived%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L136">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L166">View Source</a>
   </span>
   <h4 id="SipLib_Rtp_RtpChannel_RtcpPacketReceived" data-uid="SipLib.Rtp.RtpChannel.RtcpPacketReceived">RtcpPacketReceived</h4>
   <div class="markdown level1 summary"><p>Event that is fired when a RTCP packet is received.</p>
@@ -1191,7 +1254,7 @@ method is called.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_RtcpPacketSent.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.RtcpPacketSent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L142">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L172">View Source</a>
   </span>
   <h4 id="SipLib_Rtp_RtpChannel_RtcpPacketSent" data-uid="SipLib.Rtp.RtpChannel.RtcpPacketSent">RtcpPacketSent</h4>
   <div class="markdown level1 summary"><p>Event that is fired when this class sends an RTCP packet.</p>
@@ -1221,7 +1284,7 @@ method is called.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_RtpPacketReceived.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.RtpPacketReceived%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L124">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L153">View Source</a>
   </span>
   <h4 id="SipLib_Rtp_RtpChannel_RtpPacketReceived" data-uid="SipLib.Rtp.RtpChannel.RtpPacketReceived">RtpPacketReceived</h4>
   <div class="markdown level1 summary"><p>Event that is fired when a RTP media packet has been received by this RtpChannel</p>
@@ -1251,10 +1314,11 @@ method is called.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel_RtpPacketSent.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel.RtpPacketSent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L130">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L160">View Source</a>
   </span>
   <h4 id="SipLib_Rtp_RtpChannel_RtpPacketSent" data-uid="SipLib.Rtp.RtpChannel.RtpPacketSent">RtpPacketSent</h4>
-  <div class="markdown level1 summary"><p>Event that is fired when a RTP packet has been sent by this RtpChannel</p>
+  <div class="markdown level1 summary"><p>Event that is fired when a RTP packet has been sent by this RtpChannel. This event is used
+for logging media when using an active SIP media recorder (SIPREC).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -1288,7 +1352,7 @@ method is called.</p>
                     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Rtp_RtpChannel.md&amp;value=---%0Auid%3A%20SipLib.Rtp.RtpChannel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L54" class="contribution-link">View Source</a>
+                    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Rtp/RtpChannel.cs/#L78" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

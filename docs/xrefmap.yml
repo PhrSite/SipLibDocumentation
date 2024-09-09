@@ -14189,13 +14189,13 @@ references:
   fullName: SipLib.Msrp.MsrpConnection.CreateAsServer
   nameWithType: MsrpConnection.CreateAsServer
 - uid: SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription,SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription,System.Boolean,System.Security.Cryptography.X509Certificates.X509Certificate2)
-  name: CreateFromSdp(Sdp, MediaDescription, Sdp, MediaDescription, bool, X509Certificate2)
+  name: CreateFromSdp(Sdp, MediaDescription, Sdp, MediaDescription, bool, X509Certificate2?)
   href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_CreateFromSdp_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_System_Boolean_System_Security_Cryptography_X509Certificates_X509Certificate2_
   commentId: M:SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription,SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription,System.Boolean,System.Security.Cryptography.X509Certificates.X509Certificate2)
   name.vb: CreateFromSdp(Sdp, MediaDescription, Sdp, MediaDescription, Boolean, X509Certificate2)
-  fullName: SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.Sdp, SipLib.Sdp.MediaDescription, SipLib.Sdp.Sdp, SipLib.Sdp.MediaDescription, bool, System.Security.Cryptography.X509Certificates.X509Certificate2)
+  fullName: SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.Sdp, SipLib.Sdp.MediaDescription, SipLib.Sdp.Sdp, SipLib.Sdp.MediaDescription, bool, System.Security.Cryptography.X509Certificates.X509Certificate2?)
   fullName.vb: SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.Sdp, SipLib.Sdp.MediaDescription, SipLib.Sdp.Sdp, SipLib.Sdp.MediaDescription, Boolean, System.Security.Cryptography.X509Certificates.X509Certificate2)
-  nameWithType: MsrpConnection.CreateFromSdp(Sdp, MediaDescription, Sdp, MediaDescription, bool, X509Certificate2)
+  nameWithType: MsrpConnection.CreateFromSdp(Sdp, MediaDescription, Sdp, MediaDescription, bool, X509Certificate2?)
   nameWithType.vb: MsrpConnection.CreateFromSdp(Sdp, MediaDescription, Sdp, MediaDescription, Boolean, X509Certificate2)
 - uid: SipLib.Msrp.MsrpConnection.CreateFromSdp*
   name: CreateFromSdp
@@ -14241,6 +14241,12 @@ references:
   commentId: E:SipLib.Msrp.MsrpConnection.MsrpMessageReceived
   fullName: SipLib.Msrp.MsrpConnection.MsrpMessageReceived
   nameWithType: MsrpConnection.MsrpMessageReceived
+- uid: SipLib.Msrp.MsrpConnection.MsrpTextMessageReceived
+  name: MsrpTextMessageReceived
+  href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_MsrpTextMessageReceived
+  commentId: E:SipLib.Msrp.MsrpConnection.MsrpTextMessageReceived
+  fullName: SipLib.Msrp.MsrpConnection.MsrpTextMessageReceived
+  nameWithType: MsrpConnection.MsrpTextMessageReceived
 - uid: SipLib.Msrp.MsrpConnection.ReportReceived
   name: ReportReceived
   href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_ReportReceived
@@ -14862,6 +14868,12 @@ references:
   isSpec: "True"
   fullName: SipLib.Msrp.MsrpStreamParser.ProcessByte
   nameWithType: MsrpStreamParser.ProcessByte
+- uid: SipLib.Msrp.MsrpTextMessageReceivedDelegate
+  name: MsrpTextMessageReceivedDelegate
+  href: api/SipLib.Msrp.MsrpTextMessageReceivedDelegate.html
+  commentId: T:SipLib.Msrp.MsrpTextMessageReceivedDelegate
+  fullName: SipLib.Msrp.MsrpTextMessageReceivedDelegate
+  nameWithType: MsrpTextMessageReceivedDelegate
 - uid: SipLib.Msrp.MsrpUri
   name: MsrpUri
   href: api/SipLib.Msrp.MsrpUri.html
@@ -15961,6 +15973,12 @@ references:
   isSpec: "True"
   fullName: SipLib.Rtp.MeanOpinionScore.R
   nameWithType: MeanOpinionScore.R
+- uid: SipLib.Rtp.ReceiveStatisticsReadyDelegate
+  name: ReceiveStatisticsReadyDelegate
+  href: api/SipLib.Rtp.ReceiveStatisticsReadyDelegate.html
+  commentId: T:SipLib.Rtp.ReceiveStatisticsReadyDelegate
+  fullName: SipLib.Rtp.ReceiveStatisticsReadyDelegate
+  nameWithType: ReceiveStatisticsReadyDelegate
 - uid: SipLib.Rtp.ReceiverReport
   name: ReceiverReport
   href: api/SipLib.Rtp.ReceiverReport.html
@@ -16578,6 +16596,12 @@ references:
   isSpec: "True"
   fullName: SipLib.Rtp.RtpChannel.MediaType
   nameWithType: RtpChannel.MediaType
+- uid: SipLib.Rtp.RtpChannel.ReceiveStatisticsReady
+  name: ReceiveStatisticsReady
+  href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_ReceiveStatisticsReady
+  commentId: E:SipLib.Rtp.RtpChannel.ReceiveStatisticsReady
+  fullName: SipLib.Rtp.RtpChannel.ReceiveStatisticsReady
+  nameWithType: RtpChannel.ReceiveStatisticsReady
 - uid: SipLib.Rtp.RtpChannel.RtcpPacketReceived
   name: RtcpPacketReceived
   href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_RtcpPacketReceived
@@ -16687,6 +16711,15 @@ references:
   fullName.vb: SipLib.Rtp.RtpPacket.New(Integer)
   nameWithType: RtpPacket.RtpPacket(int)
   nameWithType.vb: RtpPacket.New(Integer)
+- uid: SipLib.Rtp.RtpPacket.#ctor(System.Int32,System.Int32)
+  name: RtpPacket(int, int)
+  href: api/SipLib.Rtp.RtpPacket.html#SipLib_Rtp_RtpPacket__ctor_System_Int32_System_Int32_
+  commentId: M:SipLib.Rtp.RtpPacket.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: SipLib.Rtp.RtpPacket.RtpPacket(int, int)
+  fullName.vb: SipLib.Rtp.RtpPacket.New(Integer, Integer)
+  nameWithType: RtpPacket.RtpPacket(int, int)
+  nameWithType.vb: RtpPacket.New(Integer, Integer)
 - uid: SipLib.Rtp.RtpPacket.#ctor*
   name: RtpPacket
   href: api/SipLib.Rtp.RtpPacket.html#SipLib_Rtp_RtpPacket__ctor_
@@ -16784,19 +16817,6 @@ references:
   isSpec: "True"
   fullName: SipLib.Rtp.RtpPacket.HeaderLength
   nameWithType: RtpPacket.HeaderLength
-- uid: SipLib.Rtp.RtpPacket.IncrementSequenceNumber
-  name: IncrementSequenceNumber()
-  href: api/SipLib.Rtp.RtpPacket.html#SipLib_Rtp_RtpPacket_IncrementSequenceNumber
-  commentId: M:SipLib.Rtp.RtpPacket.IncrementSequenceNumber
-  fullName: SipLib.Rtp.RtpPacket.IncrementSequenceNumber()
-  nameWithType: RtpPacket.IncrementSequenceNumber()
-- uid: SipLib.Rtp.RtpPacket.IncrementSequenceNumber*
-  name: IncrementSequenceNumber
-  href: api/SipLib.Rtp.RtpPacket.html#SipLib_Rtp_RtpPacket_IncrementSequenceNumber_
-  commentId: Overload:SipLib.Rtp.RtpPacket.IncrementSequenceNumber
-  isSpec: "True"
-  fullName: SipLib.Rtp.RtpPacket.IncrementSequenceNumber
-  nameWithType: RtpPacket.IncrementSequenceNumber
 - uid: SipLib.Rtp.RtpPacket.MIN_PACKET_LENGTH
   name: MIN_PACKET_LENGTH
   href: api/SipLib.Rtp.RtpPacket.html#SipLib_Rtp_RtpPacket_MIN_PACKET_LENGTH
@@ -16977,6 +16997,207 @@ references:
   commentId: T:SipLib.Rtp.RtpPacketSentDelegate
   fullName: SipLib.Rtp.RtpPacketSentDelegate
   nameWithType: RtpPacketSentDelegate
+- uid: SipLib.Rtp.RtpReceiveStatistics
+  name: RtpReceiveStatistics
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html
+  commentId: T:SipLib.Rtp.RtpReceiveStatistics
+  fullName: SipLib.Rtp.RtpReceiveStatistics
+  nameWithType: RtpReceiveStatistics
+- uid: SipLib.Rtp.RtpReceiveStatistics.Copy
+  name: Copy()
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_Copy
+  commentId: M:SipLib.Rtp.RtpReceiveStatistics.Copy
+  fullName: SipLib.Rtp.RtpReceiveStatistics.Copy()
+  nameWithType: RtpReceiveStatistics.Copy()
+- uid: SipLib.Rtp.RtpReceiveStatistics.Copy*
+  name: Copy
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_Copy_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.Copy
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.Copy
+  nameWithType: RtpReceiveStatistics.Copy
+- uid: SipLib.Rtp.RtpReceiveStatistics.DelayInMilliseconds
+  name: DelayInMilliseconds
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_DelayInMilliseconds
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.DelayInMilliseconds
+  fullName: SipLib.Rtp.RtpReceiveStatistics.DelayInMilliseconds
+  nameWithType: RtpReceiveStatistics.DelayInMilliseconds
+- uid: SipLib.Rtp.RtpReceiveStatistics.DelayInMilliseconds*
+  name: DelayInMilliseconds
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_DelayInMilliseconds_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.DelayInMilliseconds
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.DelayInMilliseconds
+  nameWithType: RtpReceiveStatistics.DelayInMilliseconds
+- uid: SipLib.Rtp.RtpReceiveStatistics.DroppedPackets
+  name: DroppedPackets
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_DroppedPackets
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.DroppedPackets
+  fullName: SipLib.Rtp.RtpReceiveStatistics.DroppedPackets
+  nameWithType: RtpReceiveStatistics.DroppedPackets
+- uid: SipLib.Rtp.RtpReceiveStatistics.DroppedPackets*
+  name: DroppedPackets
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_DroppedPackets_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.DroppedPackets
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.DroppedPackets
+  nameWithType: RtpReceiveStatistics.DroppedPackets
+- uid: SipLib.Rtp.RtpReceiveStatistics.ExtendedLastSequenceNumber
+  name: ExtendedLastSequenceNumber
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_ExtendedLastSequenceNumber
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.ExtendedLastSequenceNumber
+  fullName: SipLib.Rtp.RtpReceiveStatistics.ExtendedLastSequenceNumber
+  nameWithType: RtpReceiveStatistics.ExtendedLastSequenceNumber
+- uid: SipLib.Rtp.RtpReceiveStatistics.ExtendedLastSequenceNumber*
+  name: ExtendedLastSequenceNumber
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_ExtendedLastSequenceNumber_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.ExtendedLastSequenceNumber
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.ExtendedLastSequenceNumber
+  nameWithType: RtpReceiveStatistics.ExtendedLastSequenceNumber
+- uid: SipLib.Rtp.RtpReceiveStatistics.InstantaneousJitter
+  name: InstantaneousJitter
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_InstantaneousJitter
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.InstantaneousJitter
+  fullName: SipLib.Rtp.RtpReceiveStatistics.InstantaneousJitter
+  nameWithType: RtpReceiveStatistics.InstantaneousJitter
+- uid: SipLib.Rtp.RtpReceiveStatistics.InstantaneousJitter*
+  name: InstantaneousJitter
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_InstantaneousJitter_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.InstantaneousJitter
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.InstantaneousJitter
+  nameWithType: RtpReceiveStatistics.InstantaneousJitter
+- uid: SipLib.Rtp.RtpReceiveStatistics.Jitter
+  name: Jitter
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_Jitter
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.Jitter
+  fullName: SipLib.Rtp.RtpReceiveStatistics.Jitter
+  nameWithType: RtpReceiveStatistics.Jitter
+- uid: SipLib.Rtp.RtpReceiveStatistics.Jitter*
+  name: Jitter
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_Jitter_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.Jitter
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.Jitter
+  nameWithType: RtpReceiveStatistics.Jitter
+- uid: SipLib.Rtp.RtpReceiveStatistics.Mos
+  name: Mos
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_Mos
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.Mos
+  fullName: SipLib.Rtp.RtpReceiveStatistics.Mos
+  nameWithType: RtpReceiveStatistics.Mos
+- uid: SipLib.Rtp.RtpReceiveStatistics.Mos*
+  name: Mos
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_Mos_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.Mos
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.Mos
+  nameWithType: RtpReceiveStatistics.Mos
+- uid: SipLib.Rtp.RtpReceiveStatistics.OutOfOrderPackets
+  name: OutOfOrderPackets
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_OutOfOrderPackets
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.OutOfOrderPackets
+  fullName: SipLib.Rtp.RtpReceiveStatistics.OutOfOrderPackets
+  nameWithType: RtpReceiveStatistics.OutOfOrderPackets
+- uid: SipLib.Rtp.RtpReceiveStatistics.OutOfOrderPackets*
+  name: OutOfOrderPackets
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_OutOfOrderPackets_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.OutOfOrderPackets
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.OutOfOrderPackets
+  nameWithType: RtpReceiveStatistics.OutOfOrderPackets
+- uid: SipLib.Rtp.RtpReceiveStatistics.PacketsExpected
+  name: PacketsExpected
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_PacketsExpected
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.PacketsExpected
+  fullName: SipLib.Rtp.RtpReceiveStatistics.PacketsExpected
+  nameWithType: RtpReceiveStatistics.PacketsExpected
+- uid: SipLib.Rtp.RtpReceiveStatistics.PacketsExpected*
+  name: PacketsExpected
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_PacketsExpected_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.PacketsExpected
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.PacketsExpected
+  nameWithType: RtpReceiveStatistics.PacketsExpected
+- uid: SipLib.Rtp.RtpReceiveStatistics.PacketsReceived
+  name: PacketsReceived
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_PacketsReceived
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.PacketsReceived
+  fullName: SipLib.Rtp.RtpReceiveStatistics.PacketsReceived
+  nameWithType: RtpReceiveStatistics.PacketsReceived
+- uid: SipLib.Rtp.RtpReceiveStatistics.PacketsReceived*
+  name: PacketsReceived
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_PacketsReceived_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.PacketsReceived
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.PacketsReceived
+  nameWithType: RtpReceiveStatistics.PacketsReceived
+- uid: SipLib.Rtp.RtpReceiveStatistics.Reset
+  name: Reset()
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_Reset
+  commentId: M:SipLib.Rtp.RtpReceiveStatistics.Reset
+  fullName: SipLib.Rtp.RtpReceiveStatistics.Reset()
+  nameWithType: RtpReceiveStatistics.Reset()
+- uid: SipLib.Rtp.RtpReceiveStatistics.Reset*
+  name: Reset
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_Reset_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.Reset
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.Reset
+  nameWithType: RtpReceiveStatistics.Reset
+- uid: SipLib.Rtp.RtpReceiveStatistics.SSRC
+  name: SSRC
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_SSRC
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.SSRC
+  fullName: SipLib.Rtp.RtpReceiveStatistics.SSRC
+  nameWithType: RtpReceiveStatistics.SSRC
+- uid: SipLib.Rtp.RtpReceiveStatistics.SSRC*
+  name: SSRC
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_SSRC_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.SSRC
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.SSRC
+  nameWithType: RtpReceiveStatistics.SSRC
+- uid: SipLib.Rtp.RtpReceiveStatistics.SampleTime
+  name: SampleTime
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_SampleTime
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.SampleTime
+  fullName: SipLib.Rtp.RtpReceiveStatistics.SampleTime
+  nameWithType: RtpReceiveStatistics.SampleTime
+- uid: SipLib.Rtp.RtpReceiveStatistics.SampleTime*
+  name: SampleTime
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_SampleTime_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.SampleTime
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.SampleTime
+  nameWithType: RtpReceiveStatistics.SampleTime
+- uid: SipLib.Rtp.RtpReceiveStatistics.SampleTimeMilliseconds
+  name: SampleTimeMilliseconds
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_SampleTimeMilliseconds
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.SampleTimeMilliseconds
+  fullName: SipLib.Rtp.RtpReceiveStatistics.SampleTimeMilliseconds
+  nameWithType: RtpReceiveStatistics.SampleTimeMilliseconds
+- uid: SipLib.Rtp.RtpReceiveStatistics.SampleTimeMilliseconds*
+  name: SampleTimeMilliseconds
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_SampleTimeMilliseconds_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.SampleTimeMilliseconds
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.SampleTimeMilliseconds
+  nameWithType: RtpReceiveStatistics.SampleTimeMilliseconds
+- uid: SipLib.Rtp.RtpReceiveStatistics.SmoothedJitter
+  name: SmoothedJitter
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_SmoothedJitter
+  commentId: P:SipLib.Rtp.RtpReceiveStatistics.SmoothedJitter
+  fullName: SipLib.Rtp.RtpReceiveStatistics.SmoothedJitter
+  nameWithType: RtpReceiveStatistics.SmoothedJitter
+- uid: SipLib.Rtp.RtpReceiveStatistics.SmoothedJitter*
+  name: SmoothedJitter
+  href: api/SipLib.Rtp.RtpReceiveStatistics.html#SipLib_Rtp_RtpReceiveStatistics_SmoothedJitter_
+  commentId: Overload:SipLib.Rtp.RtpReceiveStatistics.SmoothedJitter
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpReceiveStatistics.SmoothedJitter
+  nameWithType: RtpReceiveStatistics.SmoothedJitter
 - uid: SipLib.Rtp.RtpUtils
   name: RtpUtils
   href: api/SipLib.Rtp.RtpUtils.html
