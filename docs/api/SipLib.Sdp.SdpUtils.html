@@ -1133,7 +1133,7 @@ encrypted using DTLS-SRTP. See RFC 5763, RFC 5764 and RFC 3711.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Sdp_SdpUtils_CreateDtlsSrtpRttMediaDescription_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20SipLib.Sdp.SdpUtils.CreateDtlsSrtpRttMediaDescription(System.Int32%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Sdp/SdpUtils.cs/#L247">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Sdp/SdpUtils.cs/#L261">View Source</a>
   </span>
   <a id="SipLib_Sdp_SdpUtils_CreateDtlsSrtpRttMediaDescription_" data-uid="SipLib.Sdp.SdpUtils.CreateDtlsSrtpRttMediaDescription*"></a>
   <h4 id="SipLib_Sdp_SdpUtils_CreateDtlsSrtpRttMediaDescription_System_Int32_System_String_" data-uid="SipLib.Sdp.SdpUtils.CreateDtlsSrtpRttMediaDescription(System.Int32,System.String)">CreateDtlsSrtpRttMediaDescription(int, string)</h4>
@@ -1246,19 +1246,19 @@ profile that will be encrypted using DTLS-SRTP. See RFC 5763, RFC 5764 and RFC 3
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Sdp_SdpUtils_CreateMsrpMediaDescription_System_Net_IPAddress_System_Int32_System_Boolean_SipLib_Sdp_SetupType_System_Security_Cryptography_X509Certificates_X509Certificate2_.md&amp;value=---%0Auid%3A%20SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription(System.Net.IPAddress%2CSystem.Int32%2CSystem.Boolean%2CSipLib.Sdp.SetupType%2CSystem.Security.Cryptography.X509Certificates.X509Certificate2)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Sdp_SdpUtils_CreateMsrpMediaDescription_System_Net_IPAddress_System_Int32_System_Boolean_SipLib_Sdp_SetupType_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_.md&amp;value=---%0Auid%3A%20SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription(System.Net.IPAddress%2CSystem.Int32%2CSystem.Boolean%2CSipLib.Sdp.SetupType%2CSystem.Security.Cryptography.X509Certificates.X509Certificate2%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Sdp/SdpUtils.cs/#L200">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Sdp/SdpUtils.cs/#L203">View Source</a>
   </span>
   <a id="SipLib_Sdp_SdpUtils_CreateMsrpMediaDescription_" data-uid="SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription*"></a>
-  <h4 id="SipLib_Sdp_SdpUtils_CreateMsrpMediaDescription_System_Net_IPAddress_System_Int32_System_Boolean_SipLib_Sdp_SetupType_System_Security_Cryptography_X509Certificates_X509Certificate2_" data-uid="SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription(System.Net.IPAddress,System.Int32,System.Boolean,SipLib.Sdp.SetupType,System.Security.Cryptography.X509Certificates.X509Certificate2)">CreateMsrpMediaDescription(IPAddress, int, bool, SetupType, X509Certificate2?)</h4>
+  <h4 id="SipLib_Sdp_SdpUtils_CreateMsrpMediaDescription_System_Net_IPAddress_System_Int32_System_Boolean_SipLib_Sdp_SetupType_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_" data-uid="SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription(System.Net.IPAddress,System.Int32,System.Boolean,SipLib.Sdp.SetupType,System.Security.Cryptography.X509Certificates.X509Certificate2,System.String)">CreateMsrpMediaDescription(IPAddress, int, bool, SetupType, X509Certificate2?, string?)</h4>
   <div class="markdown level1 summary"><p>Creates a basic MediaDescription object for offering Message Session Relay Protocol (MSRP, see RFC 4975).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MediaDescription CreateMsrpMediaDescription(IPAddress ipAddress, int Port, bool UseTls, SetupType setupType = SetupType.active, X509Certificate2? localCert = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static MediaDescription CreateMsrpMediaDescription(IPAddress ipAddress, int Port, bool UseTls, SetupType setupType, X509Certificate2? localCert = null, string? user = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1294,15 +1294,21 @@ messages will be sent.</p>
         <td><a class="xref" href="SipLib.Sdp.SetupType.html">SetupType</a></td>
         <td><span class="parametername">setupType</span></td>
         <td><p>Specifies the setup type (active/passive) value to use for the setup
-attribute. Optional. Defaults to SetupType.active.</p>
+attribute.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.x509certificates.x509certificate2">X509Certificate2</a></td>
         <td><span class="parametername">localCert</span></td>
         <td><p>Used to build the fingerprint attribute of the client's X.509
-certificate. Optional. Defaults to null. This is required only if mutual authentication is
-being used.</p>
+certificate. Optional. Defaults to null. This is required if UseTls is true and the SetupType
+is passive or actpass (i.e. the new MsrpConnection can become a server).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>User name portion of the MSRP URI. Optional.</p>
 </td>
       </tr>
     </tbody>
@@ -1319,6 +1325,23 @@ being used.</p>
       <tr>
         <td><a class="xref" href="SipLib.Sdp.MediaDescription.html">MediaDescription</a></td>
         <td><p>Returns a new MediaDescription object for offering MSRP.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Thrown if UseTls is true, and localCert is null and setupType is passive or
+actpass</p>
 </td>
       </tr>
     </tbody>
@@ -1429,7 +1452,7 @@ encrypted using SDES-SRTP. See RFC 4568, RFC 3711 and RFC 6188.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Sdp_SdpUtils_CreateSdesSrtpRttMediaDescription_System_Int32_.md&amp;value=---%0Auid%3A%20SipLib.Sdp.SdpUtils.CreateSdesSrtpRttMediaDescription(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Sdp/SdpUtils.cs/#L232">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Sdp/SdpUtils.cs/#L246">View Source</a>
   </span>
   <a id="SipLib_Sdp_SdpUtils_CreateSdesSrtpRttMediaDescription_" data-uid="SipLib.Sdp.SdpUtils.CreateSdesSrtpRttMediaDescription*"></a>
   <h4 id="SipLib_Sdp_SdpUtils_CreateSdesSrtpRttMediaDescription_System_Int32_" data-uid="SipLib.Sdp.SdpUtils.CreateSdesSrtpRttMediaDescription(System.Int32)">CreateSdesSrtpRttMediaDescription(int)</h4>

@@ -14188,15 +14188,15 @@ references:
   isSpec: "True"
   fullName: SipLib.Msrp.MsrpConnection.CreateAsServer
   nameWithType: MsrpConnection.CreateAsServer
-- uid: SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription,SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription,System.Boolean,System.Security.Cryptography.X509Certificates.X509Certificate2)
-  name: CreateFromSdp(Sdp, MediaDescription, Sdp, MediaDescription, bool, X509Certificate2?)
-  href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_CreateFromSdp_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_System_Boolean_System_Security_Cryptography_X509Certificates_X509Certificate2_
-  commentId: M:SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription,SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription,System.Boolean,System.Security.Cryptography.X509Certificates.X509Certificate2)
-  name.vb: CreateFromSdp(Sdp, MediaDescription, Sdp, MediaDescription, Boolean, X509Certificate2)
-  fullName: SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.Sdp, SipLib.Sdp.MediaDescription, SipLib.Sdp.Sdp, SipLib.Sdp.MediaDescription, bool, System.Security.Cryptography.X509Certificates.X509Certificate2?)
-  fullName.vb: SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.Sdp, SipLib.Sdp.MediaDescription, SipLib.Sdp.Sdp, SipLib.Sdp.MediaDescription, Boolean, System.Security.Cryptography.X509Certificates.X509Certificate2)
-  nameWithType: MsrpConnection.CreateFromSdp(Sdp, MediaDescription, Sdp, MediaDescription, bool, X509Certificate2?)
-  nameWithType.vb: MsrpConnection.CreateFromSdp(Sdp, MediaDescription, Sdp, MediaDescription, Boolean, X509Certificate2)
+- uid: SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.MediaDescription,SipLib.Sdp.MediaDescription,System.Boolean,System.Security.Cryptography.X509Certificates.X509Certificate2)
+  name: CreateFromSdp(MediaDescription, MediaDescription, bool, X509Certificate2?)
+  href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_CreateFromSdp_SipLib_Sdp_MediaDescription_SipLib_Sdp_MediaDescription_System_Boolean_System_Security_Cryptography_X509Certificates_X509Certificate2_
+  commentId: M:SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.MediaDescription,SipLib.Sdp.MediaDescription,System.Boolean,System.Security.Cryptography.X509Certificates.X509Certificate2)
+  name.vb: CreateFromSdp(MediaDescription, MediaDescription, Boolean, X509Certificate2)
+  fullName: SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.MediaDescription, SipLib.Sdp.MediaDescription, bool, System.Security.Cryptography.X509Certificates.X509Certificate2?)
+  fullName.vb: SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.MediaDescription, SipLib.Sdp.MediaDescription, Boolean, System.Security.Cryptography.X509Certificates.X509Certificate2)
+  nameWithType: MsrpConnection.CreateFromSdp(MediaDescription, MediaDescription, bool, X509Certificate2?)
+  nameWithType.vb: MsrpConnection.CreateFromSdp(MediaDescription, MediaDescription, Boolean, X509Certificate2)
 - uid: SipLib.Msrp.MsrpConnection.CreateFromSdp*
   name: CreateFromSdp
   href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_CreateFromSdp_
@@ -14254,13 +14254,13 @@ references:
   fullName: SipLib.Msrp.MsrpConnection.ReportReceived
   nameWithType: MsrpConnection.ReportReceived
 - uid: SipLib.Msrp.MsrpConnection.SendMsrpMessage(System.String,System.Byte[],System.String)
-  name: SendMsrpMessage(string?, byte[]?, string?)
+  name: SendMsrpMessage(string, byte[], string?)
   href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_SendMsrpMessage_System_String_System_Byte___System_String_
   commentId: M:SipLib.Msrp.MsrpConnection.SendMsrpMessage(System.String,System.Byte[],System.String)
   name.vb: SendMsrpMessage(String, Byte(), String)
-  fullName: SipLib.Msrp.MsrpConnection.SendMsrpMessage(string?, byte[]?, string?)
+  fullName: SipLib.Msrp.MsrpConnection.SendMsrpMessage(string, byte[], string?)
   fullName.vb: SipLib.Msrp.MsrpConnection.SendMsrpMessage(String, Byte(), String)
-  nameWithType: MsrpConnection.SendMsrpMessage(string?, byte[]?, string?)
+  nameWithType: MsrpConnection.SendMsrpMessage(string, byte[], string?)
   nameWithType.vb: MsrpConnection.SendMsrpMessage(String, Byte(), String)
 - uid: SipLib.Msrp.MsrpConnection.SendMsrpMessage*
   name: SendMsrpMessage
@@ -20710,15 +20710,15 @@ references:
   isSpec: "True"
   fullName: SipLib.Sdp.SdpUtils.CreateDtlsSrtpVideoMediaDescription
   nameWithType: SdpUtils.CreateDtlsSrtpVideoMediaDescription
-- uid: SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription(System.Net.IPAddress,System.Int32,System.Boolean,SipLib.Sdp.SetupType,System.Security.Cryptography.X509Certificates.X509Certificate2)
-  name: CreateMsrpMediaDescription(IPAddress, int, bool, SetupType, X509Certificate2?)
-  href: api/SipLib.Sdp.SdpUtils.html#SipLib_Sdp_SdpUtils_CreateMsrpMediaDescription_System_Net_IPAddress_System_Int32_System_Boolean_SipLib_Sdp_SetupType_System_Security_Cryptography_X509Certificates_X509Certificate2_
-  commentId: M:SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription(System.Net.IPAddress,System.Int32,System.Boolean,SipLib.Sdp.SetupType,System.Security.Cryptography.X509Certificates.X509Certificate2)
-  name.vb: CreateMsrpMediaDescription(IPAddress, Integer, Boolean, SetupType, X509Certificate2)
-  fullName: SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription(System.Net.IPAddress, int, bool, SipLib.Sdp.SetupType, System.Security.Cryptography.X509Certificates.X509Certificate2?)
-  fullName.vb: SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription(System.Net.IPAddress, Integer, Boolean, SipLib.Sdp.SetupType, System.Security.Cryptography.X509Certificates.X509Certificate2)
-  nameWithType: SdpUtils.CreateMsrpMediaDescription(IPAddress, int, bool, SetupType, X509Certificate2?)
-  nameWithType.vb: SdpUtils.CreateMsrpMediaDescription(IPAddress, Integer, Boolean, SetupType, X509Certificate2)
+- uid: SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription(System.Net.IPAddress,System.Int32,System.Boolean,SipLib.Sdp.SetupType,System.Security.Cryptography.X509Certificates.X509Certificate2,System.String)
+  name: CreateMsrpMediaDescription(IPAddress, int, bool, SetupType, X509Certificate2?, string?)
+  href: api/SipLib.Sdp.SdpUtils.html#SipLib_Sdp_SdpUtils_CreateMsrpMediaDescription_System_Net_IPAddress_System_Int32_System_Boolean_SipLib_Sdp_SetupType_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_
+  commentId: M:SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription(System.Net.IPAddress,System.Int32,System.Boolean,SipLib.Sdp.SetupType,System.Security.Cryptography.X509Certificates.X509Certificate2,System.String)
+  name.vb: CreateMsrpMediaDescription(IPAddress, Integer, Boolean, SetupType, X509Certificate2, String)
+  fullName: SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription(System.Net.IPAddress, int, bool, SipLib.Sdp.SetupType, System.Security.Cryptography.X509Certificates.X509Certificate2?, string?)
+  fullName.vb: SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription(System.Net.IPAddress, Integer, Boolean, SipLib.Sdp.SetupType, System.Security.Cryptography.X509Certificates.X509Certificate2, String)
+  nameWithType: SdpUtils.CreateMsrpMediaDescription(IPAddress, int, bool, SetupType, X509Certificate2?, string?)
+  nameWithType.vb: SdpUtils.CreateMsrpMediaDescription(IPAddress, Integer, Boolean, SetupType, X509Certificate2, String)
 - uid: SipLib.Sdp.SdpUtils.CreateMsrpMediaDescription*
   name: CreateMsrpMediaDescription
   href: api/SipLib.Sdp.SdpUtils.html#SipLib_Sdp_SdpUtils_CreateMsrpMediaDescription_

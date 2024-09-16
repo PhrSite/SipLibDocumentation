@@ -886,7 +886,7 @@
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_ConnectionIsPassive.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.ConnectionIsPassive%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L48">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L49">View Source</a>
   </span>
   <a id="SipLib_Msrp_MsrpConnection_ConnectionIsPassive_" data-uid="SipLib.Msrp.MsrpConnection.ConnectionIsPassive*"></a>
   <h4 id="SipLib_Msrp_MsrpConnection_ConnectionIsPassive" data-uid="SipLib.Msrp.MsrpConnection.ConnectionIsPassive">ConnectionIsPassive</h4>
@@ -918,21 +918,18 @@ requests. Returns false if this end of the connection is the client.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_MaxMsrpMessageLength.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.MaxMsrpMessageLength%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L97">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L81">View Source</a>
   </span>
   <a id="SipLib_Msrp_MsrpConnection_MaxMsrpMessageLength_" data-uid="SipLib.Msrp.MsrpConnection.MaxMsrpMessageLength*"></a>
   <h4 id="SipLib_Msrp_MsrpConnection_MaxMsrpMessageLength" data-uid="SipLib.Msrp.MsrpConnection.MaxMsrpMessageLength">MaxMsrpMessageLength</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the maximum MSRP message transaction (chunk) length for receiving long MSRP messages.
-This represents the absolute maximum of a single MSRP SEND request message chunk, not the maximum
-size of a MSRP message that is properly chunked. The setter for this property must be called before
-calling the Start() method.</p>
-<p> 
-This property does not affect the maximum MSRP message length if a sender follows the chunking rules
-set forth in RFC 4975.
+  <div class="markdown level1 summary"><p>Gets or sets the maximum size of a complete MSRP message that the MsrpConnection can receive.</p>
+<p>
+The default size is 10,000 bytes. The minimum limit on the message length is 3,000 bytes. There is no
+upper limit. For text applications it is not necessary to change the default. If the application will
+be expected to receive large images or video files then this property must be set to an appropriate value.
 </p>
 <p>
-The minimum value for this property is 3000 (this allows for 2048 byte contents plus a few hundred
-bytes for the MSRP message headers. The default value of this property is 10000 bytes.
+This property must be set before calling the Start() method.
 </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -955,17 +952,6 @@ bytes for the MSRP message headers. The default value of this property is 10000 
       </tr>
     </tbody>
   </table>
-  <h5 id="SipLib_Msrp_MsrpConnection_MaxMsrpMessageLength_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>According to RFC 4975, MSRP message senders must split messages where the body of
-the message is greater than 2048 bytes into chunks containing 2048 byte blocks so it is not
-necessary to set this property.
-</p>
-<p>
-The only time that setting this property is necessary is if a remote MSRP endpoint does not follow
-the rules for message chunking and is expected to send large messages that may contain images or
-video recordings.
-</p>
-</div>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
@@ -973,7 +959,7 @@ video recordings.
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_CreateAsClient_SipLib_Msrp_MsrpUri_SipLib_Msrp_MsrpUri_System_Security_Cryptography_X509Certificates_X509Certificate2_.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.CreateAsClient(SipLib.Msrp.MsrpUri%2CSipLib.Msrp.MsrpUri%2CSystem.Security.Cryptography.X509Certificates.X509Certificate2)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L169">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L154">View Source</a>
   </span>
   <a id="SipLib_Msrp_MsrpConnection_CreateAsClient_" data-uid="SipLib.Msrp.MsrpConnection.CreateAsClient*"></a>
   <h4 id="SipLib_Msrp_MsrpConnection_CreateAsClient_SipLib_Msrp_MsrpUri_SipLib_Msrp_MsrpUri_System_Security_Cryptography_X509Certificates_X509Certificate2_" data-uid="SipLib.Msrp.MsrpConnection.CreateAsClient(SipLib.Msrp.MsrpUri,SipLib.Msrp.MsrpUri,System.Security.Cryptography.X509Certificates.X509Certificate2)">CreateAsClient(MsrpUri, MsrpUri, X509Certificate2)</h4>
@@ -1040,7 +1026,7 @@ authentication as a client. Optional. May be null is not using MSRP over TLS.</p
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_CreateAsServer_SipLib_Msrp_MsrpUri_SipLib_Msrp_MsrpUri_System_Security_Cryptography_X509Certificates_X509Certificate2_.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.CreateAsServer(SipLib.Msrp.MsrpUri%2CSipLib.Msrp.MsrpUri%2CSystem.Security.Cryptography.X509Certificates.X509Certificate2)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L243">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L228">View Source</a>
   </span>
   <a id="SipLib_Msrp_MsrpConnection_CreateAsServer_" data-uid="SipLib.Msrp.MsrpConnection.CreateAsServer*"></a>
   <h4 id="SipLib_Msrp_MsrpConnection_CreateAsServer_SipLib_Msrp_MsrpUri_SipLib_Msrp_MsrpUri_System_Security_Cryptography_X509Certificates_X509Certificate2_" data-uid="SipLib.Msrp.MsrpConnection.CreateAsServer(SipLib.Msrp.MsrpUri,SipLib.Msrp.MsrpUri,System.Security.Cryptography.X509Certificates.X509Certificate2)">CreateAsServer(MsrpUri, MsrpUri, X509Certificate2)</h4>
@@ -1103,19 +1089,19 @@ be null if using MSRP over TCP.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_CreateFromSdp_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_System_Boolean_System_Security_Cryptography_X509Certificates_X509Certificate2_.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.Sdp%2CSipLib.Sdp.MediaDescription%2CSipLib.Sdp.Sdp%2CSipLib.Sdp.MediaDescription%2CSystem.Boolean%2CSystem.Security.Cryptography.X509Certificates.X509Certificate2)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_CreateFromSdp_SipLib_Sdp_MediaDescription_SipLib_Sdp_MediaDescription_System_Boolean_System_Security_Cryptography_X509Certificates_X509Certificate2_.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.MediaDescription%2CSipLib.Sdp.MediaDescription%2CSystem.Boolean%2CSystem.Security.Cryptography.X509Certificates.X509Certificate2)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L270">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L253">View Source</a>
   </span>
   <a id="SipLib_Msrp_MsrpConnection_CreateFromSdp_" data-uid="SipLib.Msrp.MsrpConnection.CreateFromSdp*"></a>
-  <h4 id="SipLib_Msrp_MsrpConnection_CreateFromSdp_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_System_Boolean_System_Security_Cryptography_X509Certificates_X509Certificate2_" data-uid="SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription,SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription,System.Boolean,System.Security.Cryptography.X509Certificates.X509Certificate2)">CreateFromSdp(Sdp, MediaDescription, Sdp, MediaDescription, bool, X509Certificate2?)</h4>
+  <h4 id="SipLib_Msrp_MsrpConnection_CreateFromSdp_SipLib_Sdp_MediaDescription_SipLib_Sdp_MediaDescription_System_Boolean_System_Security_Cryptography_X509Certificates_X509Certificate2_" data-uid="SipLib.Msrp.MsrpConnection.CreateFromSdp(SipLib.Sdp.MediaDescription,SipLib.Sdp.MediaDescription,System.Boolean,System.Security.Cryptography.X509Certificates.X509Certificate2)">CreateFromSdp(MediaDescription, MediaDescription, bool, X509Certificate2?)</h4>
   <div class="markdown level1 summary"><p>Creates a MsrpConnection from the offered and answered SDP.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static (MsrpConnection?, string?) CreateFromSdp(Sdp OfferedSdp, MediaDescription OfferedMd, Sdp AnsweredSdp, MediaDescription AnsweredMd, bool IsIncoming, X509Certificate2? LocalCert)</code></pre>
+    <pre><code class="lang-csharp hljs">public static (MsrpConnection?, string?) CreateFromSdp(MediaDescription OfferedMd, MediaDescription AnsweredMd, bool IsIncoming, X509Certificate2? LocalCert)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1128,21 +1114,9 @@ be null if using MSRP over TCP.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SipLib.Sdp.Sdp.html">Sdp</a></td>
-        <td><span class="parametername">OfferedSdp</span></td>
-        <td><p>The offered SDP from the INVITE request.</p>
-</td>
-      </tr>
-      <tr>
         <td><a class="xref" href="SipLib.Sdp.MediaDescription.html">MediaDescription</a></td>
         <td><span class="parametername">OfferedMd</span></td>
         <td><p>The offered MediaDescription for MSRP (&quot;message&quot;) media</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="SipLib.Sdp.Sdp.html">Sdp</a></td>
-        <td><span class="parametername">AnsweredSdp</span></td>
-        <td><p>The answered SDP from the OK response.</p>
 </td>
       </tr>
       <tr>
@@ -1188,10 +1162,10 @@ created.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_SendMsrpMessage_System_String_System_Byte___System_String_.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.SendMsrpMessage(System.String%2CSystem.Byte%5B%5D%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L896">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L892">View Source</a>
   </span>
   <a id="SipLib_Msrp_MsrpConnection_SendMsrpMessage_" data-uid="SipLib.Msrp.MsrpConnection.SendMsrpMessage*"></a>
-  <h4 id="SipLib_Msrp_MsrpConnection_SendMsrpMessage_System_String_System_Byte___System_String_" data-uid="SipLib.Msrp.MsrpConnection.SendMsrpMessage(System.String,System.Byte[],System.String)">SendMsrpMessage(string?, byte[]?, string?)</h4>
+  <h4 id="SipLib_Msrp_MsrpConnection_SendMsrpMessage_System_String_System_Byte___System_String_" data-uid="SipLib.Msrp.MsrpConnection.SendMsrpMessage(System.String,System.Byte[],System.String)">SendMsrpMessage(string, byte[], string?)</h4>
   <div class="markdown level1 summary"><p>Sends an MSRP message to the remote endpoint. The method queues the message for transmission and
 returns immediately. It does not block. If the length of the message contents is longer than
 2048 bytes, then the message is split up into chunks and each message chunk is queued.
@@ -1200,7 +1174,7 @@ To send an empty SEND request, set the ContentType and the Contents parameters t
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SendMsrpMessage(string? ContentType, byte[]? Contents, string? messageID = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SendMsrpMessage(string ContentType, byte[] Contents, string? messageID = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1223,16 +1197,15 @@ text/plain or message/CPIM.</p>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
         <td><span class="parametername">Contents</span></td>
         <td><p>Binary message contents encoded using UTF8 if the message is text or
-the un-encode binary contents if sending a non-text message such as a picture or a video
-file.</p>
+the binary contents if sending a non-text message such as a picture or a video file.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">messageID</span></td>
         <td><p>If specified, this is the Message-ID header that will be include
-in the SEND request. This should be a 9 or 10 digit alphanumeric string that identifies the
-method. This parameter is optional. If pressent then the SEND request will include a
+in the SEND request. This should be a 9 or 10 character alphanumeric string that identifies the
+message. This parameter is optional. If present then the SEND request will include a
 Success-Report header with a value of &quot;yes&quot; so that the remote endpoint will generate a
 success report.</p>
 </td>
@@ -1244,7 +1217,7 @@ success report.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_Shutdown.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.Shutdown%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L963">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L952">View Source</a>
   </span>
   <a id="SipLib_Msrp_MsrpConnection_Shutdown_" data-uid="SipLib.Msrp.MsrpConnection.Shutdown*"></a>
   <h4 id="SipLib_Msrp_MsrpConnection_Shutdown" data-uid="SipLib.Msrp.MsrpConnection.Shutdown">Shutdown()</h4>
@@ -1262,7 +1235,7 @@ or characteristics.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_Start.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.Start%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L221">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L206">View Source</a>
   </span>
   <a id="SipLib_Msrp_MsrpConnection_Start_" data-uid="SipLib.Msrp.MsrpConnection.Start*"></a>
   <h4 id="SipLib_Msrp_MsrpConnection_Start" data-uid="SipLib.Msrp.MsrpConnection.Start">Start()</h4>
@@ -1280,7 +1253,7 @@ or characteristics.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_MsrpConnectionEstablished.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.MsrpConnectionEstablished%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L135">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L120">View Source</a>
   </span>
   <h4 id="SipLib_Msrp_MsrpConnection_MsrpConnectionEstablished" data-uid="SipLib.Msrp.MsrpConnection.MsrpConnectionEstablished">MsrpConnectionEstablished</h4>
   <div class="markdown level1 summary"><p>This event is fired when a connection is established with the remote endpoint either as a client
@@ -1311,7 +1284,7 @@ or as a server.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_MsrpConnectionFailed.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.MsrpConnectionFailed%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L142">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L127">View Source</a>
   </span>
   <h4 id="SipLib_Msrp_MsrpConnection_MsrpConnectionFailed" data-uid="SipLib.Msrp.MsrpConnection.MsrpConnectionFailed">MsrpConnectionFailed</h4>
   <div class="markdown level1 summary"><p>This event is fired if the MsrpConnection object was unable to connect to the remote endpoint as
@@ -1342,7 +1315,7 @@ a client.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_MsrpMessageDeliveryFailed.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.MsrpMessageDeliveryFailed%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L149">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L134">View Source</a>
   </span>
   <h4 id="SipLib_Msrp_MsrpConnection_MsrpMessageDeliveryFailed" data-uid="SipLib.Msrp.MsrpConnection.MsrpMessageDeliveryFailed">MsrpMessageDeliveryFailed</h4>
   <div class="markdown level1 summary"><p>This event is fired if the remote endpoint rejected a MSRP message sent by the MsrpConnection object
@@ -1373,7 +1346,7 @@ or if there was another problem delivering the message.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_MsrpMessageReceived.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.MsrpMessageReceived%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L123">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L107">View Source</a>
   </span>
   <h4 id="SipLib_Msrp_MsrpConnection_MsrpMessageReceived" data-uid="SipLib.Msrp.MsrpConnection.MsrpMessageReceived">MsrpMessageReceived</h4>
   <div class="markdown level1 summary"><p>Event that is fired when a complete MSRP message is received. This event is not fired for empty
@@ -1408,10 +1381,12 @@ If the application only needs to handle text messages then use the MsrpTextMessa
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_MsrpTextMessageReceived.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.MsrpTextMessageReceived%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L128">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L113">View Source</a>
   </span>
   <h4 id="SipLib_Msrp_MsrpConnection_MsrpTextMessageReceived" data-uid="SipLib.Msrp.MsrpConnection.MsrpTextMessageReceived">MsrpTextMessageReceived</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Event that fired when an MSRP message is received with a Content-Type of text/plain or message/cpim and the content
+type of the CPIM message is text/plain.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -1437,7 +1412,7 @@ If the application only needs to handle text messages then use the MsrpTextMessa
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Msrp_MsrpConnection_ReportReceived.md&amp;value=---%0Auid%3A%20SipLib.Msrp.MsrpConnection.ReportReceived%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L155">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Msrp/MsrpConnection.cs/#L140">View Source</a>
   </span>
   <h4 id="SipLib_Msrp_MsrpConnection_ReportReceived" data-uid="SipLib.Msrp.MsrpConnection.ReportReceived">ReportReceived</h4>
   <div class="markdown level1 summary"><p>Event that is fired when a MSRP REPORT request is received.</p>
