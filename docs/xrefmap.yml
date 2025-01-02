@@ -7780,6 +7780,15 @@ references:
   fullName.vb: SipLib.Core.SipUtils.GetCallInfoHeaderForPurpose(SipLib.Core.SIPHeader, String)
   nameWithType: SipUtils.GetCallInfoHeaderForPurpose(SIPHeader, string)
   nameWithType.vb: SipUtils.GetCallInfoHeaderForPurpose(SIPHeader, String)
+- uid: SipLib.Core.SipUtils.GetCallInfoHeaderForPurpose(SipLib.Core.SIPHeader,System.String,SipLib.Core.SIPSchemesEnum)
+  name: GetCallInfoHeaderForPurpose(SIPHeader, string, SIPSchemesEnum)
+  href: api/SipLib.Core.SipUtils.html#SipLib_Core_SipUtils_GetCallInfoHeaderForPurpose_SipLib_Core_SIPHeader_System_String_SipLib_Core_SIPSchemesEnum_
+  commentId: M:SipLib.Core.SipUtils.GetCallInfoHeaderForPurpose(SipLib.Core.SIPHeader,System.String,SipLib.Core.SIPSchemesEnum)
+  name.vb: GetCallInfoHeaderForPurpose(SIPHeader, String, SIPSchemesEnum)
+  fullName: SipLib.Core.SipUtils.GetCallInfoHeaderForPurpose(SipLib.Core.SIPHeader, string, SipLib.Core.SIPSchemesEnum)
+  fullName.vb: SipLib.Core.SipUtils.GetCallInfoHeaderForPurpose(SipLib.Core.SIPHeader, String, SipLib.Core.SIPSchemesEnum)
+  nameWithType: SipUtils.GetCallInfoHeaderForPurpose(SIPHeader, string, SIPSchemesEnum)
+  nameWithType.vb: SipUtils.GetCallInfoHeaderForPurpose(SIPHeader, String, SIPSchemesEnum)
 - uid: SipLib.Core.SipUtils.GetCallInfoHeaderForPurpose*
   name: GetCallInfoHeaderForPurpose
   href: api/SipLib.Core.SipUtils.html#SipLib_Core_SipUtils_GetCallInfoHeaderForPurpose_
@@ -12311,22 +12320,28 @@ references:
   fullName.vb: SipLib.Media.AudioDestination.New
   nameWithType: AudioDestination.AudioDestination
   nameWithType.vb: AudioDestination.New
-- uid: SipLib.Media.AudioDestination.SetDestionationHandler(SipLib.Media.AudioDestinationDelegate)
-  name: SetDestionationHandler(AudioDestinationDelegate?)
-  href: api/SipLib.Media.AudioDestination.html#SipLib_Media_AudioDestination_SetDestionationHandler_SipLib_Media_AudioDestinationDelegate_
-  commentId: M:SipLib.Media.AudioDestination.SetDestionationHandler(SipLib.Media.AudioDestinationDelegate)
-  name.vb: SetDestionationHandler(AudioDestinationDelegate)
-  fullName: SipLib.Media.AudioDestination.SetDestionationHandler(SipLib.Media.AudioDestinationDelegate?)
-  fullName.vb: SipLib.Media.AudioDestination.SetDestionationHandler(SipLib.Media.AudioDestinationDelegate)
-  nameWithType: AudioDestination.SetDestionationHandler(AudioDestinationDelegate?)
-  nameWithType.vb: AudioDestination.SetDestionationHandler(AudioDestinationDelegate)
-- uid: SipLib.Media.AudioDestination.SetDestionationHandler*
-  name: SetDestionationHandler
-  href: api/SipLib.Media.AudioDestination.html#SipLib_Media_AudioDestination_SetDestionationHandler_
-  commentId: Overload:SipLib.Media.AudioDestination.SetDestionationHandler
+- uid: SipLib.Media.AudioDestination.DtmfDigitReceived
+  name: DtmfDigitReceived
+  href: api/SipLib.Media.AudioDestination.html#SipLib_Media_AudioDestination_DtmfDigitReceived
+  commentId: E:SipLib.Media.AudioDestination.DtmfDigitReceived
+  fullName: SipLib.Media.AudioDestination.DtmfDigitReceived
+  nameWithType: AudioDestination.DtmfDigitReceived
+- uid: SipLib.Media.AudioDestination.SetDestinationHandler(SipLib.Media.AudioDestinationDelegate)
+  name: SetDestinationHandler(AudioDestinationDelegate?)
+  href: api/SipLib.Media.AudioDestination.html#SipLib_Media_AudioDestination_SetDestinationHandler_SipLib_Media_AudioDestinationDelegate_
+  commentId: M:SipLib.Media.AudioDestination.SetDestinationHandler(SipLib.Media.AudioDestinationDelegate)
+  name.vb: SetDestinationHandler(AudioDestinationDelegate)
+  fullName: SipLib.Media.AudioDestination.SetDestinationHandler(SipLib.Media.AudioDestinationDelegate?)
+  fullName.vb: SipLib.Media.AudioDestination.SetDestinationHandler(SipLib.Media.AudioDestinationDelegate)
+  nameWithType: AudioDestination.SetDestinationHandler(AudioDestinationDelegate?)
+  nameWithType.vb: AudioDestination.SetDestinationHandler(AudioDestinationDelegate)
+- uid: SipLib.Media.AudioDestination.SetDestinationHandler*
+  name: SetDestinationHandler
+  href: api/SipLib.Media.AudioDestination.html#SipLib_Media_AudioDestination_SetDestinationHandler_
+  commentId: Overload:SipLib.Media.AudioDestination.SetDestinationHandler
   isSpec: "True"
-  fullName: SipLib.Media.AudioDestination.SetDestionationHandler
-  nameWithType: AudioDestination.SetDestionationHandler
+  fullName: SipLib.Media.AudioDestination.SetDestinationHandler
+  nameWithType: AudioDestination.SetDestinationHandler
 - uid: SipLib.Media.AudioDestinationDelegate
   name: AudioDestinationDelegate
   href: api/SipLib.Media.AudioDestinationDelegate.html
@@ -12415,22 +12430,6 @@ references:
   fullName.vb: SipLib.Media.AudioSource.New
   nameWithType: AudioSource.AudioSource
   nameWithType.vb: AudioSource.New
-- uid: SipLib.Media.AudioSource.OnAudioSamplesReady(System.Int16[],System.Int32)
-  name: OnAudioSamplesReady(short[], int)
-  href: api/SipLib.Media.AudioSource.html#SipLib_Media_AudioSource_OnAudioSamplesReady_System_Int16___System_Int32_
-  commentId: M:SipLib.Media.AudioSource.OnAudioSamplesReady(System.Int16[],System.Int32)
-  name.vb: OnAudioSamplesReady(Short(), Integer)
-  fullName: SipLib.Media.AudioSource.OnAudioSamplesReady(short[], int)
-  fullName.vb: SipLib.Media.AudioSource.OnAudioSamplesReady(Short(), Integer)
-  nameWithType: AudioSource.OnAudioSamplesReady(short[], int)
-  nameWithType.vb: AudioSource.OnAudioSamplesReady(Short(), Integer)
-- uid: SipLib.Media.AudioSource.OnAudioSamplesReady*
-  name: OnAudioSamplesReady
-  href: api/SipLib.Media.AudioSource.html#SipLib_Media_AudioSource_OnAudioSamplesReady_
-  commentId: Overload:SipLib.Media.AudioSource.OnAudioSamplesReady
-  isSpec: "True"
-  fullName: SipLib.Media.AudioSource.OnAudioSamplesReady
-  nameWithType: AudioSource.OnAudioSamplesReady
 - uid: SipLib.Media.AudioSource.Pause
   name: Pause()
   href: api/SipLib.Media.AudioSource.html#SipLib_Media_AudioSource_Pause
@@ -12457,6 +12456,22 @@ references:
   isSpec: "True"
   fullName: SipLib.Media.AudioSource.Resume
   nameWithType: AudioSource.Resume
+- uid: SipLib.Media.AudioSource.SendAudioSamples(System.Int16[],System.Int32)
+  name: SendAudioSamples(short[], int)
+  href: api/SipLib.Media.AudioSource.html#SipLib_Media_AudioSource_SendAudioSamples_System_Int16___System_Int32_
+  commentId: M:SipLib.Media.AudioSource.SendAudioSamples(System.Int16[],System.Int32)
+  name.vb: SendAudioSamples(Short(), Integer)
+  fullName: SipLib.Media.AudioSource.SendAudioSamples(short[], int)
+  fullName.vb: SipLib.Media.AudioSource.SendAudioSamples(Short(), Integer)
+  nameWithType: AudioSource.SendAudioSamples(short[], int)
+  nameWithType.vb: AudioSource.SendAudioSamples(Short(), Integer)
+- uid: SipLib.Media.AudioSource.SendAudioSamples*
+  name: SendAudioSamples
+  href: api/SipLib.Media.AudioSource.html#SipLib_Media_AudioSource_SendAudioSamples_
+  commentId: Overload:SipLib.Media.AudioSource.SendAudioSamples
+  isSpec: "True"
+  fullName: SipLib.Media.AudioSource.SendAudioSamples
+  nameWithType: AudioSource.SendAudioSamples
 - uid: SipLib.Media.AudioSource.SendDtmfEvent(SipLib.Rtp.DtmfEventEnum)
   name: SendDtmfEvent(DtmfEventEnum)
   href: api/SipLib.Media.AudioSource.html#SipLib_Media_AudioSource_SendDtmfEvent_SipLib_Rtp_DtmfEventEnum_
@@ -12754,6 +12769,12 @@ references:
   commentId: F:SipLib.Media.Band.sz
   fullName: SipLib.Media.Band.sz
   nameWithType: Band.sz
+- uid: SipLib.Media.DtmfDigitReceivedDelegate
+  name: DtmfDigitReceivedDelegate
+  href: api/SipLib.Media.DtmfDigitReceivedDelegate.html
+  commentId: T:SipLib.Media.DtmfDigitReceivedDelegate
+  fullName: SipLib.Media.DtmfDigitReceivedDelegate
+  nameWithType: DtmfDigitReceivedDelegate
 - uid: SipLib.Media.FileAudioSource
   name: FileAudioSource
   href: api/SipLib.Media.FileAudioSource.html
@@ -13151,6 +13172,19 @@ references:
   isSpec: "True"
   fullName: SipLib.Media.G722Encoder.SampleRate
   nameWithType: G722Encoder.SampleRate
+- uid: SipLib.Media.G722Encoder.TimeStampIncrement
+  name: TimeStampIncrement
+  href: api/SipLib.Media.G722Encoder.html#SipLib_Media_G722Encoder_TimeStampIncrement
+  commentId: P:SipLib.Media.G722Encoder.TimeStampIncrement
+  fullName: SipLib.Media.G722Encoder.TimeStampIncrement
+  nameWithType: G722Encoder.TimeStampIncrement
+- uid: SipLib.Media.G722Encoder.TimeStampIncrement*
+  name: TimeStampIncrement
+  href: api/SipLib.Media.G722Encoder.html#SipLib_Media_G722Encoder_TimeStampIncrement_
+  commentId: Overload:SipLib.Media.G722Encoder.TimeStampIncrement
+  isSpec: "True"
+  fullName: SipLib.Media.G722Encoder.TimeStampIncrement
+  nameWithType: G722Encoder.TimeStampIncrement
 - uid: SipLib.Media.G722Flags
   name: G722Flags
   href: api/SipLib.Media.G722Flags.html
@@ -13347,6 +13381,19 @@ references:
   isSpec: "True"
   fullName: SipLib.Media.IAudioEncoder.SampleRate
   nameWithType: IAudioEncoder.SampleRate
+- uid: SipLib.Media.IAudioEncoder.TimeStampIncrement
+  name: TimeStampIncrement
+  href: api/SipLib.Media.IAudioEncoder.html#SipLib_Media_IAudioEncoder_TimeStampIncrement
+  commentId: P:SipLib.Media.IAudioEncoder.TimeStampIncrement
+  fullName: SipLib.Media.IAudioEncoder.TimeStampIncrement
+  nameWithType: IAudioEncoder.TimeStampIncrement
+- uid: SipLib.Media.IAudioEncoder.TimeStampIncrement*
+  name: TimeStampIncrement
+  href: api/SipLib.Media.IAudioEncoder.html#SipLib_Media_IAudioEncoder_TimeStampIncrement_
+  commentId: Overload:SipLib.Media.IAudioEncoder.TimeStampIncrement
+  isSpec: "True"
+  fullName: SipLib.Media.IAudioEncoder.TimeStampIncrement
+  nameWithType: IAudioEncoder.TimeStampIncrement
 - uid: SipLib.Media.IAudioSampleSource
   name: IAudioSampleSource
   href: api/SipLib.Media.IAudioSampleSource.html
@@ -13539,6 +13586,54 @@ references:
   isSpec: "True"
   fullName: SipLib.Media.MediaPortSettings.VideoPorts
   nameWithType: MediaPortSettings.VideoPorts
+- uid: SipLib.Media.MediaTypes
+  name: MediaTypes
+  href: api/SipLib.Media.MediaTypes.html
+  commentId: T:SipLib.Media.MediaTypes
+  fullName: SipLib.Media.MediaTypes
+  nameWithType: MediaTypes
+- uid: SipLib.Media.MediaTypes.Audio
+  name: Audio
+  href: api/SipLib.Media.MediaTypes.html#SipLib_Media_MediaTypes_Audio
+  commentId: F:SipLib.Media.MediaTypes.Audio
+  fullName: SipLib.Media.MediaTypes.Audio
+  nameWithType: MediaTypes.Audio
+- uid: SipLib.Media.MediaTypes.MSRP
+  name: MSRP
+  href: api/SipLib.Media.MediaTypes.html#SipLib_Media_MediaTypes_MSRP
+  commentId: F:SipLib.Media.MediaTypes.MSRP
+  fullName: SipLib.Media.MediaTypes.MSRP
+  nameWithType: MediaTypes.MSRP
+- uid: SipLib.Media.MediaTypes.RTT
+  name: RTT
+  href: api/SipLib.Media.MediaTypes.html#SipLib_Media_MediaTypes_RTT
+  commentId: F:SipLib.Media.MediaTypes.RTT
+  fullName: SipLib.Media.MediaTypes.RTT
+  nameWithType: MediaTypes.RTT
+- uid: SipLib.Media.MediaTypes.Video
+  name: Video
+  href: api/SipLib.Media.MediaTypes.html#SipLib_Media_MediaTypes_Video
+  commentId: F:SipLib.Media.MediaTypes.Video
+  fullName: SipLib.Media.MediaTypes.Video
+  nameWithType: MediaTypes.Video
+- uid: SipLib.Media.MsrpEncryptionEnum
+  name: MsrpEncryptionEnum
+  href: api/SipLib.Media.MsrpEncryptionEnum.html
+  commentId: T:SipLib.Media.MsrpEncryptionEnum
+  fullName: SipLib.Media.MsrpEncryptionEnum
+  nameWithType: MsrpEncryptionEnum
+- uid: SipLib.Media.MsrpEncryptionEnum.Msrps
+  name: Msrps
+  href: api/SipLib.Media.MsrpEncryptionEnum.html#SipLib_Media_MsrpEncryptionEnum_Msrps
+  commentId: F:SipLib.Media.MsrpEncryptionEnum.Msrps
+  fullName: SipLib.Media.MsrpEncryptionEnum.Msrps
+  nameWithType: MsrpEncryptionEnum.Msrps
+- uid: SipLib.Media.MsrpEncryptionEnum.None
+  name: None
+  href: api/SipLib.Media.MsrpEncryptionEnum.html#SipLib_Media_MsrpEncryptionEnum_None
+  commentId: F:SipLib.Media.MsrpEncryptionEnum.None
+  fullName: SipLib.Media.MsrpEncryptionEnum.None
+  nameWithType: MsrpEncryptionEnum.None
 - uid: SipLib.Media.MuLawDecoder
   name: MuLawDecoder
   href: api/SipLib.Media.MuLawDecoder.html
@@ -13692,6 +13787,19 @@ references:
   isSpec: "True"
   fullName: SipLib.Media.PcmaEncoder.SampleRate
   nameWithType: PcmaEncoder.SampleRate
+- uid: SipLib.Media.PcmaEncoder.TimeStampIncrement
+  name: TimeStampIncrement
+  href: api/SipLib.Media.PcmaEncoder.html#SipLib_Media_PcmaEncoder_TimeStampIncrement
+  commentId: P:SipLib.Media.PcmaEncoder.TimeStampIncrement
+  fullName: SipLib.Media.PcmaEncoder.TimeStampIncrement
+  nameWithType: PcmaEncoder.TimeStampIncrement
+- uid: SipLib.Media.PcmaEncoder.TimeStampIncrement*
+  name: TimeStampIncrement
+  href: api/SipLib.Media.PcmaEncoder.html#SipLib_Media_PcmaEncoder_TimeStampIncrement_
+  commentId: Overload:SipLib.Media.PcmaEncoder.TimeStampIncrement
+  isSpec: "True"
+  fullName: SipLib.Media.PcmaEncoder.TimeStampIncrement
+  nameWithType: PcmaEncoder.TimeStampIncrement
 - uid: SipLib.Media.PcmuDecoder
   name: PcmuDecoder
   href: api/SipLib.Media.PcmuDecoder.html
@@ -13801,6 +13909,19 @@ references:
   isSpec: "True"
   fullName: SipLib.Media.PcmuEncoder.SampleRate
   nameWithType: PcmuEncoder.SampleRate
+- uid: SipLib.Media.PcmuEncoder.TimeStampIncrement
+  name: TimeStampIncrement
+  href: api/SipLib.Media.PcmuEncoder.html#SipLib_Media_PcmuEncoder_TimeStampIncrement
+  commentId: P:SipLib.Media.PcmuEncoder.TimeStampIncrement
+  fullName: SipLib.Media.PcmuEncoder.TimeStampIncrement
+  nameWithType: PcmuEncoder.TimeStampIncrement
+- uid: SipLib.Media.PcmuEncoder.TimeStampIncrement*
+  name: TimeStampIncrement
+  href: api/SipLib.Media.PcmuEncoder.html#SipLib_Media_PcmuEncoder_TimeStampIncrement_
+  commentId: Overload:SipLib.Media.PcmuEncoder.TimeStampIncrement
+  isSpec: "True"
+  fullName: SipLib.Media.PcmuEncoder.TimeStampIncrement
+  nameWithType: PcmuEncoder.TimeStampIncrement
 - uid: SipLib.Media.PortRange
   name: PortRange
   href: api/SipLib.Media.PortRange.html
@@ -13852,6 +13973,30 @@ references:
   isSpec: "True"
   fullName: SipLib.Media.PortRange.StartPort
   nameWithType: PortRange.StartPort
+- uid: SipLib.Media.RtpEncryptionEnum
+  name: RtpEncryptionEnum
+  href: api/SipLib.Media.RtpEncryptionEnum.html
+  commentId: T:SipLib.Media.RtpEncryptionEnum
+  fullName: SipLib.Media.RtpEncryptionEnum
+  nameWithType: RtpEncryptionEnum
+- uid: SipLib.Media.RtpEncryptionEnum.DtlsSrtp
+  name: DtlsSrtp
+  href: api/SipLib.Media.RtpEncryptionEnum.html#SipLib_Media_RtpEncryptionEnum_DtlsSrtp
+  commentId: F:SipLib.Media.RtpEncryptionEnum.DtlsSrtp
+  fullName: SipLib.Media.RtpEncryptionEnum.DtlsSrtp
+  nameWithType: RtpEncryptionEnum.DtlsSrtp
+- uid: SipLib.Media.RtpEncryptionEnum.None
+  name: None
+  href: api/SipLib.Media.RtpEncryptionEnum.html#SipLib_Media_RtpEncryptionEnum_None
+  commentId: F:SipLib.Media.RtpEncryptionEnum.None
+  fullName: SipLib.Media.RtpEncryptionEnum.None
+  nameWithType: RtpEncryptionEnum.None
+- uid: SipLib.Media.RtpEncryptionEnum.SdesSrtp
+  name: SdesSrtp
+  href: api/SipLib.Media.RtpEncryptionEnum.html#SipLib_Media_RtpEncryptionEnum_SdesSrtp
+  commentId: F:SipLib.Media.RtpEncryptionEnum.SdesSrtp
+  fullName: SipLib.Media.RtpEncryptionEnum.SdesSrtp
+  nameWithType: RtpEncryptionEnum.SdesSrtp
 - uid: SipLib.Msrp
   name: SipLib.Msrp
   href: api/SipLib.Msrp.html
@@ -14204,6 +14349,32 @@ references:
   isSpec: "True"
   fullName: SipLib.Msrp.MsrpConnection.CreateFromSdp
   nameWithType: MsrpConnection.CreateFromSdp
+- uid: SipLib.Msrp.MsrpConnection.GetPathMsrpUri(SipLib.Sdp.MediaDescription)
+  name: GetPathMsrpUri(MediaDescription)
+  href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_GetPathMsrpUri_SipLib_Sdp_MediaDescription_
+  commentId: M:SipLib.Msrp.MsrpConnection.GetPathMsrpUri(SipLib.Sdp.MediaDescription)
+  fullName: SipLib.Msrp.MsrpConnection.GetPathMsrpUri(SipLib.Sdp.MediaDescription)
+  nameWithType: MsrpConnection.GetPathMsrpUri(MediaDescription)
+- uid: SipLib.Msrp.MsrpConnection.GetPathMsrpUri*
+  name: GetPathMsrpUri
+  href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_GetPathMsrpUri_
+  commentId: Overload:SipLib.Msrp.MsrpConnection.GetPathMsrpUri
+  isSpec: "True"
+  fullName: SipLib.Msrp.MsrpConnection.GetPathMsrpUri
+  nameWithType: MsrpConnection.GetPathMsrpUri
+- uid: SipLib.Msrp.MsrpConnection.LocalMsrpUri
+  name: LocalMsrpUri
+  href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_LocalMsrpUri
+  commentId: P:SipLib.Msrp.MsrpConnection.LocalMsrpUri
+  fullName: SipLib.Msrp.MsrpConnection.LocalMsrpUri
+  nameWithType: MsrpConnection.LocalMsrpUri
+- uid: SipLib.Msrp.MsrpConnection.LocalMsrpUri*
+  name: LocalMsrpUri
+  href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_LocalMsrpUri_
+  commentId: Overload:SipLib.Msrp.MsrpConnection.LocalMsrpUri
+  isSpec: "True"
+  fullName: SipLib.Msrp.MsrpConnection.LocalMsrpUri
+  nameWithType: MsrpConnection.LocalMsrpUri
 - uid: SipLib.Msrp.MsrpConnection.MaxMsrpMessageLength
   name: MaxMsrpMessageLength
   href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_MaxMsrpMessageLength
@@ -14241,12 +14412,31 @@ references:
   commentId: E:SipLib.Msrp.MsrpConnection.MsrpMessageReceived
   fullName: SipLib.Msrp.MsrpConnection.MsrpMessageReceived
   nameWithType: MsrpConnection.MsrpMessageReceived
+- uid: SipLib.Msrp.MsrpConnection.MsrpMessageSent
+  name: MsrpMessageSent
+  href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_MsrpMessageSent
+  commentId: E:SipLib.Msrp.MsrpConnection.MsrpMessageSent
+  fullName: SipLib.Msrp.MsrpConnection.MsrpMessageSent
+  nameWithType: MsrpConnection.MsrpMessageSent
 - uid: SipLib.Msrp.MsrpConnection.MsrpTextMessageReceived
   name: MsrpTextMessageReceived
   href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_MsrpTextMessageReceived
   commentId: E:SipLib.Msrp.MsrpConnection.MsrpTextMessageReceived
   fullName: SipLib.Msrp.MsrpConnection.MsrpTextMessageReceived
   nameWithType: MsrpConnection.MsrpTextMessageReceived
+- uid: SipLib.Msrp.MsrpConnection.RemoteMsrpUri
+  name: RemoteMsrpUri
+  href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_RemoteMsrpUri
+  commentId: P:SipLib.Msrp.MsrpConnection.RemoteMsrpUri
+  fullName: SipLib.Msrp.MsrpConnection.RemoteMsrpUri
+  nameWithType: MsrpConnection.RemoteMsrpUri
+- uid: SipLib.Msrp.MsrpConnection.RemoteMsrpUri*
+  name: RemoteMsrpUri
+  href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_RemoteMsrpUri_
+  commentId: Overload:SipLib.Msrp.MsrpConnection.RemoteMsrpUri
+  isSpec: "True"
+  fullName: SipLib.Msrp.MsrpConnection.RemoteMsrpUri
+  nameWithType: MsrpConnection.RemoteMsrpUri
 - uid: SipLib.Msrp.MsrpConnection.ReportReceived
   name: ReportReceived
   href: api/SipLib.Msrp.MsrpConnection.html#SipLib_Msrp_MsrpConnection_ReportReceived
@@ -14642,6 +14832,12 @@ references:
   commentId: T:SipLib.Msrp.MsrpMessageReceivedDelegate
   fullName: SipLib.Msrp.MsrpMessageReceivedDelegate
   nameWithType: MsrpMessageReceivedDelegate
+- uid: SipLib.Msrp.MsrpMessageSentDelegate
+  name: MsrpMessageSentDelegate
+  href: api/SipLib.Msrp.MsrpMessageSentDelegate.html
+  commentId: T:SipLib.Msrp.MsrpMessageSentDelegate
+  fullName: SipLib.Msrp.MsrpMessageSentDelegate
+  nameWithType: MsrpMessageSentDelegate
 - uid: SipLib.Msrp.MsrpMessageType
   name: MsrpMessageType
   href: api/SipLib.Msrp.MsrpMessageType.html
@@ -16583,6 +16779,45 @@ references:
   commentId: E:SipLib.Rtp.RtpChannel.DtlsHandshakeFailed
   fullName: SipLib.Rtp.RtpChannel.DtlsHandshakeFailed
   nameWithType: RtpChannel.DtlsHandshakeFailed
+- uid: SipLib.Rtp.RtpChannel.IsDtlsSrtp
+  name: IsDtlsSrtp
+  href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_IsDtlsSrtp
+  commentId: P:SipLib.Rtp.RtpChannel.IsDtlsSrtp
+  fullName: SipLib.Rtp.RtpChannel.IsDtlsSrtp
+  nameWithType: RtpChannel.IsDtlsSrtp
+- uid: SipLib.Rtp.RtpChannel.IsDtlsSrtp*
+  name: IsDtlsSrtp
+  href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_IsDtlsSrtp_
+  commentId: Overload:SipLib.Rtp.RtpChannel.IsDtlsSrtp
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpChannel.IsDtlsSrtp
+  nameWithType: RtpChannel.IsDtlsSrtp
+- uid: SipLib.Rtp.RtpChannel.IsSdesSrtp
+  name: IsSdesSrtp
+  href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_IsSdesSrtp
+  commentId: P:SipLib.Rtp.RtpChannel.IsSdesSrtp
+  fullName: SipLib.Rtp.RtpChannel.IsSdesSrtp
+  nameWithType: RtpChannel.IsSdesSrtp
+- uid: SipLib.Rtp.RtpChannel.IsSdesSrtp*
+  name: IsSdesSrtp
+  href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_IsSdesSrtp_
+  commentId: Overload:SipLib.Rtp.RtpChannel.IsSdesSrtp
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpChannel.IsSdesSrtp
+  nameWithType: RtpChannel.IsSdesSrtp
+- uid: SipLib.Rtp.RtpChannel.LocalPort
+  name: LocalPort
+  href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_LocalPort
+  commentId: P:SipLib.Rtp.RtpChannel.LocalPort
+  fullName: SipLib.Rtp.RtpChannel.LocalPort
+  nameWithType: RtpChannel.LocalPort
+- uid: SipLib.Rtp.RtpChannel.LocalPort*
+  name: LocalPort
+  href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_LocalPort_
+  commentId: Overload:SipLib.Rtp.RtpChannel.LocalPort
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpChannel.LocalPort
+  nameWithType: RtpChannel.LocalPort
 - uid: SipLib.Rtp.RtpChannel.MediaType
   name: MediaType
   href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_MediaType
@@ -16602,6 +16837,32 @@ references:
   commentId: E:SipLib.Rtp.RtpChannel.ReceiveStatisticsReady
   fullName: SipLib.Rtp.RtpChannel.ReceiveStatisticsReady
   nameWithType: RtpChannel.ReceiveStatisticsReady
+- uid: SipLib.Rtp.RtpChannel.RemoteRtcpEndPoint
+  name: RemoteRtcpEndPoint
+  href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_RemoteRtcpEndPoint
+  commentId: P:SipLib.Rtp.RtpChannel.RemoteRtcpEndPoint
+  fullName: SipLib.Rtp.RtpChannel.RemoteRtcpEndPoint
+  nameWithType: RtpChannel.RemoteRtcpEndPoint
+- uid: SipLib.Rtp.RtpChannel.RemoteRtcpEndPoint*
+  name: RemoteRtcpEndPoint
+  href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_RemoteRtcpEndPoint_
+  commentId: Overload:SipLib.Rtp.RtpChannel.RemoteRtcpEndPoint
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpChannel.RemoteRtcpEndPoint
+  nameWithType: RtpChannel.RemoteRtcpEndPoint
+- uid: SipLib.Rtp.RtpChannel.RemoteRtpEndPoint
+  name: RemoteRtpEndPoint
+  href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_RemoteRtpEndPoint
+  commentId: P:SipLib.Rtp.RtpChannel.RemoteRtpEndPoint
+  fullName: SipLib.Rtp.RtpChannel.RemoteRtpEndPoint
+  nameWithType: RtpChannel.RemoteRtpEndPoint
+- uid: SipLib.Rtp.RtpChannel.RemoteRtpEndPoint*
+  name: RemoteRtpEndPoint
+  href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_RemoteRtpEndPoint_
+  commentId: Overload:SipLib.Rtp.RtpChannel.RemoteRtpEndPoint
+  isSpec: "True"
+  fullName: SipLib.Rtp.RtpChannel.RemoteRtpEndPoint
+  nameWithType: RtpChannel.RemoteRtpEndPoint
 - uid: SipLib.Rtp.RtpChannel.RtcpPacketReceived
   name: RtcpPacketReceived
   href: api/SipLib.Rtp.RtpChannel.html#SipLib_Rtp_RtpChannel_RtcpPacketReceived
@@ -19697,6 +19958,19 @@ references:
   isSpec: "True"
   fullName: SipLib.Sdp.MediaDescription.UsingDtlsSrtp
   nameWithType: MediaDescription.UsingDtlsSrtp
+- uid: SipLib.Sdp.MediaDescription.UsingEncryption
+  name: UsingEncryption
+  href: api/SipLib.Sdp.MediaDescription.html#SipLib_Sdp_MediaDescription_UsingEncryption
+  commentId: P:SipLib.Sdp.MediaDescription.UsingEncryption
+  fullName: SipLib.Sdp.MediaDescription.UsingEncryption
+  nameWithType: MediaDescription.UsingEncryption
+- uid: SipLib.Sdp.MediaDescription.UsingEncryption*
+  name: UsingEncryption
+  href: api/SipLib.Sdp.MediaDescription.html#SipLib_Sdp_MediaDescription_UsingEncryption_
+  commentId: Overload:SipLib.Sdp.MediaDescription.UsingEncryption
+  isSpec: "True"
+  fullName: SipLib.Sdp.MediaDescription.UsingEncryption
+  nameWithType: MediaDescription.UsingEncryption
 - uid: SipLib.Sdp.MediaDescription.UsingSdesSrtp
   name: UsingSdesSrtp()
   href: api/SipLib.Sdp.MediaDescription.html#SipLib_Sdp_MediaDescription_UsingSdesSrtp
@@ -19994,6 +20268,22 @@ references:
   isSpec: "True"
   fullName: SipLib.Sdp.Sdp.BuildAnswerSdp
   nameWithType: Sdp.BuildAnswerSdp
+- uid: SipLib.Sdp.Sdp.BuildReInviteAnswerSdp(SipLib.Sdp.Sdp,System.Net.IPAddress,SipLib.Sdp.SdpAnswerSettings,System.Int32,System.Int32,System.Int32,SipLib.Msrp.MsrpUri)
+  name: BuildReInviteAnswerSdp(Sdp, IPAddress, SdpAnswerSettings, int, int, int, MsrpUri?)
+  href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_BuildReInviteAnswerSdp_SipLib_Sdp_Sdp_System_Net_IPAddress_SipLib_Sdp_SdpAnswerSettings_System_Int32_System_Int32_System_Int32_SipLib_Msrp_MsrpUri_
+  commentId: M:SipLib.Sdp.Sdp.BuildReInviteAnswerSdp(SipLib.Sdp.Sdp,System.Net.IPAddress,SipLib.Sdp.SdpAnswerSettings,System.Int32,System.Int32,System.Int32,SipLib.Msrp.MsrpUri)
+  name.vb: BuildReInviteAnswerSdp(Sdp, IPAddress, SdpAnswerSettings, Integer, Integer, Integer, MsrpUri)
+  fullName: SipLib.Sdp.Sdp.BuildReInviteAnswerSdp(SipLib.Sdp.Sdp, System.Net.IPAddress, SipLib.Sdp.SdpAnswerSettings, int, int, int, SipLib.Msrp.MsrpUri?)
+  fullName.vb: SipLib.Sdp.Sdp.BuildReInviteAnswerSdp(SipLib.Sdp.Sdp, System.Net.IPAddress, SipLib.Sdp.SdpAnswerSettings, Integer, Integer, Integer, SipLib.Msrp.MsrpUri)
+  nameWithType: Sdp.BuildReInviteAnswerSdp(Sdp, IPAddress, SdpAnswerSettings, int, int, int, MsrpUri?)
+  nameWithType.vb: Sdp.BuildReInviteAnswerSdp(Sdp, IPAddress, SdpAnswerSettings, Integer, Integer, Integer, MsrpUri)
+- uid: SipLib.Sdp.Sdp.BuildReInviteAnswerSdp*
+  name: BuildReInviteAnswerSdp
+  href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_BuildReInviteAnswerSdp_
+  commentId: Overload:SipLib.Sdp.Sdp.BuildReInviteAnswerSdp
+  isSpec: "True"
+  fullName: SipLib.Sdp.Sdp.BuildReInviteAnswerSdp
+  nameWithType: Sdp.BuildReInviteAnswerSdp
 - uid: SipLib.Sdp.Sdp.ConnectionData
   name: ConnectionData
   href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_ConnectionData
@@ -20842,6 +21132,89 @@ references:
   commentId: F:SipLib.Sdp.SetupType.unknown
   fullName: SipLib.Sdp.SetupType.unknown
   nameWithType: SetupType.unknown
+- uid: SipLib.Threading
+  name: SipLib.Threading
+  href: api/SipLib.Threading.html
+  commentId: N:SipLib.Threading
+  fullName: SipLib.Threading
+  nameWithType: SipLib.Threading
+- uid: SipLib.Threading.QueuedActionWorkerTask
+  name: QueuedActionWorkerTask
+  href: api/SipLib.Threading.QueuedActionWorkerTask.html
+  commentId: T:SipLib.Threading.QueuedActionWorkerTask
+  fullName: SipLib.Threading.QueuedActionWorkerTask
+  nameWithType: QueuedActionWorkerTask
+- uid: SipLib.Threading.QueuedActionWorkerTask.#ctor(System.Int32)
+  name: QueuedActionWorkerTask(int)
+  href: api/SipLib.Threading.QueuedActionWorkerTask.html#SipLib_Threading_QueuedActionWorkerTask__ctor_System_Int32_
+  commentId: M:SipLib.Threading.QueuedActionWorkerTask.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: SipLib.Threading.QueuedActionWorkerTask.QueuedActionWorkerTask(int)
+  fullName.vb: SipLib.Threading.QueuedActionWorkerTask.New(Integer)
+  nameWithType: QueuedActionWorkerTask.QueuedActionWorkerTask(int)
+  nameWithType.vb: QueuedActionWorkerTask.New(Integer)
+- uid: SipLib.Threading.QueuedActionWorkerTask.#ctor*
+  name: QueuedActionWorkerTask
+  href: api/SipLib.Threading.QueuedActionWorkerTask.html#SipLib_Threading_QueuedActionWorkerTask__ctor_
+  commentId: Overload:SipLib.Threading.QueuedActionWorkerTask.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SipLib.Threading.QueuedActionWorkerTask.QueuedActionWorkerTask
+  fullName.vb: SipLib.Threading.QueuedActionWorkerTask.New
+  nameWithType: QueuedActionWorkerTask.QueuedActionWorkerTask
+  nameWithType.vb: QueuedActionWorkerTask.New
+- uid: SipLib.Threading.QueuedActionWorkerTask.DoTimedEvents
+  name: DoTimedEvents()
+  href: api/SipLib.Threading.QueuedActionWorkerTask.html#SipLib_Threading_QueuedActionWorkerTask_DoTimedEvents
+  commentId: M:SipLib.Threading.QueuedActionWorkerTask.DoTimedEvents
+  fullName: SipLib.Threading.QueuedActionWorkerTask.DoTimedEvents()
+  nameWithType: QueuedActionWorkerTask.DoTimedEvents()
+- uid: SipLib.Threading.QueuedActionWorkerTask.DoTimedEvents*
+  name: DoTimedEvents
+  href: api/SipLib.Threading.QueuedActionWorkerTask.html#SipLib_Threading_QueuedActionWorkerTask_DoTimedEvents_
+  commentId: Overload:SipLib.Threading.QueuedActionWorkerTask.DoTimedEvents
+  isSpec: "True"
+  fullName: SipLib.Threading.QueuedActionWorkerTask.DoTimedEvents
+  nameWithType: QueuedActionWorkerTask.DoTimedEvents
+- uid: SipLib.Threading.QueuedActionWorkerTask.EnqueueWork(System.Action)
+  name: EnqueueWork(Action)
+  href: api/SipLib.Threading.QueuedActionWorkerTask.html#SipLib_Threading_QueuedActionWorkerTask_EnqueueWork_System_Action_
+  commentId: M:SipLib.Threading.QueuedActionWorkerTask.EnqueueWork(System.Action)
+  fullName: SipLib.Threading.QueuedActionWorkerTask.EnqueueWork(System.Action)
+  nameWithType: QueuedActionWorkerTask.EnqueueWork(Action)
+- uid: SipLib.Threading.QueuedActionWorkerTask.EnqueueWork*
+  name: EnqueueWork
+  href: api/SipLib.Threading.QueuedActionWorkerTask.html#SipLib_Threading_QueuedActionWorkerTask_EnqueueWork_
+  commentId: Overload:SipLib.Threading.QueuedActionWorkerTask.EnqueueWork
+  isSpec: "True"
+  fullName: SipLib.Threading.QueuedActionWorkerTask.EnqueueWork
+  nameWithType: QueuedActionWorkerTask.EnqueueWork
+- uid: SipLib.Threading.QueuedActionWorkerTask.Shutdown
+  name: Shutdown()
+  href: api/SipLib.Threading.QueuedActionWorkerTask.html#SipLib_Threading_QueuedActionWorkerTask_Shutdown
+  commentId: M:SipLib.Threading.QueuedActionWorkerTask.Shutdown
+  fullName: SipLib.Threading.QueuedActionWorkerTask.Shutdown()
+  nameWithType: QueuedActionWorkerTask.Shutdown()
+- uid: SipLib.Threading.QueuedActionWorkerTask.Shutdown*
+  name: Shutdown
+  href: api/SipLib.Threading.QueuedActionWorkerTask.html#SipLib_Threading_QueuedActionWorkerTask_Shutdown_
+  commentId: Overload:SipLib.Threading.QueuedActionWorkerTask.Shutdown
+  isSpec: "True"
+  fullName: SipLib.Threading.QueuedActionWorkerTask.Shutdown
+  nameWithType: QueuedActionWorkerTask.Shutdown
+- uid: SipLib.Threading.QueuedActionWorkerTask.Start
+  name: Start()
+  href: api/SipLib.Threading.QueuedActionWorkerTask.html#SipLib_Threading_QueuedActionWorkerTask_Start
+  commentId: M:SipLib.Threading.QueuedActionWorkerTask.Start
+  fullName: SipLib.Threading.QueuedActionWorkerTask.Start()
+  nameWithType: QueuedActionWorkerTask.Start()
+- uid: SipLib.Threading.QueuedActionWorkerTask.Start*
+  name: Start
+  href: api/SipLib.Threading.QueuedActionWorkerTask.html#SipLib_Threading_QueuedActionWorkerTask_Start_
+  commentId: Overload:SipLib.Threading.QueuedActionWorkerTask.Start
+  isSpec: "True"
+  fullName: SipLib.Threading.QueuedActionWorkerTask.Start
+  nameWithType: QueuedActionWorkerTask.Start
 - uid: SipLib.Transactions
   name: SipLib.Transactions
   href: api/SipLib.Transactions.html

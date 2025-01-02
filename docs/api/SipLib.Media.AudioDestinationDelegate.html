@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Delegate AudioDestinationDelegate ">
     
-    <meta name="description" content="Delegate function for the audio destination handler function that the AudioDestination class will call to process decoded audio packets.">
+    <meta name="description" content="Delegate type for the audio destination handler function that the AudioDestination class will call to process decoded audio packets.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -429,6 +429,9 @@
                             <a href="SipLib.Media.Band.html" title="Band" class="">Band</a>
                           </li>
                           <li class="">
+                            <a href="SipLib.Media.DtmfDigitReceivedDelegate.html" title="DtmfDigitReceivedDelegate" class="">DtmfDigitReceivedDelegate</a>
+                          </li>
+                          <li class="">
                             <a href="SipLib.Media.FileAudioSource.html" title="FileAudioSource" class="">FileAudioSource</a>
                           </li>
                           <li class="">
@@ -468,6 +471,12 @@
                             <a href="SipLib.Media.MediaPortSettings.html" title="MediaPortSettings" class="">MediaPortSettings</a>
                           </li>
                           <li class="">
+                            <a href="SipLib.Media.MediaTypes.html" title="MediaTypes" class="">MediaTypes</a>
+                          </li>
+                          <li class="">
+                            <a href="SipLib.Media.MsrpEncryptionEnum.html" title="MsrpEncryptionEnum" class="">MsrpEncryptionEnum</a>
+                          </li>
+                          <li class="">
                             <a href="SipLib.Media.MuLawDecoder.html" title="MuLawDecoder" class="">MuLawDecoder</a>
                           </li>
                           <li class="">
@@ -487,6 +496,9 @@
                           </li>
                           <li class="">
                             <a href="SipLib.Media.PortRange.html" title="PortRange" class="">PortRange</a>
+                          </li>
+                          <li class="">
+                            <a href="SipLib.Media.RtpEncryptionEnum.html" title="RtpEncryptionEnum" class="">RtpEncryptionEnum</a>
                           </li>
                         </ul>
                     </li>
@@ -518,6 +530,9 @@
                           </li>
                           <li class="">
                             <a href="SipLib.Msrp.MsrpMessageReceivedDelegate.html" title="MsrpMessageReceivedDelegate" class="">MsrpMessageReceivedDelegate</a>
+                          </li>
+                          <li class="">
+                            <a href="SipLib.Msrp.MsrpMessageSentDelegate.html" title="MsrpMessageSentDelegate" class="">MsrpMessageSentDelegate</a>
                           </li>
                           <li class="">
                             <a href="SipLib.Msrp.MsrpMessageType.html" title="MsrpMessageType" class="">MsrpMessageType</a>
@@ -750,6 +765,16 @@
                     </li>
                     <li class="">
                       <span class="expand-stub"></span>
+                      <a href="SipLib.Threading.html" title="SipLib.Threading" class="">SipLib.Threading</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="SipLib.Threading.QueuedActionWorkerTask.html" title="QueuedActionWorkerTask" class="">QueuedActionWorkerTask</a>
+                          </li>
+                        </ul>
+                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
                       <a href="SipLib.Transactions.html" title="SipLib.Transactions" class="">SipLib.Transactions</a>
 
                         <ul class="nav level2">
@@ -841,7 +866,7 @@
 
 
   <h1 id="SipLib_Media_AudioDestinationDelegate" data-uid="SipLib.Media.AudioDestinationDelegate" class="text-break">Delegate AudioDestinationDelegate</h1>
-  <div class="markdown level0 summary"><p>Delegate function for the audio destination handler function that the AudioDestination class will call
+  <div class="markdown level0 summary"><p>Delegate type for the audio destination handler function that the AudioDestination class will call
 to process decoded audio packets.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -864,7 +889,8 @@ to process decoded audio packets.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a>[]</td>
         <td><span class="parametername">PcmSamples</span></td>
-        <td></td>
+        <td><p>Contains the decoded, linear 16-bit audio samples.</p>
+</td>
       </tr>
     </tbody>
   </table>

@@ -107,7 +107,7 @@ The RtpChannel class provides the following events.
 | RtcpPacketSent | Fired after the RtpChannel object sends a new RtcpPacket |
 | DtlsHandshakeFailed | Fired if the DTLS-SRTP protocol handshake fails |
 
-The only event that an application must hook is the RtpPacketReceived so that it can get media from the remote endpoint.
+The only event that an application must hook is the RtpPacketReceived event so that it can get media from the remote endpoint.
 
 # RtpChannel Media Encryption
 The RtpChannel class supports media encryption using the Secure Real Time Protocol (SRTP). If configured for encryption, the RtpChannel class encrypts media being sent with the Send() method and it decrypts the encrypted media in RTP packets that it receives before providing the RtpPacket to the application using the RtpPacketReceived event. RTCP packets are also encrypted and decrypted.

@@ -1202,6 +1202,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.DtmfDigitReceivedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.DtmfDigitReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SipLib.Media.FileAudioSource.yml",
       "output": {
         ".html": {
@@ -1332,6 +1342,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.MediaTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.MediaTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.MsrpEncryptionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.MsrpEncryptionEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SipLib.Media.MuLawDecoder.yml",
       "output": {
         ".html": {
@@ -1396,6 +1426,16 @@
       "output": {
         ".html": {
           "relative_path": "api/SipLib.Media.PortRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Media.RtpEncryptionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Media.RtpEncryptionEnum.html"
         }
       },
       "version": ""
@@ -1486,6 +1526,16 @@
       "output": {
         ".html": {
           "relative_path": "api/SipLib.Msrp.MsrpMessageReceivedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Msrp.MsrpMessageSentDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Msrp.MsrpMessageSentDelegate.html"
         }
       },
       "version": ""
@@ -2206,6 +2256,26 @@
       "output": {
         ".html": {
           "relative_path": "api/SipLib.Sdp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Threading.QueuedActionWorkerTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Threading.QueuedActionWorkerTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Threading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Threading.html"
         }
       },
       "version": ""

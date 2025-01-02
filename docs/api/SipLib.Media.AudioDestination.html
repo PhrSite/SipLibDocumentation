@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class AudioDestination ">
     
-    <meta name="description" content="This class receives audio RTP packets from an RtpChannel, decodes them and sends them to an audio destination by calling a delegate function that processes the received audio samples.">
+    <meta name="description" content="This class receives audio RTP packets from an RtpChannel, decodes them and sends them to an audio destination by calling a delegate function that processes the received audio samples.  The clock rate (sample rate) of the audio handled by this class must be either 8000 or 16000.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -429,6 +429,9 @@
                             <a href="SipLib.Media.Band.html" title="Band" class="">Band</a>
                           </li>
                           <li class="">
+                            <a href="SipLib.Media.DtmfDigitReceivedDelegate.html" title="DtmfDigitReceivedDelegate" class="">DtmfDigitReceivedDelegate</a>
+                          </li>
+                          <li class="">
                             <a href="SipLib.Media.FileAudioSource.html" title="FileAudioSource" class="">FileAudioSource</a>
                           </li>
                           <li class="">
@@ -468,6 +471,12 @@
                             <a href="SipLib.Media.MediaPortSettings.html" title="MediaPortSettings" class="">MediaPortSettings</a>
                           </li>
                           <li class="">
+                            <a href="SipLib.Media.MediaTypes.html" title="MediaTypes" class="">MediaTypes</a>
+                          </li>
+                          <li class="">
+                            <a href="SipLib.Media.MsrpEncryptionEnum.html" title="MsrpEncryptionEnum" class="">MsrpEncryptionEnum</a>
+                          </li>
+                          <li class="">
                             <a href="SipLib.Media.MuLawDecoder.html" title="MuLawDecoder" class="">MuLawDecoder</a>
                           </li>
                           <li class="">
@@ -487,6 +496,9 @@
                           </li>
                           <li class="">
                             <a href="SipLib.Media.PortRange.html" title="PortRange" class="">PortRange</a>
+                          </li>
+                          <li class="">
+                            <a href="SipLib.Media.RtpEncryptionEnum.html" title="RtpEncryptionEnum" class="">RtpEncryptionEnum</a>
                           </li>
                         </ul>
                     </li>
@@ -518,6 +530,9 @@
                           </li>
                           <li class="">
                             <a href="SipLib.Msrp.MsrpMessageReceivedDelegate.html" title="MsrpMessageReceivedDelegate" class="">MsrpMessageReceivedDelegate</a>
+                          </li>
+                          <li class="">
+                            <a href="SipLib.Msrp.MsrpMessageSentDelegate.html" title="MsrpMessageSentDelegate" class="">MsrpMessageSentDelegate</a>
                           </li>
                           <li class="">
                             <a href="SipLib.Msrp.MsrpMessageType.html" title="MsrpMessageType" class="">MsrpMessageType</a>
@@ -750,6 +765,16 @@
                     </li>
                     <li class="">
                       <span class="expand-stub"></span>
+                      <a href="SipLib.Threading.html" title="SipLib.Threading" class="">SipLib.Threading</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="SipLib.Threading.QueuedActionWorkerTask.html" title="QueuedActionWorkerTask" class="">QueuedActionWorkerTask</a>
+                          </li>
+                        </ul>
+                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
                       <a href="SipLib.Transactions.html" title="SipLib.Transactions" class="">SipLib.Transactions</a>
 
                         <ul class="nav level2">
@@ -843,6 +868,9 @@
   <h1 id="SipLib_Media_AudioDestination" data-uid="SipLib.Media.AudioDestination" class="text-break">Class AudioDestination</h1>
   <div class="markdown level0 summary"><p>This class receives audio RTP packets from an RtpChannel, decodes them and sends them to an audio destination
 by calling a delegate function that processes the received audio samples.</p>
+<p>
+The clock rate (sample rate) of the audio handled by this class must be either 8000 or 16000.
+</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -887,7 +915,7 @@ by calling a delegate function that processes the received audio samples.</p>
     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Media_AudioDestination__ctor_SipLib_Sdp_MediaDescription_SipLib_Media_IAudioDecoder_SipLib_Rtp_RtpChannel_SipLib_Media_AudioDestinationDelegate_System_Int32_.md&amp;value=---%0Auid%3A%20SipLib.Media.AudioDestination.%23ctor(SipLib.Sdp.MediaDescription%2CSipLib.Media.IAudioDecoder%2CSipLib.Rtp.RtpChannel%2CSipLib.Media.AudioDestinationDelegate%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Media/AudioDestination.cs/#L43">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Media/AudioDestination.cs/#L59">View Source</a>
   </span>
   <a id="SipLib_Media_AudioDestination__ctor_" data-uid="SipLib.Media.AudioDestination.#ctor*"></a>
   <h4 id="SipLib_Media_AudioDestination__ctor_SipLib_Sdp_MediaDescription_SipLib_Media_IAudioDecoder_SipLib_Rtp_RtpChannel_SipLib_Media_AudioDestinationDelegate_System_Int32_" data-uid="SipLib.Media.AudioDestination.#ctor(SipLib.Sdp.MediaDescription,SipLib.Media.IAudioDecoder,SipLib.Rtp.RtpChannel,SipLib.Media.AudioDestinationDelegate,System.Int32)">AudioDestination(MediaDescription, IAudioDecoder, RtpChannel, AudioDestinationDelegate?, int)</h4>
@@ -942,23 +970,39 @@ null then RTP packets are ignored.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Thrown if the audio clock rate is not 8000 or 16000.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Media_AudioDestination_SetDestionationHandler_SipLib_Media_AudioDestinationDelegate_.md&amp;value=---%0Auid%3A%20SipLib.Media.AudioDestination.SetDestionationHandler(SipLib.Media.AudioDestinationDelegate)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Media_AudioDestination_SetDestinationHandler_SipLib_Media_AudioDestinationDelegate_.md&amp;value=---%0Auid%3A%20SipLib.Media.AudioDestination.SetDestinationHandler(SipLib.Media.AudioDestinationDelegate)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Media/AudioDestination.cs/#L93">View Source</a>
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Media/AudioDestination.cs/#L157">View Source</a>
   </span>
-  <a id="SipLib_Media_AudioDestination_SetDestionationHandler_" data-uid="SipLib.Media.AudioDestination.SetDestionationHandler*"></a>
-  <h4 id="SipLib_Media_AudioDestination_SetDestionationHandler_SipLib_Media_AudioDestinationDelegate_" data-uid="SipLib.Media.AudioDestination.SetDestionationHandler(SipLib.Media.AudioDestinationDelegate)">SetDestionationHandler(AudioDestinationDelegate?)</h4>
+  <a id="SipLib_Media_AudioDestination_SetDestinationHandler_" data-uid="SipLib.Media.AudioDestination.SetDestinationHandler*"></a>
+  <h4 id="SipLib_Media_AudioDestination_SetDestinationHandler_SipLib_Media_AudioDestinationDelegate_" data-uid="SipLib.Media.AudioDestination.SetDestinationHandler(SipLib.Media.AudioDestinationDelegate)">SetDestinationHandler(AudioDestinationDelegate?)</h4>
   <div class="markdown level1 summary"><p>Sets the delegate function to call to process received audio packets.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetDestionationHandler(AudioDestinationDelegate? destinationHandler)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetDestinationHandler(AudioDestinationDelegate? destinationHandler)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -974,8 +1018,41 @@ null then RTP packets are ignored.</p>
         <td><a class="xref" href="SipLib.Media.AudioDestinationDelegate.html">AudioDestinationDelegate</a></td>
         <td><span class="parametername">destinationHandler</span></td>
         <td><p>Audio samples destination handler function. If null then
-received RTP packets will be ignored.</p>
+received RTP packets will be ignored but DTMF events will still be processed.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Media_AudioDestination_DtmfDigitReceived.md&amp;value=---%0Auid%3A%20SipLib.Media.AudioDestination.DtmfDigitReceived%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Media/AudioDestination.cs/#L46">View Source</a>
+  </span>
+  <h4 id="SipLib_Media_AudioDestination_DtmfDigitReceived" data-uid="SipLib.Media.AudioDestination.DtmfDigitReceived">DtmfDigitReceived</h4>
+  <div class="markdown level1 summary"><p>This event is fired when the end of a DTMF event is detected. This event is fired only once for
+each detected DTMF event even though multiple RTP packets for the same event may be received.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event DtmfDigitReceivedDelegate? DtmfDigitReceived</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SipLib.Media.DtmfDigitReceivedDelegate.html">DtmfDigitReceivedDelegate</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -991,7 +1068,7 @@ received RTP packets will be ignored.</p>
                     <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Media_AudioDestination.md&amp;value=---%0Auid%3A%20SipLib.Media.AudioDestination%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Media/AudioDestination.cs/#L21" class="contribution-link">View Source</a>
+                    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Media/AudioDestination.cs/#L30" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

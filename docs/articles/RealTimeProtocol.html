@@ -302,7 +302,7 @@
 </tr>
 </tbody>
 </table>
-<p>The only event that an application must hook is the RtpPacketReceived so that it can get media from the remote endpoint.</p>
+<p>The only event that an application must hook is the RtpPacketReceived event so that it can get media from the remote endpoint.</p>
 <h1 id="rtpchannel-media-encryption">RtpChannel Media Encryption</h1>
 <p>The RtpChannel class supports media encryption using the Secure Real Time Protocol (SRTP). If configured for encryption, the RtpChannel class encrypts media being sent with the Send() method and it decrypts the encrypted media in RTP packets that it receives before providing the RtpPacket to the application using the RtpPacketReceived event. RTCP packets are also encrypted and decrypted.</p>
 <p>The RtpChannel class supports two methods of negotiating the crypto suites and exchanging keying material. In the Security Descriptor Secure Real Time Protocol (SDES-SRTP) both the crypto suites and the keys are exchanged in the media descrition block of the Session Description Protocol (SDP) during call setup. In the Datagram Transport Layer Security Secure Real Time Protocol (DTLS-SRTP) method, use of DTLS-SRTP is negotiated in the media description of the SDP but the crypto suites and the keying material are negotiated during the DTLS handshake.</p>

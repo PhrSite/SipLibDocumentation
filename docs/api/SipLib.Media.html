@@ -429,6 +429,9 @@
                             <a href="SipLib.Media.Band.html" title="Band" class="">Band</a>
                           </li>
                           <li class="">
+                            <a href="SipLib.Media.DtmfDigitReceivedDelegate.html" title="DtmfDigitReceivedDelegate" class="">DtmfDigitReceivedDelegate</a>
+                          </li>
+                          <li class="">
                             <a href="SipLib.Media.FileAudioSource.html" title="FileAudioSource" class="">FileAudioSource</a>
                           </li>
                           <li class="">
@@ -468,6 +471,12 @@
                             <a href="SipLib.Media.MediaPortSettings.html" title="MediaPortSettings" class="">MediaPortSettings</a>
                           </li>
                           <li class="">
+                            <a href="SipLib.Media.MediaTypes.html" title="MediaTypes" class="">MediaTypes</a>
+                          </li>
+                          <li class="">
+                            <a href="SipLib.Media.MsrpEncryptionEnum.html" title="MsrpEncryptionEnum" class="">MsrpEncryptionEnum</a>
+                          </li>
+                          <li class="">
                             <a href="SipLib.Media.MuLawDecoder.html" title="MuLawDecoder" class="">MuLawDecoder</a>
                           </li>
                           <li class="">
@@ -487,6 +496,9 @@
                           </li>
                           <li class="">
                             <a href="SipLib.Media.PortRange.html" title="PortRange" class="">PortRange</a>
+                          </li>
+                          <li class="">
+                            <a href="SipLib.Media.RtpEncryptionEnum.html" title="RtpEncryptionEnum" class="">RtpEncryptionEnum</a>
                           </li>
                         </ul>
                     </li>
@@ -518,6 +530,9 @@
                           </li>
                           <li class="">
                             <a href="SipLib.Msrp.MsrpMessageReceivedDelegate.html" title="MsrpMessageReceivedDelegate" class="">MsrpMessageReceivedDelegate</a>
+                          </li>
+                          <li class="">
+                            <a href="SipLib.Msrp.MsrpMessageSentDelegate.html" title="MsrpMessageSentDelegate" class="">MsrpMessageSentDelegate</a>
                           </li>
                           <li class="">
                             <a href="SipLib.Msrp.MsrpMessageType.html" title="MsrpMessageType" class="">MsrpMessageType</a>
@@ -750,6 +765,16 @@
                     </li>
                     <li class="">
                       <span class="expand-stub"></span>
+                      <a href="SipLib.Threading.html" title="SipLib.Threading" class="">SipLib.Threading</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="SipLib.Threading.QueuedActionWorkerTask.html" title="QueuedActionWorkerTask" class="">QueuedActionWorkerTask</a>
+                          </li>
+                        </ul>
+                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
                       <a href="SipLib.Transactions.html" title="SipLib.Transactions" class="">SipLib.Transactions</a>
 
                         <ul class="nav level2">
@@ -858,6 +883,9 @@ based on code from:
       <h4><a class="xref" href="SipLib.Media.AudioDestination.html">AudioDestination</a></h4>
       <section><p>This class receives audio RTP packets from an RtpChannel, decodes them and sends them to an audio destination
 by calling a delegate function that processes the received audio samples.</p>
+<p>
+The clock rate (sample rate) of the audio handled by this class must be either 8000 or 16000.
+</p>
 </section>
       <h4><a class="xref" href="SipLib.Media.AudioSampleData.html">AudioSampleData</a></h4>
       <section><p>Data class for passing audio sample data to an audio sample source</p>
@@ -908,6 +936,9 @@ for multiple media sources.</p>
       <h4><a class="xref" href="SipLib.Media.MediaPortSettings.html">MediaPortSettings</a></h4>
       <section><p>Stores the media port ranges for each media type.</p>
 </section>
+      <h4><a class="xref" href="SipLib.Media.MediaTypes.html">MediaTypes</a></h4>
+      <section><p>Static class that defines constant strings for each media type</p>
+</section>
       <h4><a class="xref" href="SipLib.Media.MuLawDecoder.html">MuLawDecoder</a></h4>
       <section><p>mu-law decoder based on code from:
 <a href="http://hazelware.luggle.com/tutorials/mulawcompression.html">http://hazelware.luggle.com/tutorials/mulawcompression.html</a></p>
@@ -950,15 +981,24 @@ Enums
       <h4><a class="xref" href="SipLib.Media.G722Flags.html">G722Flags</a></h4>
       <section><p>G722 Flags</p>
 </section>
+      <h4><a class="xref" href="SipLib.Media.MsrpEncryptionEnum.html">MsrpEncryptionEnum</a></h4>
+      <section><p>Enumeration of the encryption methods for MSRP media</p>
+</section>
+      <h4><a class="xref" href="SipLib.Media.RtpEncryptionEnum.html">RtpEncryptionEnum</a></h4>
+      <section><p>Enumeration for the RTP media encryption methods</p>
+</section>
     <h3 id="delegates">
 Delegates
 </h3>
       <h4><a class="xref" href="SipLib.Media.AudioDestinationDelegate.html">AudioDestinationDelegate</a></h4>
-      <section><p>Delegate function for the audio destination handler function that the AudioDestination class will call
+      <section><p>Delegate type for the audio destination handler function that the AudioDestination class will call
 to process decoded audio packets.</p>
 </section>
       <h4><a class="xref" href="SipLib.Media.AudioSamplesReadyDelegate.html">AudioSamplesReadyDelegate</a></h4>
-      <section><p>Delegate definition for the AudioSamplesReady event of the IAudioSamplesSource interface.</p>
+      <section><p>Delegate definition for the SendAudioSamples event of the IAudioSamplesSource interface.</p>
+</section>
+      <h4><a class="xref" href="SipLib.Media.DtmfDigitReceivedDelegate.html">DtmfDigitReceivedDelegate</a></h4>
+      <section><p>Delegate type for the DtmfDigitReceived event of the AudioDestination class.</p>
 </section>
       <h4><a class="xref" href="SipLib.Media.HighResolutionTimerDelegate.html">HighResolutionTimerDelegate</a></h4>
       <section><p>Delegate type for the TimerExpired event of the HighResolutionTimer class.</p>
