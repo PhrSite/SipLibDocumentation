@@ -3299,6 +3299,22 @@ references:
   commentId: T:SipLib.Core.SIPEscape
   fullName: SipLib.Core.SIPEscape
   nameWithType: SIPEscape
+- uid: SipLib.Core.SIPEscape.EscapeSpecialCharacters(System.String)
+  name: EscapeSpecialCharacters(string)
+  href: api/SipLib.Core.SIPEscape.html#SipLib_Core_SIPEscape_EscapeSpecialCharacters_System_String_
+  commentId: M:SipLib.Core.SIPEscape.EscapeSpecialCharacters(System.String)
+  name.vb: EscapeSpecialCharacters(String)
+  fullName: SipLib.Core.SIPEscape.EscapeSpecialCharacters(string)
+  fullName.vb: SipLib.Core.SIPEscape.EscapeSpecialCharacters(String)
+  nameWithType: SIPEscape.EscapeSpecialCharacters(string)
+  nameWithType.vb: SIPEscape.EscapeSpecialCharacters(String)
+- uid: SipLib.Core.SIPEscape.EscapeSpecialCharacters*
+  name: EscapeSpecialCharacters
+  href: api/SipLib.Core.SIPEscape.html#SipLib_Core_SIPEscape_EscapeSpecialCharacters_
+  commentId: Overload:SipLib.Core.SIPEscape.EscapeSpecialCharacters
+  isSpec: "True"
+  fullName: SipLib.Core.SIPEscape.EscapeSpecialCharacters
+  nameWithType: SIPEscape.EscapeSpecialCharacters
 - uid: SipLib.Core.SIPEscape.SIPURIParameterEscape(System.String)
   name: SIPURIParameterEscape(string)
   href: api/SipLib.Core.SIPEscape.html#SipLib_Core_SIPEscape_SIPURIParameterEscape_System_String_
@@ -3363,6 +3379,102 @@ references:
   isSpec: "True"
   fullName: SipLib.Core.SIPEscape.SIPURIUserUnescape
   nameWithType: SIPEscape.SIPURIUserUnescape
+- uid: SipLib.Core.SIPEscape.UnEscapeSpecialCharacters(System.String)
+  name: UnEscapeSpecialCharacters(string)
+  href: api/SipLib.Core.SIPEscape.html#SipLib_Core_SIPEscape_UnEscapeSpecialCharacters_System_String_
+  commentId: M:SipLib.Core.SIPEscape.UnEscapeSpecialCharacters(System.String)
+  name.vb: UnEscapeSpecialCharacters(String)
+  fullName: SipLib.Core.SIPEscape.UnEscapeSpecialCharacters(string)
+  fullName.vb: SipLib.Core.SIPEscape.UnEscapeSpecialCharacters(String)
+  nameWithType: SIPEscape.UnEscapeSpecialCharacters(string)
+  nameWithType.vb: SIPEscape.UnEscapeSpecialCharacters(String)
+- uid: SipLib.Core.SIPEscape.UnEscapeSpecialCharacters*
+  name: UnEscapeSpecialCharacters
+  href: api/SipLib.Core.SIPEscape.html#SipLib_Core_SIPEscape_UnEscapeSpecialCharacters_
+  commentId: Overload:SipLib.Core.SIPEscape.UnEscapeSpecialCharacters
+  isSpec: "True"
+  fullName: SipLib.Core.SIPEscape.UnEscapeSpecialCharacters
+  nameWithType: SIPEscape.UnEscapeSpecialCharacters
+- uid: SipLib.Core.SIPFrag
+  name: SIPFrag
+  href: api/SipLib.Core.SIPFrag.html
+  commentId: T:SipLib.Core.SIPFrag
+  fullName: SipLib.Core.SIPFrag
+  nameWithType: SIPFrag
+- uid: SipLib.Core.SIPFrag.#ctor(SipLib.Core.SIPResponseStatusCodesEnum,System.String)
+  name: SIPFrag(SIPResponseStatusCodesEnum, string)
+  href: api/SipLib.Core.SIPFrag.html#SipLib_Core_SIPFrag__ctor_SipLib_Core_SIPResponseStatusCodesEnum_System_String_
+  commentId: M:SipLib.Core.SIPFrag.#ctor(SipLib.Core.SIPResponseStatusCodesEnum,System.String)
+  name.vb: New(SIPResponseStatusCodesEnum, String)
+  fullName: SipLib.Core.SIPFrag.SIPFrag(SipLib.Core.SIPResponseStatusCodesEnum, string)
+  fullName.vb: SipLib.Core.SIPFrag.New(SipLib.Core.SIPResponseStatusCodesEnum, String)
+  nameWithType: SIPFrag.SIPFrag(SIPResponseStatusCodesEnum, string)
+  nameWithType.vb: SIPFrag.New(SIPResponseStatusCodesEnum, String)
+- uid: SipLib.Core.SIPFrag.#ctor*
+  name: SIPFrag
+  href: api/SipLib.Core.SIPFrag.html#SipLib_Core_SIPFrag__ctor_
+  commentId: Overload:SipLib.Core.SIPFrag.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SipLib.Core.SIPFrag.SIPFrag
+  fullName.vb: SipLib.Core.SIPFrag.New
+  nameWithType: SIPFrag.SIPFrag
+  nameWithType.vb: SIPFrag.New
+- uid: SipLib.Core.SIPFrag.ParseSIPFrag(System.String)
+  name: ParseSIPFrag(string)
+  href: api/SipLib.Core.SIPFrag.html#SipLib_Core_SIPFrag_ParseSIPFrag_System_String_
+  commentId: M:SipLib.Core.SIPFrag.ParseSIPFrag(System.String)
+  name.vb: ParseSIPFrag(String)
+  fullName: SipLib.Core.SIPFrag.ParseSIPFrag(string)
+  fullName.vb: SipLib.Core.SIPFrag.ParseSIPFrag(String)
+  nameWithType: SIPFrag.ParseSIPFrag(string)
+  nameWithType.vb: SIPFrag.ParseSIPFrag(String)
+- uid: SipLib.Core.SIPFrag.ParseSIPFrag*
+  name: ParseSIPFrag
+  href: api/SipLib.Core.SIPFrag.html#SipLib_Core_SIPFrag_ParseSIPFrag_
+  commentId: Overload:SipLib.Core.SIPFrag.ParseSIPFrag
+  isSpec: "True"
+  fullName: SipLib.Core.SIPFrag.ParseSIPFrag
+  nameWithType: SIPFrag.ParseSIPFrag
+- uid: SipLib.Core.SIPFrag.ReasonPhrase
+  name: ReasonPhrase
+  href: api/SipLib.Core.SIPFrag.html#SipLib_Core_SIPFrag_ReasonPhrase
+  commentId: P:SipLib.Core.SIPFrag.ReasonPhrase
+  fullName: SipLib.Core.SIPFrag.ReasonPhrase
+  nameWithType: SIPFrag.ReasonPhrase
+- uid: SipLib.Core.SIPFrag.ReasonPhrase*
+  name: ReasonPhrase
+  href: api/SipLib.Core.SIPFrag.html#SipLib_Core_SIPFrag_ReasonPhrase_
+  commentId: Overload:SipLib.Core.SIPFrag.ReasonPhrase
+  isSpec: "True"
+  fullName: SipLib.Core.SIPFrag.ReasonPhrase
+  nameWithType: SIPFrag.ReasonPhrase
+- uid: SipLib.Core.SIPFrag.Status
+  name: Status
+  href: api/SipLib.Core.SIPFrag.html#SipLib_Core_SIPFrag_Status
+  commentId: P:SipLib.Core.SIPFrag.Status
+  fullName: SipLib.Core.SIPFrag.Status
+  nameWithType: SIPFrag.Status
+- uid: SipLib.Core.SIPFrag.Status*
+  name: Status
+  href: api/SipLib.Core.SIPFrag.html#SipLib_Core_SIPFrag_Status_
+  commentId: Overload:SipLib.Core.SIPFrag.Status
+  isSpec: "True"
+  fullName: SipLib.Core.SIPFrag.Status
+  nameWithType: SIPFrag.Status
+- uid: SipLib.Core.SIPFrag.ToString
+  name: ToString()
+  href: api/SipLib.Core.SIPFrag.html#SipLib_Core_SIPFrag_ToString
+  commentId: M:SipLib.Core.SIPFrag.ToString
+  fullName: SipLib.Core.SIPFrag.ToString()
+  nameWithType: SIPFrag.ToString()
+- uid: SipLib.Core.SIPFrag.ToString*
+  name: ToString
+  href: api/SipLib.Core.SIPFrag.html#SipLib_Core_SIPFrag_ToString_
+  commentId: Overload:SipLib.Core.SIPFrag.ToString
+  isSpec: "True"
+  fullName: SipLib.Core.SIPFrag.ToString
+  nameWithType: SIPFrag.ToString
 - uid: SipLib.Core.SIPFromHeader
   name: SIPFromHeader
   href: api/SipLib.Core.SIPFromHeader.html
@@ -20268,6 +20380,38 @@ references:
   isSpec: "True"
   fullName: SipLib.Sdp.Sdp.BuildAnswerSdp
   nameWithType: Sdp.BuildAnswerSdp
+- uid: SipLib.Sdp.Sdp.BuildAudioAnswerMediaDescription(SipLib.Sdp.MediaDescription,SipLib.Sdp.SdpAnswerSettings,System.Int32)
+  name: BuildAudioAnswerMediaDescription(MediaDescription, SdpAnswerSettings, int)
+  href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_BuildAudioAnswerMediaDescription_SipLib_Sdp_MediaDescription_SipLib_Sdp_SdpAnswerSettings_System_Int32_
+  commentId: M:SipLib.Sdp.Sdp.BuildAudioAnswerMediaDescription(SipLib.Sdp.MediaDescription,SipLib.Sdp.SdpAnswerSettings,System.Int32)
+  name.vb: BuildAudioAnswerMediaDescription(MediaDescription, SdpAnswerSettings, Integer)
+  fullName: SipLib.Sdp.Sdp.BuildAudioAnswerMediaDescription(SipLib.Sdp.MediaDescription, SipLib.Sdp.SdpAnswerSettings, int)
+  fullName.vb: SipLib.Sdp.Sdp.BuildAudioAnswerMediaDescription(SipLib.Sdp.MediaDescription, SipLib.Sdp.SdpAnswerSettings, Integer)
+  nameWithType: Sdp.BuildAudioAnswerMediaDescription(MediaDescription, SdpAnswerSettings, int)
+  nameWithType.vb: Sdp.BuildAudioAnswerMediaDescription(MediaDescription, SdpAnswerSettings, Integer)
+- uid: SipLib.Sdp.Sdp.BuildAudioAnswerMediaDescription*
+  name: BuildAudioAnswerMediaDescription
+  href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_BuildAudioAnswerMediaDescription_
+  commentId: Overload:SipLib.Sdp.Sdp.BuildAudioAnswerMediaDescription
+  isSpec: "True"
+  fullName: SipLib.Sdp.Sdp.BuildAudioAnswerMediaDescription
+  nameWithType: Sdp.BuildAudioAnswerMediaDescription
+- uid: SipLib.Sdp.Sdp.BuildMsrpAnswerMediaDescription(SipLib.Sdp.MediaDescription,System.Net.IPAddress,SipLib.Sdp.SdpAnswerSettings,SipLib.Msrp.MsrpUri)
+  name: BuildMsrpAnswerMediaDescription(MediaDescription, IPAddress, SdpAnswerSettings, MsrpUri?)
+  href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_BuildMsrpAnswerMediaDescription_SipLib_Sdp_MediaDescription_System_Net_IPAddress_SipLib_Sdp_SdpAnswerSettings_SipLib_Msrp_MsrpUri_
+  commentId: M:SipLib.Sdp.Sdp.BuildMsrpAnswerMediaDescription(SipLib.Sdp.MediaDescription,System.Net.IPAddress,SipLib.Sdp.SdpAnswerSettings,SipLib.Msrp.MsrpUri)
+  name.vb: BuildMsrpAnswerMediaDescription(MediaDescription, IPAddress, SdpAnswerSettings, MsrpUri)
+  fullName: SipLib.Sdp.Sdp.BuildMsrpAnswerMediaDescription(SipLib.Sdp.MediaDescription, System.Net.IPAddress, SipLib.Sdp.SdpAnswerSettings, SipLib.Msrp.MsrpUri?)
+  fullName.vb: SipLib.Sdp.Sdp.BuildMsrpAnswerMediaDescription(SipLib.Sdp.MediaDescription, System.Net.IPAddress, SipLib.Sdp.SdpAnswerSettings, SipLib.Msrp.MsrpUri)
+  nameWithType: Sdp.BuildMsrpAnswerMediaDescription(MediaDescription, IPAddress, SdpAnswerSettings, MsrpUri?)
+  nameWithType.vb: Sdp.BuildMsrpAnswerMediaDescription(MediaDescription, IPAddress, SdpAnswerSettings, MsrpUri)
+- uid: SipLib.Sdp.Sdp.BuildMsrpAnswerMediaDescription*
+  name: BuildMsrpAnswerMediaDescription
+  href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_BuildMsrpAnswerMediaDescription_
+  commentId: Overload:SipLib.Sdp.Sdp.BuildMsrpAnswerMediaDescription
+  isSpec: "True"
+  fullName: SipLib.Sdp.Sdp.BuildMsrpAnswerMediaDescription
+  nameWithType: Sdp.BuildMsrpAnswerMediaDescription
 - uid: SipLib.Sdp.Sdp.BuildReInviteAnswerSdp(SipLib.Sdp.Sdp,System.Net.IPAddress,SipLib.Sdp.SdpAnswerSettings,System.Int32,System.Int32,System.Int32,SipLib.Msrp.MsrpUri)
   name: BuildReInviteAnswerSdp(Sdp, IPAddress, SdpAnswerSettings, int, int, int, MsrpUri?)
   href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_BuildReInviteAnswerSdp_SipLib_Sdp_Sdp_System_Net_IPAddress_SipLib_Sdp_SdpAnswerSettings_System_Int32_System_Int32_System_Int32_SipLib_Msrp_MsrpUri_
@@ -20284,6 +20428,38 @@ references:
   isSpec: "True"
   fullName: SipLib.Sdp.Sdp.BuildReInviteAnswerSdp
   nameWithType: Sdp.BuildReInviteAnswerSdp
+- uid: SipLib.Sdp.Sdp.BuildRttAnswerMediaDescription(SipLib.Sdp.MediaDescription,SipLib.Sdp.SdpAnswerSettings,System.Int32)
+  name: BuildRttAnswerMediaDescription(MediaDescription, SdpAnswerSettings, int)
+  href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_BuildRttAnswerMediaDescription_SipLib_Sdp_MediaDescription_SipLib_Sdp_SdpAnswerSettings_System_Int32_
+  commentId: M:SipLib.Sdp.Sdp.BuildRttAnswerMediaDescription(SipLib.Sdp.MediaDescription,SipLib.Sdp.SdpAnswerSettings,System.Int32)
+  name.vb: BuildRttAnswerMediaDescription(MediaDescription, SdpAnswerSettings, Integer)
+  fullName: SipLib.Sdp.Sdp.BuildRttAnswerMediaDescription(SipLib.Sdp.MediaDescription, SipLib.Sdp.SdpAnswerSettings, int)
+  fullName.vb: SipLib.Sdp.Sdp.BuildRttAnswerMediaDescription(SipLib.Sdp.MediaDescription, SipLib.Sdp.SdpAnswerSettings, Integer)
+  nameWithType: Sdp.BuildRttAnswerMediaDescription(MediaDescription, SdpAnswerSettings, int)
+  nameWithType.vb: Sdp.BuildRttAnswerMediaDescription(MediaDescription, SdpAnswerSettings, Integer)
+- uid: SipLib.Sdp.Sdp.BuildRttAnswerMediaDescription*
+  name: BuildRttAnswerMediaDescription
+  href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_BuildRttAnswerMediaDescription_
+  commentId: Overload:SipLib.Sdp.Sdp.BuildRttAnswerMediaDescription
+  isSpec: "True"
+  fullName: SipLib.Sdp.Sdp.BuildRttAnswerMediaDescription
+  nameWithType: Sdp.BuildRttAnswerMediaDescription
+- uid: SipLib.Sdp.Sdp.BuildVideoAnswerMediaDescription(SipLib.Sdp.MediaDescription,SipLib.Sdp.SdpAnswerSettings,System.Int32)
+  name: BuildVideoAnswerMediaDescription(MediaDescription, SdpAnswerSettings, int)
+  href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_BuildVideoAnswerMediaDescription_SipLib_Sdp_MediaDescription_SipLib_Sdp_SdpAnswerSettings_System_Int32_
+  commentId: M:SipLib.Sdp.Sdp.BuildVideoAnswerMediaDescription(SipLib.Sdp.MediaDescription,SipLib.Sdp.SdpAnswerSettings,System.Int32)
+  name.vb: BuildVideoAnswerMediaDescription(MediaDescription, SdpAnswerSettings, Integer)
+  fullName: SipLib.Sdp.Sdp.BuildVideoAnswerMediaDescription(SipLib.Sdp.MediaDescription, SipLib.Sdp.SdpAnswerSettings, int)
+  fullName.vb: SipLib.Sdp.Sdp.BuildVideoAnswerMediaDescription(SipLib.Sdp.MediaDescription, SipLib.Sdp.SdpAnswerSettings, Integer)
+  nameWithType: Sdp.BuildVideoAnswerMediaDescription(MediaDescription, SdpAnswerSettings, int)
+  nameWithType.vb: Sdp.BuildVideoAnswerMediaDescription(MediaDescription, SdpAnswerSettings, Integer)
+- uid: SipLib.Sdp.Sdp.BuildVideoAnswerMediaDescription*
+  name: BuildVideoAnswerMediaDescription
+  href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_BuildVideoAnswerMediaDescription_
+  commentId: Overload:SipLib.Sdp.Sdp.BuildVideoAnswerMediaDescription
+  isSpec: "True"
+  fullName: SipLib.Sdp.Sdp.BuildVideoAnswerMediaDescription
+  nameWithType: Sdp.BuildVideoAnswerMediaDescription
 - uid: SipLib.Sdp.Sdp.ConnectionData
   name: ConnectionData
   href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_ConnectionData
@@ -20339,6 +20515,22 @@ references:
   isSpec: "True"
   fullName: SipLib.Sdp.Sdp.GetAudioConnectionData
   nameWithType: Sdp.GetAudioConnectionData
+- uid: SipLib.Sdp.Sdp.GetMediaByTypeAndLabel(System.String,System.String)
+  name: GetMediaByTypeAndLabel(string, string)
+  href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_GetMediaByTypeAndLabel_System_String_System_String_
+  commentId: M:SipLib.Sdp.Sdp.GetMediaByTypeAndLabel(System.String,System.String)
+  name.vb: GetMediaByTypeAndLabel(String, String)
+  fullName: SipLib.Sdp.Sdp.GetMediaByTypeAndLabel(string, string)
+  fullName.vb: SipLib.Sdp.Sdp.GetMediaByTypeAndLabel(String, String)
+  nameWithType: Sdp.GetMediaByTypeAndLabel(string, string)
+  nameWithType.vb: Sdp.GetMediaByTypeAndLabel(String, String)
+- uid: SipLib.Sdp.Sdp.GetMediaByTypeAndLabel*
+  name: GetMediaByTypeAndLabel
+  href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_GetMediaByTypeAndLabel_
+  commentId: Overload:SipLib.Sdp.Sdp.GetMediaByTypeAndLabel
+  isSpec: "True"
+  fullName: SipLib.Sdp.Sdp.GetMediaByTypeAndLabel
+  nameWithType: Sdp.GetMediaByTypeAndLabel
 - uid: SipLib.Sdp.Sdp.GetMediaDirection(SipLib.Sdp.Sdp,SipLib.Sdp.MediaDescription)
   name: GetMediaDirection(Sdp, MediaDescription)
   href: api/SipLib.Sdp.Sdp.html#SipLib_Sdp_Sdp_GetMediaDirection_SipLib_Sdp_Sdp_SipLib_Sdp_MediaDescription_

@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Namespace SipLib.Logging </title>
+      <title>Class SIPFrag </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Namespace SipLib.Logging ">
+      <meta name="title" content="Class SIPFrag ">
     
-    <meta name="description" content="Contains a static class called SipLogger that the classes in this class library can use for logging application messages.">
+    <meta name="description" content="Class for parsing or creating a SIPFRAG (SIP Fragment) body use in a NOTIFY request for a Refer subscription. See Section 2.4.5 of RFC 3515.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -233,8 +233,8 @@
                           <li class="">
                             <a href="SipLib.Core.SIPEscape.html" title="SIPEscape" class="">SIPEscape</a>
                           </li>
-                          <li class="">
-                            <a href="SipLib.Core.SIPFrag.html" title="SIPFrag" class="">SIPFrag</a>
+                          <li class="active">
+                            <a href="SipLib.Core.SIPFrag.html" title="SIPFrag" class="active">SIPFrag</a>
                           </li>
                           <li class="">
                             <a href="SipLib.Core.SIPFromHeader.html" title="SIPFromHeader" class="">SIPFromHeader</a>
@@ -392,9 +392,9 @@
                           </li>
                         </ul>
                     </li>
-                    <li class="active">
+                    <li class="">
                       <span class="expand-stub"></span>
-                      <a href="SipLib.Logging.html" title="SipLib.Logging" class="active">SipLib.Logging</a>
+                      <a href="SipLib.Logging.html" title="SipLib.Logging" class="">SipLib.Logging</a>
 
                         <ul class="nav level2">
                           <li class="">
@@ -864,35 +864,258 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SipLib.Logging">
+            <article class="content wrap" id="_content" data-uid="SipLib.Core.SIPFrag">
 
-  <h1 id="SipLib_Logging" data-uid="SipLib.Logging" class="text-break">Namespace SipLib.Logging</h1>
-  <div class="markdown level0 summary">
-<p>Contains a static class called SipLogger that the classes in this class library can use for logging application messages.</p>
+
+
+  <h1 id="SipLib_Core_SIPFrag" data-uid="SipLib.Core.SIPFrag" class="text-break">Class SIPFrag</h1>
+  <div class="markdown level0 summary"><p>Class for parsing or creating a SIPFRAG (SIP Fragment) body use in a NOTIFY request for a Refer subscription.
+See Section 2.4.5 of RFC 3515.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">
-Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">SIPFrag</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SipLib.html">SipLib</a>.<a class="xref" href="SipLib.Core.html">Core</a></h6>
+  <h6><strong>Assembly</strong>: SipLib.dll</h6>
+  <h5 id="SipLib_Core_SIPFrag_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SIPFrag</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
 </h3>
-      <h4><a class="xref" href="SipLib.Logging.SipLogger.html">SipLogger</a></h4>
-      <section><p>
-Class for logging debug, information, warning, error and critical messages. This class is used by the
-classes in the SipLib class library to log application messages. By default, this class logs all messages
-to a NullLogger. This means that no messages are logged.
-</p>
-<p>
-The consumer of the SipLib class libray must configure this class by constructing an Ilogger interface and
-call the Log set property. It is possible to configure this class to log messages to a separate logging
-destination. It is also possible to configure this class to log messages to the same logging destination as 
-the consummer (an application or another class library) of this class library. It is also possible for the
-consumer of this class library to use this class directly to log application messages.
-</p>
-<p>
-See <a href="../articles/ConfigureSipLibLogging.html">Configuring SipLib Logging</a>.
-</p>
-</section>
-
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Core_SIPFrag__ctor_SipLib_Core_SIPResponseStatusCodesEnum_System_String_.md&amp;value=---%0Auid%3A%20SipLib.Core.SIPFrag.%23ctor(SipLib.Core.SIPResponseStatusCodesEnum%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Core/SIPFrag.cs/#L18">View Source</a>
+  </span>
+  <a id="SipLib_Core_SIPFrag__ctor_" data-uid="SipLib.Core.SIPFrag.#ctor*"></a>
+  <h4 id="SipLib_Core_SIPFrag__ctor_SipLib_Core_SIPResponseStatusCodesEnum_System_String_" data-uid="SipLib.Core.SIPFrag.#ctor(SipLib.Core.SIPResponseStatusCodesEnum,System.String)">SIPFrag(SIPResponseStatusCodesEnum, string)</h4>
+  <div class="markdown level1 summary"><p>Constructor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SIPFrag(SIPResponseStatusCodesEnum status, string reasonPhrase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SipLib.Core.SIPResponseStatusCodesEnum.html">SIPResponseStatusCodesEnum</a></td>
+        <td><span class="parametername">status</span></td>
+        <td><p>Status enumeration value</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">reasonPhrase</span></td>
+        <td><p>Reason phrase string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Core_SIPFrag_ReasonPhrase.md&amp;value=---%0Auid%3A%20SipLib.Core.SIPFrag.ReasonPhrase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Core/SIPFrag.cs/#L32">View Source</a>
+  </span>
+  <a id="SipLib_Core_SIPFrag_ReasonPhrase_" data-uid="SipLib.Core.SIPFrag.ReasonPhrase*"></a>
+  <h4 id="SipLib_Core_SIPFrag_ReasonPhrase" data-uid="SipLib.Core.SIPFrag.ReasonPhrase">ReasonPhrase</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the reason phrase</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ReasonPhrase { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Core_SIPFrag_Status.md&amp;value=---%0Auid%3A%20SipLib.Core.SIPFrag.Status%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Core/SIPFrag.cs/#L27">View Source</a>
+  </span>
+  <a id="SipLib_Core_SIPFrag_Status_" data-uid="SipLib.Core.SIPFrag.Status*"></a>
+  <h4 id="SipLib_Core_SIPFrag_Status" data-uid="SipLib.Core.SIPFrag.Status">Status</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Status field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SIPResponseStatusCodesEnum Status { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SipLib.Core.SIPResponseStatusCodesEnum.html">SIPResponseStatusCodesEnum</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Core_SIPFrag_ParseSIPFrag_System_String_.md&amp;value=---%0Auid%3A%20SipLib.Core.SIPFrag.ParseSIPFrag(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Core/SIPFrag.cs/#L41">View Source</a>
+  </span>
+  <a id="SipLib_Core_SIPFrag_ParseSIPFrag_" data-uid="SipLib.Core.SIPFrag.ParseSIPFrag*"></a>
+  <h4 id="SipLib_Core_SIPFrag_ParseSIPFrag_System_String_" data-uid="SipLib.Core.SIPFrag.ParseSIPFrag(System.String)">ParseSIPFrag(string)</h4>
+  <div class="markdown level1 summary"><p>Parses a SIP fragment string and creates a new SIPFrag object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SIPFrag ParseSIPFrag(string sipfragString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">sipfragString</span></td>
+        <td><p>Input SIP fragment. The format of this string must be the same as the first line of a
+SIP response message. For example: SIP/2.0 200 Ok</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SipLib.Core.SIPFrag.html">SIPFrag</a></td>
+        <td><p>Returns a new SIPFrag object if no errors occured. Returns a new SIPFrag object with a Status property
+equal to SIPResponseStatusCodesEnum.None if the input string is not valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Core_SIPFrag_ToString.md&amp;value=---%0Auid%3A%20SipLib.Core.SIPFrag.ToString%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Core/SIPFrag.cs/#L73">View Source</a>
+  </span>
+  <a id="SipLib_Core_SIPFrag_ToString_" data-uid="SipLib.Core.SIPFrag.ToString*"></a>
+  <h4 id="SipLib_Core_SIPFrag_ToString" data-uid="SipLib.Core.SIPFrag.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Converts this object into a SIPFRAG string for inclusion in the body of a NOTIFY request for the &quot;refer&quot; subscribe/notify
+event package.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Returns a string value to put in the body of a NOTIFY body.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Thrown if the Status property or the ReasonPhrase property is not valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
           </div>
@@ -902,7 +1125,10 @@ See <a href="../articles/ConfigureSipLibLogging.html">Configuring SipLib Logging
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/PhrSite/SipLibDocumentation/blob/master/Namespaces/SipLib.Logging.md/#L2" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/PhrSite/SipLib/new/master/apiSpec/new?filename=SipLib_Core_SIPFrag.md&amp;value=---%0Auid%3A%20SipLib.Core.SIPFrag%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/PhrSite/SipLib/blob/master/ClassLibrary/Core/SIPFrag.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -502,6 +502,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SipLib.Core.SIPFrag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SipLib.Core.SIPFrag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SipLib.Core.SIPFromHeader.yml",
       "output": {
         ".html": {
