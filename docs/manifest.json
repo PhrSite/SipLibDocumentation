@@ -38,7 +38,11 @@
           "relative_path": "api/SipLib.Body.BinaryBodyParser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Body.BinaryBodyParser",
+      "Summary": "<p sourcefile=\"api/SipLib.Body.BinaryBodyParser.yml\" sourcestartlinenumber=\"1\">This class extracts both binary and text contents blocks from a SIP message.\nThe ProcessMultiPartContents() method may be used to handle MSRP multipart/mixed message bodies.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -48,7 +52,11 @@
           "relative_path": "api/SipLib.Body.BodyParser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Body.BodyParser",
+      "Summary": "<p sourcefile=\"api/SipLib.Body.BodyParser.yml\" sourcestartlinenumber=\"1\">This class extracts both binary and text contents blocks from a SIP message.\nThe ProcessMultiPartContents() method may be used to handle MSRP multipart/mixed message bodies.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -58,7 +66,11 @@
           "relative_path": "api/SipLib.Body.ContentTypes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Body.ContentTypes",
+      "Summary": "<p sourcefile=\"api/SipLib.Body.ContentTypes.yml\" sourcestartlinenumber=\"1\">Static class that defines values used for the Content-Type SIP and HTTP headers for MIME types used in NG9-1-1\napplications.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -68,7 +80,11 @@
           "relative_path": "api/SipLib.Body.MessageContentsContainer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Body.MessageContentsContainer",
+      "Summary": "<p sourcefile=\"api/SipLib.Body.MessageContentsContainer.yml\" sourcestartlinenumber=\"1\">Class for holding the Content-Type and the contents for a single contents block of a SIP message\nor an MSRP message.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -78,7 +94,11 @@
           "relative_path": "api/SipLib.Body.MultipartBinaryBodyBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Body.MultipartBinaryBodyBuilder",
+      "Summary": "<p sourcefile=\"api/SipLib.Body.MultipartBinaryBodyBuilder.yml\" sourcestartlinenumber=\"1\">Class for building multipart/mixed message bodies that may contain binary contents as well\nas text contents.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -88,7 +108,11 @@
           "relative_path": "api/SipLib.Body.SipBodyBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Body.SipBodyBuilder",
+      "Summary": "<p sourcefile=\"api/SipLib.Body.SipBodyBuilder.yml\" sourcestartlinenumber=\"1\">Class for building and attaching the contents body of a SIP request or a SIP response message.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -98,7 +122,11 @@
           "relative_path": "api/SipLib.Body.SipBodyContents.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Body.SipBodyContents",
+      "Summary": "<p sourcefile=\"api/SipLib.Body.SipBodyContents.yml\" sourcestartlinenumber=\"1\">Container class for adding contents to the body of a SIP request.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -108,7 +136,11 @@
           "relative_path": "api/SipLib.Body.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Body",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Body.md\" sourcestartlinenumber=\"5\">Contains classes for working with the body of SIP messages.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -118,7 +150,11 @@
           "relative_path": "api/SipLib.Channels.AcceptCertificateDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.AcceptCertificateDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.AcceptCertificateDelegate.yml\" sourcestartlinenumber=\"1\">Delegate definition for a function that a SIPTLSChannel user can provide to determine whether or not to allow\na connection given a client's X.509 certificate.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -128,7 +164,11 @@
           "relative_path": "api/SipLib.Channels.AcceptClientCertificateDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.AcceptClientCertificateDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.AcceptClientCertificateDelegate.yml\" sourcestartlinenumber=\"1\">Delegate definition for a function that a SIPTLSChannel user can provide to determine whether or not to allow\na connection given a client's X.509 certificate.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -138,7 +178,11 @@
           "relative_path": "api/SipLib.Channels.AcceptConnectionDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.AcceptConnectionDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.AcceptConnectionDelegate.yml\" sourcestartlinenumber=\"1\">Delegate definition for a function that a SIPChannel user can provide to determine whether or not to allow\na connection from a remote SIP endpoint.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -148,7 +192,11 @@
           "relative_path": "api/SipLib.Channels.DscpSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.DscpSettings",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.DscpSettings.yml\" sourcestartlinenumber=\"1\">Static class that defines the default Differentiated Services Code Point (DSCP) values to use for\ndifferent media types. See RFC 2475 and RFC 3260 for DSCP. The default values are those specified in\nSection 2.7 of NENA STA-010.3</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -158,7 +206,11 @@
           "relative_path": "api/SipLib.Channels.LogInvalidSipMessageDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.LogInvalidSipMessageDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.LogInvalidSipMessageDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the LogInvalidSipMessage event of the SipTransport class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -168,7 +220,11 @@
           "relative_path": "api/SipLib.Channels.LogSipRequestDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.LogSipRequestDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.LogSipRequestDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the LogSipRequest event of the SipTransport class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -178,7 +234,11 @@
           "relative_path": "api/SipLib.Channels.LogSipResponseDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.LogSipResponseDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.LogSipResponseDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the LogSipResponse event of the SipTransport class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -188,7 +248,11 @@
           "relative_path": "api/SipLib.Channels.Qos.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.Qos",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.Qos.yml\" sourcestartlinenumber=\"1\">This class handles setting the Differentiated Services Code Point (DSCP) for both IPv4 and IPv6\nfor both Windows and Linux. The Windows terminology is Quality of Service (QOS).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -198,7 +262,11 @@
           "relative_path": "api/SipLib.Channels.SIPChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SIPChannel",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SIPChannel.yml\" sourcestartlinenumber=\"1\">Base class for all SIP channel classes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -208,7 +276,11 @@
           "relative_path": "api/SipLib.Channels.SIPConnection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SIPConnection",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SIPConnection.yml\" sourcestartlinenumber=\"1\">Class for managing a SIP connection.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -218,7 +290,11 @@
           "relative_path": "api/SipLib.Channels.SIPConnectionDisconnectedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SIPConnectionDisconnectedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SIPConnectionDisconnectedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the SIPSocketDisconnected event of the SIPConnection class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -228,7 +304,11 @@
           "relative_path": "api/SipLib.Channels.SIPConnectionsEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SIPConnectionsEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SIPConnectionsEnum.yml\" sourcestartlinenumber=\"1\">Enumeration for the type of the SIP connection type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -238,7 +318,11 @@
           "relative_path": "api/SipLib.Channels.SIPMessageReceivedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SIPMessageReceivedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SIPMessageReceivedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate definition for the SIPMessageReceived event of the SIPConnection class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -248,7 +332,11 @@
           "relative_path": "api/SipLib.Channels.SIPTCPChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SIPTCPChannel",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SIPTCPChannel.yml\" sourcestartlinenumber=\"1\">Class for managing a SIP connection using the TCP protocol.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -258,7 +346,11 @@
           "relative_path": "api/SipLib.Channels.SIPTLSChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SIPTLSChannel",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SIPTLSChannel.yml\" sourcestartlinenumber=\"1\">Class for managing SIP connections using the Transport Layer Security (TLS) protocol.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -268,7 +360,11 @@
           "relative_path": "api/SipLib.Channels.SIPUDPChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SIPUDPChannel",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SIPUDPChannel.yml\" sourcestartlinenumber=\"1\">Class for managing a SIP connection using the UDP transport protocol.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -278,7 +374,11 @@
           "relative_path": "api/SipLib.Channels.SipConnectionFailedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SipConnectionFailedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SipConnectionFailedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the SIPConnectionFailed event of the SIPTCPChannel and the SIPTLSChannel classes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -288,7 +388,11 @@
           "relative_path": "api/SipLib.Channels.SipRequestReceivedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SipRequestReceivedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SipRequestReceivedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the SipRequestReceived event of the SipTransportManager class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -298,7 +402,11 @@
           "relative_path": "api/SipLib.Channels.SipResponseReceivedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SipResponseReceivedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SipResponseReceivedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the SipResponseReceived event of the SipTransportManager class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -308,7 +416,11 @@
           "relative_path": "api/SipLib.Channels.SipTransactionCompleteDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SipTransactionCompleteDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SipTransactionCompleteDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the method that the SipTransport will call when a SIP transaction has been completed.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -318,7 +430,11 @@
           "relative_path": "api/SipLib.Channels.SipTransport.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.SipTransport",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.SipTransport.yml\" sourcestartlinenumber=\"1\">This class manages sending and receiving SIP messages on a single SIPChannel. It also manages SIP\ntransactions for transactions on that SIPChannel.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -328,7 +444,11 @@
           "relative_path": "api/SipLib.Channels.WindowsQos.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels.WindowsQos",
+      "Summary": "<p sourcefile=\"api/SipLib.Channels.WindowsQos.yml\" sourcestartlinenumber=\"1\">Class for setting the Quality of Service (QOS) for UDP or TCP sockets used for transporting media\nor call signaling. This class is for the Windows operating systems only. It will not work when\nrunning on the Linux operating system.\nThis class handles setting the Differentiated Services Code Point (DSCP) for both IPv4 and IPv6.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -338,7 +458,11 @@
           "relative_path": "api/SipLib.Channels.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Channels",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Channels.md\" sourcestartlinenumber=\"5\">Classes for sending and receiving SIP messages over UDP, TCP or TLS connections.</p>\n<p sourcefile=\"Namespaces/SipLib.Channels.md\" sourcestartlinenumber=\"7\">The main classes in this namespace are:</p>\n<ol sourcefile=\"Namespaces/SipLib.Channels.md\" sourcestartlinenumber=\"8\">\n<li sourcefile=\"Namespaces/SipLib.Channels.md\" sourcestartlinenumber=\"8\">SIPChannel</li>\n<li sourcefile=\"Namespaces/SipLib.Channels.md\" sourcestartlinenumber=\"9\">SIPUDPChannel</li>\n<li sourcefile=\"Namespaces/SipLib.Channels.md\" sourcestartlinenumber=\"10\">SIPTCPChannel</li>\n<li sourcefile=\"Namespaces/SipLib.Channels.md\" sourcestartlinenumber=\"11\">SIPTLSChannel</li>\n<li sourcefile=\"Namespaces/SipLib.Channels.md\" sourcestartlinenumber=\"12\">SIPConnection</li>\n</ol>\n<p sourcefile=\"Namespaces/SipLib.Channels.md\" sourcestartlinenumber=\"14\">The SIPChannel class is the base class for the SIPUDPChannel, SIPTCPChannel and SIPTLSChannel classes. The SIPUDPChannel manages SIP packet transport using UDP. The SIPTCPChannel class manages SIP packet transport using TCP and the SIPTLSChannel manages SIP packet transport using TLS.</p>\n<p sourcefile=\"Namespaces/SipLib.Channels.md\" sourcestartlinenumber=\"16\">TCP and TLS are connection oriented stream protocols so the SIPTCPChannel and SIPTLSChannel manage multiple transport layer connections by maintaining a list of SIPConnection objects. Each SIPConnection object represents a socket connection between a local endpoint and a remote endpoint.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -348,7 +472,11 @@
           "relative_path": "api/SipLib.Collections.ThreadSafeGenericList-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Collections.ThreadSafeGenericList<T>",
+      "Summary": "<p sourcefile=\"api/SipLib.Collections.ThreadSafeGenericList-1.yml\" sourcestartlinenumber=\"1\">This class is a thread-safe, generic (template based) List class.</p>\n<p sourcefile=\"api/SipLib.Collections.ThreadSafeGenericList-1.yml\" sourcestartlinenumber=\"3\">This class does not support enumerating the list elements or an index operator. To enumerate the\ncurrent items in the list or to get an element at an index position, call the ToArray() method\nthen perform the desired action on the array of current items.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -358,7 +486,11 @@
           "relative_path": "api/SipLib.Collections.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Collections",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Collections.md\" sourcestartlinenumber=\"5\">Contains thread-safe generic collection classes that are not provided by the .NET class libraries</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -368,7 +500,11 @@
           "relative_path": "api/SipLib.Core.AuthHeaders.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.AuthHeaders",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.AuthHeaders.yml\" sourcestartlinenumber=\"1\">Authorization Headers</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -378,7 +514,11 @@
           "relative_path": "api/SipLib.Core.ByteBufferInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.ByteBufferInfo",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.ByteBufferInfo.yml\" sourcestartlinenumber=\"1\">Class for parsing a buffer of bytes</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -388,7 +528,11 @@
           "relative_path": "api/SipLib.Core.CallProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.CallProperties",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.CallProperties.yml\" sourcestartlinenumber=\"1\">Class that provides various static utility functions relating to call properties</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -398,7 +542,11 @@
           "relative_path": "api/SipLib.Core.Crypto.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.Crypto",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.Crypto.yml\" sourcestartlinenumber=\"1\">Class containing various cryptography utilities</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -408,7 +556,11 @@
           "relative_path": "api/SipLib.Core.HTTPDigest.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.HTTPDigest",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.HTTPDigest.yml\" sourcestartlinenumber=\"1\">Class for processing an HTTP digest</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -418,7 +570,11 @@
           "relative_path": "api/SipLib.Core.IPSocket.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.IPSocket",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.IPSocket.yml\" sourcestartlinenumber=\"1\">Class containing various utility functions for sockets.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -428,7 +584,11 @@
           "relative_path": "api/SipLib.Core.SIPAuthenticationHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPAuthenticationHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPAuthenticationHeader.yml\" sourcestartlinenumber=\"1\">Class for the SIP WWW-Authenticate and Authorization headers</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -438,7 +598,11 @@
           "relative_path": "api/SipLib.Core.SIPAuthorisationDigest.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPAuthorisationDigest",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPAuthorisationDigest.yml\" sourcestartlinenumber=\"1\">Class for the SIP authorization digest</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -448,7 +612,11 @@
           "relative_path": "api/SipLib.Core.SIPAuthorisationHeadersEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPAuthorisationHeadersEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPAuthorisationHeadersEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of SIP authorization/authentication header types</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -458,7 +626,11 @@
           "relative_path": "api/SipLib.Core.SIPCallInfoHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPCallInfoHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPCallInfoHeader.yml\" sourcestartlinenumber=\"1\">Class for a SIP Call-Info header. See Sections 20.9 and 25.1 of RFC 3261.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -468,7 +640,11 @@
           "relative_path": "api/SipLib.Core.SIPConstants.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPConstants",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPConstants.yml\" sourcestartlinenumber=\"1\">Defines various constants used for SIP</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -478,7 +654,11 @@
           "relative_path": "api/SipLib.Core.SIPContactHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPContactHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPContactHeader.yml\" sourcestartlinenumber=\"1\">Class for building or parsing a SIP Contact header. See Section 20.10 and page 228 of RFC 3261.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -488,7 +668,11 @@
           "relative_path": "api/SipLib.Core.SIPEndPoint.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPEndPoint",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPEndPoint.yml\" sourcestartlinenumber=\"1\">This class is a more specific version of the SIPURI class BUT is only concerned with the network and\ntransport properties. It contains all the information needed to determine the remote end point to\ndeliver a SIP request or response to.</p>\n<p sourcefile=\"api/SipLib.Core.SIPEndPoint.yml\" sourcestartlinenumber=\"5\">This class must remain immutable otherwise the SIP stack can develop problems. SIP end points can get\npassed amongst different servers for logging and forwarding SIP messages and a modification of the end\npoint by one server can result in a problem for a different server. Instead a new SIP end point should\nbe created wherever a modification is required.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -498,7 +682,11 @@
           "relative_path": "api/SipLib.Core.SIPEscape.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPEscape",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPEscape.yml\" sourcestartlinenumber=\"1\">Static class that contains various methods for escaping and unescaping\nreserved characters in various parts of SIPURIs, SIP headers, SIP parameters,\netc.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -508,7 +696,11 @@
           "relative_path": "api/SipLib.Core.SIPFrag.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPFrag",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPFrag.yml\" sourcestartlinenumber=\"1\">Class for parsing or creating a SIPFRAG (SIP Fragment) body use in a NOTIFY request for a Refer subscription.\nSee Section 2.4.5 of RFC 3515.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -518,7 +710,11 @@
           "relative_path": "api/SipLib.Core.SIPFromHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPFromHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPFromHeader.yml\" sourcestartlinenumber=\"1\">The From header only has parameters, no headers. Parameters of from ...;name=value;name2=value2.\nSpecific parameters: tag.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -528,7 +724,11 @@
           "relative_path": "api/SipLib.Core.SIPGeolocationHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPGeolocationHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPGeolocationHeader.yml\" sourcestartlinenumber=\"1\">Class for a SIP Geolocation header as defined in RFC 6442.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -538,7 +738,11 @@
           "relative_path": "api/SipLib.Core.SIPHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPHeader.yml\" sourcestartlinenumber=\"1\">Class for handling the SIP headers portion of a SIP request or a SIP response message.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -548,7 +752,11 @@
           "relative_path": "api/SipLib.Core.SIPHeaderAncillary.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPHeaderAncillary",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPHeaderAncillary.yml\" sourcestartlinenumber=\"1\">Definitions for various SIP header parameter names</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -558,7 +766,11 @@
           "relative_path": "api/SipLib.Core.SIPHeaders.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPHeaders",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPHeaders.yml\" sourcestartlinenumber=\"1\">Definitions for SIP Header fields.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -568,7 +780,11 @@
           "relative_path": "api/SipLib.Core.SIPMessage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPMessage",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPMessage.yml\" sourcestartlinenumber=\"1\">Represents an entire SIP message. This is the base class for the SIPRequest and the SIPResponse classes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -578,7 +794,11 @@
           "relative_path": "api/SipLib.Core.SIPMessageTypesEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPMessageTypesEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPMessageTypesEnum.yml\" sourcestartlinenumber=\"1\">Message types for SIP</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -588,7 +808,11 @@
           "relative_path": "api/SipLib.Core.SIPMethods.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPMethods",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPMethods.yml\" sourcestartlinenumber=\"1\">Class for mapping SIP method string to SIPMethodsEnum values</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -598,7 +822,11 @@
           "relative_path": "api/SipLib.Core.SIPMethodsEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPMethodsEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPMethodsEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of all of the methods for a SIP request.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -608,7 +836,11 @@
           "relative_path": "api/SipLib.Core.SIPPaiHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPPaiHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPPaiHeader.yml\" sourcestartlinenumber=\"1\">Class for the SIP P-Asserted-Identity header.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -618,7 +850,11 @@
           "relative_path": "api/SipLib.Core.SIPParameters.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPParameters",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPParameters.yml\" sourcestartlinenumber=\"1\">Represents a series of name value pairs that are optionally included in SIP URIs and also as an\nadditional optional setting on some SIP Headers (Contact, To, From, Via). This class also treats\nthe header value of a SIP URI as a special case of a SIP parameter. The difference between a\nparameter and a SIP URI header is the start and delimiter characters used.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -628,7 +864,11 @@
           "relative_path": "api/SipLib.Core.SIPPpiHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPPpiHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPPpiHeader.yml\" sourcestartlinenumber=\"1\">Class for the SIP P-Preferred-Identity header.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -638,7 +878,11 @@
           "relative_path": "api/SipLib.Core.SIPProtocolsEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPProtocolsEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPProtocolsEnum.yml\" sourcestartlinenumber=\"1\">Enumeration that defines the transport protocols used for SIP</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -648,7 +892,11 @@
           "relative_path": "api/SipLib.Core.SIPProtocolsType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPProtocolsType",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPProtocolsType.yml\" sourcestartlinenumber=\"1\">Helper functions for dealing with tranport protocols</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -658,7 +906,11 @@
           "relative_path": "api/SipLib.Core.SIPReplacesParameter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPReplacesParameter",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPReplacesParameter.yml\" sourcestartlinenumber=\"1\">Class for the Replaces parameter of a Refer-To header field. The Replaces parameter is used to\nidentify involved in a transfer operation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -668,7 +920,11 @@
           "relative_path": "api/SipLib.Core.SIPRequest.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPRequest",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPRequest.yml\" sourcestartlinenumber=\"1\">Class for a SIP request message.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -678,7 +934,11 @@
           "relative_path": "api/SipLib.Core.SIPResponse.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPResponse",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPResponse.yml\" sourcestartlinenumber=\"1\">Class for a SIP Response message</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -688,7 +948,11 @@
           "relative_path": "api/SipLib.Core.SIPResponseStatusCodes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPResponseStatusCodes",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPResponseStatusCodes.yml\" sourcestartlinenumber=\"1\">SIP response status codes functions</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -698,7 +962,11 @@
           "relative_path": "api/SipLib.Core.SIPResponseStatusCodesEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPResponseStatusCodesEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPResponseStatusCodesEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of SIP response status codes</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -708,7 +976,11 @@
           "relative_path": "api/SipLib.Core.SIPRoute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPRoute",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPRoute.yml\" sourcestartlinenumber=\"1\">The SIPRoute class is used to represent both Route and Record-Route headers.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -718,7 +990,11 @@
           "relative_path": "api/SipLib.Core.SIPRouteSet.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPRouteSet",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPRouteSet.yml\" sourcestartlinenumber=\"1\">Class for managing a SIP Route set</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -728,7 +1004,11 @@
           "relative_path": "api/SipLib.Core.SIPSchemesEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPSchemesEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPSchemesEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of the different URI schemes that the SIPURI and other classes must handle.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -738,7 +1018,11 @@
           "relative_path": "api/SipLib.Core.SIPSchemesType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPSchemesType",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPSchemesType.yml\" sourcestartlinenumber=\"1\">Helper functions for dealing with SIP schemes</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -748,7 +1032,11 @@
           "relative_path": "api/SipLib.Core.SIPToHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPToHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPToHeader.yml\" sourcestartlinenumber=\"1\">Class for handling a SIP To header</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -758,7 +1046,11 @@
           "relative_path": "api/SipLib.Core.SIPURI.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPURI",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPURI.yml\" sourcestartlinenumber=\"1\">Implements the SIP URI concept from the SIP RFC3261. This class also handles URIs for\nhttp, https, ws, wss, msrp, msrps and im schemes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -768,7 +1060,11 @@
           "relative_path": "api/SipLib.Core.SIPUserField.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPUserField",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPUserField.yml\" sourcestartlinenumber=\"1\">Class for parsing and building the user field of a SIP URI.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -778,7 +1074,11 @@
           "relative_path": "api/SipLib.Core.SIPValidationException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPValidationException",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPValidationException.yml\" sourcestartlinenumber=\"1\">Exception class for SIP validation errors</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -788,7 +1088,11 @@
           "relative_path": "api/SipLib.Core.SIPValidationFieldsEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPValidationFieldsEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPValidationFieldsEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of SIP validation fields</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -798,7 +1102,11 @@
           "relative_path": "api/SipLib.Core.SIPViaHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPViaHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPViaHeader.yml\" sourcestartlinenumber=\"1\">The Via header only has parameters, no headers. Parameters of from ...;name=\nvalue;name2=value2\nSpecific parameters: ttl, maddr, received, branch.</p>\n<p sourcefile=\"api/SipLib.Core.SIPViaHeader.yml\" sourcestartlinenumber=\"5\">From page 179 of RFC3261:\n&quot;Even though this specification mandates that the branch parameter be\npresent in all requests, the BNF for the header field indicates that\nit is optional.&quot;</p>\n<p sourcefile=\"api/SipLib.Core.SIPViaHeader.yml\" sourcestartlinenumber=\"10\">The branch parameter on a Via therefore appears to be optionally mandatory?!</p>\n<p sourcefile=\"api/SipLib.Core.SIPViaHeader.yml\" sourcestartlinenumber=\"12\">Any SIP application element that uses transactions depends on the branch\nparameter for transaction matching.\nOnly the top Via header branch is used for transactions though so if the\nrequest has made it to this stack\nwith missing branches then in theory it should be safe to proceed. It will be\nleft up to the SIPTransaction\nclass to reject any SIP requests that are missing the necessary branch.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -808,7 +1116,11 @@
           "relative_path": "api/SipLib.Core.SIPViaSet.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SIPViaSet",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SIPViaSet.yml\" sourcestartlinenumber=\"1\">Class for managing a list of SIPViaHeader objects</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -818,7 +1130,11 @@
           "relative_path": "api/SipLib.Core.SipUtils.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.SipUtils",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.SipUtils.yml\" sourcestartlinenumber=\"1\">Static class containing various SIP related utility functions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -828,7 +1144,11 @@
           "relative_path": "api/SipLib.Core.TypeExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core.TypeExtensions",
+      "Summary": "<p sourcefile=\"api/SipLib.Core.TypeExtensions.yml\" sourcestartlinenumber=\"1\">Type extensions used in this class library</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -838,7 +1158,11 @@
           "relative_path": "api/SipLib.Core.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Core",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Core.md\" sourcestartlinenumber=\"5\">Core classes for building and parsing SIP messages.</p>\n<p sourcefile=\"Namespaces/SipLib.Core.md\" sourcestartlinenumber=\"7\">The main classes in the SipLib.Core namespace are:</p>\n<ol sourcefile=\"Namespaces/SipLib.Core.md\" sourcestartlinenumber=\"9\">\n<li sourcefile=\"Namespaces/SipLib.Core.md\" sourcestartlinenumber=\"9\">SIPMessage</li>\n<li sourcefile=\"Namespaces/SipLib.Core.md\" sourcestartlinenumber=\"10\">SIPRequest</li>\n<li sourcefile=\"Namespaces/SipLib.Core.md\" sourcestartlinenumber=\"11\">SIPResponse</li>\n<li sourcefile=\"Namespaces/SipLib.Core.md\" sourcestartlinenumber=\"12\">SIPHeader</li>\n<li sourcefile=\"Namespaces/SipLib.Core.md\" sourcestartlinenumber=\"13\">Classes for each type of SIP header (SIPFrom, SIPTo, etc.)</li>\n</ol>\n<p sourcefile=\"Namespaces/SipLib.Core.md\" sourcestartlinenumber=\"15\">The SIPMessage class is the base class for the SIPRequest (representing a SIP request message) and the SIPResponse (representing a SIP response message) classes. The SIPMessage class contains SIP headers and optionally a SIP message body. The Header field of a SIPMessage is a SIPHeader object that contains fields for the SIP headers. Each type of SIP header is represented by a unique class. For example, the SIPFromHeader class is used to manage a SIP From header. The SIPMessage class contains methods and properties for accessing the contents of the body of a SIP message if one is present.</p>\n<p sourcefile=\"Namespaces/SipLib.Core.md\" sourcestartlinenumber=\"17\">When building applications that receive and process SIP message, it is generally not necessary to programmatically parse raw messages received via the network because message parsing is handled by classes contained in the SipLib.Channels and SipLib.Transactions namespaces.</p>\n<p sourcefile=\"Namespaces/SipLib.Core.md\" sourcestartlinenumber=\"19\">The SipUtils class in the SipLib.Core namespace is a static class that provides various helper methods for building SIP messages and for extracting various information from SIP messages.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -848,7 +1172,11 @@
           "relative_path": "api/SipLib.Dtls.AlertLevelsEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.AlertLevelsEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.AlertLevelsEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of the protocol alert levels</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -858,7 +1186,11 @@
           "relative_path": "api/SipLib.Dtls.AlertTypesEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.AlertTypesEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.AlertTypesEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of the protocol Alert types</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -868,7 +1200,11 @@
           "relative_path": "api/SipLib.Dtls.DtlsClientUdpTransport.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.DtlsClientUdpTransport",
+      "Summary": "<p>\nClass for performing the client side of the DTLS handshake for DTLS-SRTP. This class uses a .NET\nUdpClient to communicate with the DTLS-SRTP server.\n</p>\n<p>\nThis class should be used to perform the DTLS-SRTP handshake only. At the end of the DTLS-SRTP handshake\nboth the client and the server will have exchanged the SRTP keying material. Call the Close() method\nwhen the handshake is completed. The Close() method closes the UdpClient object so it is necessary to\ncreate a new UdpClient object to communicate with the server for transporting SRTP media packets.\n</p>\n<p>\nAfter calling the constructor, call the DoHandshake() method of the DtlsSrtpTransport object to start\nthe DTLS-SRTP handshake process. \n</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -878,7 +1214,11 @@
           "relative_path": "api/SipLib.Dtls.DtlsServerUdpTransport.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.DtlsServerUdpTransport",
+      "Summary": "<p>\nClass for performing the server side of the DTLS handshake for DTLS-SRTP. This class uses a .NET\nUdpClient to communicate with the DTLS-SRTP client.\n</p>\n<p>\nThis class should be used to perform the DTLS-SRTP handshake only. At the end of the DTLS-SRTP handshake\nboth the client and the server will have exchanged the SRTP keying material. Call the Close() method\nwhen the handshake is completed. The Close() method closes the UdpClient object so it is necessary to\ncreate a new UdpClient object to communicate with the client for transporting SRTP media packets.\n</p>\n<p>\nAfter calling the constructor, call the DoHandshake() method of the DtlsSrtpTransport object to start\nthe DTLS-SRTP handshake process.\n</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -888,7 +1228,11 @@
           "relative_path": "api/SipLib.Dtls.DtlsSrtpClient.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.DtlsSrtpClient",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.DtlsSrtpClient.yml\" sourcestartlinenumber=\"1\">Class for a DTLS-SRTP handshake client.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -898,7 +1242,11 @@
           "relative_path": "api/SipLib.Dtls.DtlsSrtpServer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.DtlsSrtpServer",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.DtlsSrtpServer.yml\" sourcestartlinenumber=\"1\">Class for a DTLS-SRTP handshake server</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -908,7 +1256,11 @@
           "relative_path": "api/SipLib.Dtls.DtlsSrtpTransport.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.DtlsSrtpTransport",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.DtlsSrtpTransport.yml\" sourcestartlinenumber=\"1\">Class for managing the transport logic for a DTLS SRTP client or a server.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -918,7 +1270,11 @@
           "relative_path": "api/SipLib.Dtls.DtlsUtils.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.DtlsUtils",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.DtlsUtils.yml\" sourcestartlinenumber=\"1\">This class provides various utility functions for the Datagram Transport Layer Security (DTLS) protocol.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -928,7 +1284,11 @@
           "relative_path": "api/SipLib.Dtls.IDtlsSrtpPeer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.IDtlsSrtpPeer",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.IDtlsSrtpPeer.yml\" sourcestartlinenumber=\"1\">Definition of the interface that must be implement by the DtlsSrtpClient and the DtlsSrtpServer</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -938,7 +1298,11 @@
           "relative_path": "api/SipLib.Dtls.IPacketTransformer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.IPacketTransformer",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.IPacketTransformer.yml\" sourcestartlinenumber=\"1\">Interface for transforming a non-secure packet.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -948,7 +1312,11 @@
           "relative_path": "api/SipLib.Dtls.ITransformEngine.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.ITransformEngine",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.ITransformEngine.yml\" sourcestartlinenumber=\"1\">Interface for the transform engine.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -958,7 +1326,11 @@
           "relative_path": "api/SipLib.Dtls.NetConvert.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.NetConvert",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.NetConvert.yml\" sourcestartlinenumber=\"1\">This class provides various static functions for fixing Little-Endian/Big-Endian byte\nordering issues.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -968,7 +1340,11 @@
           "relative_path": "api/SipLib.Dtls.RTCDtlsFingerprint.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.RTCDtlsFingerprint",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.RTCDtlsFingerprint.yml\" sourcestartlinenumber=\"1\">Represents a fingerprint of a certificate used to authenticate WebRTC communications.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -978,7 +1354,11 @@
           "relative_path": "api/SipLib.Dtls.RawPacket.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.RawPacket",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.RawPacket.yml\" sourcestartlinenumber=\"1\">When using a TransformConnector, a RTP/RTCP packet is represented using RawPacket. RawPacket stores the buffer\nholding the RTP/RTCP packet, as well as the inner offset and length of RTP/RTCP packet data.</p>\n<p sourcefile=\"api/SipLib.Dtls.RawPacket.yml\" sourcestartlinenumber=\"4\">After transformation, data is also stored in RawPacket objects, either the original RawPacket (in place\ntransformation), or a newly created RawPacket.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -988,7 +1368,11 @@
           "relative_path": "api/SipLib.Dtls.SrtcpCryptoContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.SrtcpCryptoContext",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.SrtcpCryptoContext.yml\" sourcestartlinenumber=\"1\">SRTPCryptoContext class is the core class of SRTP implementation. There can be multiple SRTP sources in one\nSRTP session. And each SRTP stream has a corresponding SRTPCryptoContext object, identified by SSRC. In this\nway, different sources can be protected independently.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -998,7 +1382,11 @@
           "relative_path": "api/SipLib.Dtls.SrtcpTransformer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.SrtcpTransformer",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.SrtcpTransformer.yml\" sourcestartlinenumber=\"1\">SRTCPTransformer implements PacketTransformer.\nIt encapsulate the encryption / decryption logic for SRTCP packets</p>\n<p sourcefile=\"api/SipLib.Dtls.SrtcpTransformer.yml\" sourcestartlinenumber=\"4\">author Bing SU (nova.su<xref href=\"gmail.com)\" data-throw-if-not-resolved=\"False\" data-raw-source=\"@gmail.com)\" sourcefile=\"api/SipLib.Dtls.SrtcpTransformer.yml\" sourcestartlinenumber=\"4\"></xref>\nauthor Werner Werner.Dittmann<xref href=\"t-online.de\" data-throw-if-not-resolved=\"False\" data-raw-source=\"@t-online.de\" sourcefile=\"api/SipLib.Dtls.SrtcpTransformer.yml\" sourcestartlinenumber=\"5\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1008,7 +1396,11 @@
           "relative_path": "api/SipLib.Dtls.SrtpCipherCTR.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.SrtpCipherCTR",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.SrtpCipherCTR.yml\" sourcestartlinenumber=\"1\">SRTPCipherCTR implements SRTP Counter Mode AES Encryption (AES-CM). Counter Mode AES Encryption algorithm is\ndefined in RFC3711, section 4.1.1.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1018,7 +1410,11 @@
           "relative_path": "api/SipLib.Dtls.SrtpCipherF8.F8Context.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.SrtpCipherF8.F8Context",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.SrtpCipherF8.F8Context.yml\" sourcestartlinenumber=\"1\">F8 mode encryption context, see RFC3711 section 4.1.2 for a detailed description.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1028,7 +1424,11 @@
           "relative_path": "api/SipLib.Dtls.SrtpCipherF8.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.SrtpCipherF8",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.SrtpCipherF8.yml\" sourcestartlinenumber=\"1\">SRTPCipherF8 implements SRTP F8 Mode AES Encryption (AES-f8). F8 Mode AES Encryption algorithm is defined in\nRFC3711, section 4.1.2.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1038,7 +1438,11 @@
           "relative_path": "api/SipLib.Dtls.SrtpCryptoContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.SrtpCryptoContext",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.SrtpCryptoContext.yml\" sourcestartlinenumber=\"1\">SRTPCryptoContext class is the core class of SRTP implementation. There can be multiple SRTP sources in one\nSRTP session.And each SRTP stream has a corresponding SRTPCryptoContext object, identified by SSRC.In this\nway, different sources can be protected independently.</p>\n<p sourcefile=\"api/SipLib.Dtls.SrtpCryptoContext.yml\" sourcestartlinenumber=\"5\">The SRTPCryptoContext class acts as a manager class and maintains all the information used in SRTP\ntransformation. It is responsible for deriving encryption keys / salting keys / authentication keys from\nmaster keys. And it will invoke certain class to encrypt / decrypt(transform / reversetransform) RTP packets.\nIt will hold a replay check db and do replay check against incoming packets.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1048,7 +1452,11 @@
           "relative_path": "api/SipLib.Dtls.SrtpParameters.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.SrtpParameters",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.SrtpParameters.yml\" sourcestartlinenumber=\"1\">Structure that defines the DTLS derived key and salt lengths for SRTP.\nSee <a href=\"http://tools.ietf.org/html/rfc5764#section-4.1.2\" sourcefile=\"api/SipLib.Dtls.SrtpParameters.yml\" sourcestartlinenumber=\"2\">http://tools.ietf.org/html/rfc5764#section-4.1.2</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1058,7 +1466,11 @@
           "relative_path": "api/SipLib.Dtls.SrtpPolicy.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.SrtpPolicy",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.SrtpPolicy.yml\" sourcestartlinenumber=\"1\">SrtpPolicy holds the SRTP encryption / authentication policy of a SRTP session.</p>\n<p sourcefile=\"api/SipLib.Dtls.SrtpPolicy.yml\" sourcestartlinenumber=\"3\">Author: Bing SU (nova.su<xref href=\"gmail.com)\" data-throw-if-not-resolved=\"False\" data-raw-source=\"@gmail.com)\" sourcefile=\"api/SipLib.Dtls.SrtpPolicy.yml\" sourcestartlinenumber=\"3\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1068,7 +1480,11 @@
           "relative_path": "api/SipLib.Dtls.SrtpTransformEngine.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.SrtpTransformEngine",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.SrtpTransformEngine.yml\" sourcestartlinenumber=\"1\">Implementation of the SRTP Transform Engine</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1078,7 +1494,11 @@
           "relative_path": "api/SipLib.Dtls.SrtpTransformer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls.SrtpTransformer",
+      "Summary": "<p sourcefile=\"api/SipLib.Dtls.SrtpTransformer.yml\" sourcestartlinenumber=\"1\">SRTPTransformer implements IPacketTransformer and provides implementations for RTP packet to SRTP packet\ntransformation and SRTP packet to RTP packet transformation logic.</p>\n<p sourcefile=\"api/SipLib.Dtls.SrtpTransformer.yml\" sourcestartlinenumber=\"4\">It will first find the corresponding SRTPCryptoContext for each packet based on their SSRC and then invoke\nthe context object to perform the transformation and reverse transformation operation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1088,7 +1508,11 @@
           "relative_path": "api/SipLib.Dtls.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Dtls",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Dtls.md\" sourcestartlinenumber=\"5\">Classes required to support encryption and decryption of media (audio, video and Real Time Text) using the Datagram Transport Layer Security  DTLS specified in RFC 5763 and RFC 5764. The classes in this namespace are used by the RtpChannel class for encrypting and decrypting RTP media data. Users of the SipLib class library do not normally need to use the classes in this namespace.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1098,7 +1522,11 @@
           "relative_path": "api/SipLib.Logging.SipLogger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Logging.SipLogger",
+      "Summary": "<p>\nClass for logging debug, information, warning, error and critical messages. This class is used by the\nclasses in the SipLib class library to log application messages. By default, this class logs all messages\nto a NullLogger. This means that no messages are logged.\n</p>\n<p>\nThe consumer of the SipLib class libray must configure this class by constructing an Ilogger interface and\ncall the Log set property. It is possible to configure this class to log messages to a separate logging\ndestination. It is also possible to configure this class to log messages to the same logging destination as \nthe consummer (an application or another class library) of this class library. It is also possible for the\nconsumer of this class library to use this class directly to log application messages.\n</p>\n<p>\nSee <a href=\"~/articles/ConfigureSipLibLogging.md\">Configuring SipLib Logging</a>.\n</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1108,7 +1536,11 @@
           "relative_path": "api/SipLib.Logging.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Logging",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Logging.md\" sourcestartlinenumber=\"5\">Contains a static class called SipLogger that the classes in this class library can use for logging application messages.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1118,7 +1550,11 @@
           "relative_path": "api/SipLib.Media.ALawDecoder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.ALawDecoder",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.ALawDecoder.yml\" sourcestartlinenumber=\"1\">a-law decoder\nbased on code from:\n<a href=\"http://hazelware.luggle.com/tutorials/mulawcompression.html\" sourcefile=\"api/SipLib.Media.ALawDecoder.yml\" sourcestartlinenumber=\"3\">http://hazelware.luggle.com/tutorials/mulawcompression.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1128,7 +1564,11 @@
           "relative_path": "api/SipLib.Media.ALawEncoder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.ALawEncoder",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.ALawEncoder.yml\" sourcestartlinenumber=\"1\">A-law encoder</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1138,7 +1578,11 @@
           "relative_path": "api/SipLib.Media.AudioDestination.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.AudioDestination",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.AudioDestination.yml\" sourcestartlinenumber=\"1\">This class receives audio RTP packets from an RtpChannel, decodes them and sends them to an audio destination\nby calling a delegate function that processes the received audio samples.</p>\n<p>\nThe clock rate (sample rate) of the audio handled by this class must be either 8000 or 16000.\n</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1148,7 +1592,11 @@
           "relative_path": "api/SipLib.Media.AudioDestinationDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.AudioDestinationDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.AudioDestinationDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the audio destination handler function that the AudioDestination class will call\nto process decoded audio packets.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1158,7 +1606,11 @@
           "relative_path": "api/SipLib.Media.AudioSampleData.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.AudioSampleData",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.AudioSampleData.yml\" sourcestartlinenumber=\"1\">Data class for passing audio sample data to an audio sample source</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1168,7 +1620,11 @@
           "relative_path": "api/SipLib.Media.AudioSamplesReadyDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.AudioSamplesReadyDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.AudioSamplesReadyDelegate.yml\" sourcestartlinenumber=\"1\">Delegate definition for the SendAudioSamples event of the IAudioSamplesSource interface.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1178,7 +1634,11 @@
           "relative_path": "api/SipLib.Media.AudioSource.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.AudioSource",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.AudioSource.yml\" sourcestartlinenumber=\"1\">Class for sending sourced audio (from a microphone or a recording) to a remote endpoint via RTP packets\nover an RtpChannel.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1188,7 +1648,11 @@
           "relative_path": "api/SipLib.Media.AudioSourceBase.AudioSourceStateEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.AudioSourceBase.AudioSourceStateEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.AudioSourceBase.AudioSourceStateEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of the possible states of an audio source</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1198,7 +1662,11 @@
           "relative_path": "api/SipLib.Media.AudioSourceBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.AudioSourceBase",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.AudioSourceBase.yml\" sourcestartlinenumber=\"1\">Base class for all audio sources. This base class implementation provides an audio source that provides\nsilence audio samples to the RtpChannel. It also implements DTMF event functionality to support sending\nof DTMF event codes via the RTP channel.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1208,7 +1676,11 @@
           "relative_path": "api/SipLib.Media.Band.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.Band",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.Band.yml\" sourcestartlinenumber=\"1\">Band data for G722 Codec</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1218,7 +1690,11 @@
           "relative_path": "api/SipLib.Media.DtmfDigitReceivedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.DtmfDigitReceivedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.DtmfDigitReceivedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the DtmfDigitReceived event of the AudioDestination class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1228,7 +1704,11 @@
           "relative_path": "api/SipLib.Media.FileAudioSource.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.FileAudioSource",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.FileAudioSource.yml\" sourcestartlinenumber=\"1\">Class for sending audio samples that have been read from a wave file.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1238,7 +1718,11 @@
           "relative_path": "api/SipLib.Media.G722Codec.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.G722Codec",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.G722Codec.yml\" sourcestartlinenumber=\"1\">SpanDSP - a series of DSP components for telephony</p>\n<p sourcefile=\"api/SipLib.Media.G722Codec.yml\" sourcestartlinenumber=\"3\">g722_decode.c - The ITU G.722 codec, decode part.</p>\n<p sourcefile=\"api/SipLib.Media.G722Codec.yml\" sourcestartlinenumber=\"5\">Written by Steve Underwood &lt;steveu<xref href=\"coppice.org&gt\" data-throw-if-not-resolved=\"False\" data-raw-source=\"@coppice.org&amp;gt\" sourcefile=\"api/SipLib.Media.G722Codec.yml\" sourcestartlinenumber=\"5\"></xref>;</p>\n<p sourcefile=\"api/SipLib.Media.G722Codec.yml\" sourcestartlinenumber=\"7\">Copyright (C) 2005 Steve Underwood\nPorted to C# by Mark Heath 2011</p>\n<p sourcefile=\"api/SipLib.Media.G722Codec.yml\" sourcestartlinenumber=\"10\">Despite my general liking of the GPL, I place my own contributions\nto this code in the public domain for the benefit of all mankind -\neven the slimy ones who might try to proprietize my work and use it\nto my detriment.</p>\n<p sourcefile=\"api/SipLib.Media.G722Codec.yml\" sourcestartlinenumber=\"15\">Based in part on a single channel G.722 codec which is:\nCopyright (c) CMU 1993\nComputer Science, Speech Group\nChengxiang Lu and Alex Hauptmann</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1248,7 +1732,11 @@
           "relative_path": "api/SipLib.Media.G722CodecState.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.G722CodecState",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.G722CodecState.yml\" sourcestartlinenumber=\"1\">Stores state to be used between calls to Encode or Decode</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1258,7 +1746,11 @@
           "relative_path": "api/SipLib.Media.G722Decoder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.G722Decoder",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.G722Decoder.yml\" sourcestartlinenumber=\"1\">Class for decoding G.722 encoded data into linear 16-bit PCM samples.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1268,7 +1760,11 @@
           "relative_path": "api/SipLib.Media.G722Encoder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.G722Encoder",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.G722Encoder.yml\" sourcestartlinenumber=\"1\">Class for encoding audio samples using a G.722 encoder.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1278,7 +1774,11 @@
           "relative_path": "api/SipLib.Media.G722Flags.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.G722Flags",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.G722Flags.yml\" sourcestartlinenumber=\"1\">G722 Flags</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1288,7 +1788,11 @@
           "relative_path": "api/SipLib.Media.HighResolutionTimer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.HighResolutionTimer",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.HighResolutionTimer.yml\" sourcestartlinenumber=\"1\">This class implements a high resolution periodic timer for generating media samples. It provides a timer\nthat uses a dedicated thread and is capable of providing timed events with a maximum jitter of less than\na millisecond and an average jitter of less that 0.1 milliseconds. An instance of this class may be used\nfor multiple media sources.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1298,7 +1802,11 @@
           "relative_path": "api/SipLib.Media.HighResolutionTimerDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.HighResolutionTimerDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.HighResolutionTimerDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the TimerExpired event of the HighResolutionTimer class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1308,7 +1816,11 @@
           "relative_path": "api/SipLib.Media.IAudioDecoder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.IAudioDecoder",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.IAudioDecoder.yml\" sourcestartlinenumber=\"1\">Interface definition for an audio decoder</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1318,7 +1830,11 @@
           "relative_path": "api/SipLib.Media.IAudioEncoder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.IAudioEncoder",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.IAudioEncoder.yml\" sourcestartlinenumber=\"1\">Interface definition for an audio encoder</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1328,7 +1844,11 @@
           "relative_path": "api/SipLib.Media.IAudioSampleSource.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.IAudioSampleSource",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.IAudioSampleSource.yml\" sourcestartlinenumber=\"1\">Interface that must be implemented for each type of an audio sample source.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1338,7 +1858,11 @@
           "relative_path": "api/SipLib.Media.MediaPortManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.MediaPortManager",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.MediaPortManager.yml\" sourcestartlinenumber=\"1\">Class for managing allocation of UDP and TCP ports for audio, video, RTT and MSRP media.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1348,7 +1872,11 @@
           "relative_path": "api/SipLib.Media.MediaPortSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.MediaPortSettings",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.MediaPortSettings.yml\" sourcestartlinenumber=\"1\">Stores the media port ranges for each media type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1358,7 +1886,11 @@
           "relative_path": "api/SipLib.Media.MediaTypes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.MediaTypes",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.MediaTypes.yml\" sourcestartlinenumber=\"1\">Static class that defines constant strings for each media type</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1368,7 +1900,11 @@
           "relative_path": "api/SipLib.Media.MsrpEncryptionEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.MsrpEncryptionEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.MsrpEncryptionEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of the encryption methods for MSRP media</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1378,7 +1914,11 @@
           "relative_path": "api/SipLib.Media.MuLawDecoder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.MuLawDecoder",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.MuLawDecoder.yml\" sourcestartlinenumber=\"1\">mu-law decoder based on code from:\n<a href=\"http://hazelware.luggle.com/tutorials/mulawcompression.html\" sourcefile=\"api/SipLib.Media.MuLawDecoder.yml\" sourcestartlinenumber=\"2\">http://hazelware.luggle.com/tutorials/mulawcompression.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1388,7 +1928,11 @@
           "relative_path": "api/SipLib.Media.MuLawEncoder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.MuLawEncoder",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.MuLawEncoder.yml\" sourcestartlinenumber=\"1\">mu-law encoder\nbased on code from:\n<a href=\"http://hazelware.luggle.com/tutorials/mulawcompression.html\" sourcefile=\"api/SipLib.Media.MuLawEncoder.yml\" sourcestartlinenumber=\"3\">http://hazelware.luggle.com/tutorials/mulawcompression.html</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1398,7 +1942,11 @@
           "relative_path": "api/SipLib.Media.PcmaDecoder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.PcmaDecoder",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.PcmaDecoder.yml\" sourcestartlinenumber=\"1\">Class for decoding PCMA (A-Law) encoded data into linear 16-bit PCM samples.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1408,7 +1956,11 @@
           "relative_path": "api/SipLib.Media.PcmaEncoder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.PcmaEncoder",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.PcmaEncoder.yml\" sourcestartlinenumber=\"1\">Class for encoding linear 16-bit PCM samples into PCMA (G.711 A-Law) samples</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1418,7 +1970,11 @@
           "relative_path": "api/SipLib.Media.PcmuDecoder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.PcmuDecoder",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.PcmuDecoder.yml\" sourcestartlinenumber=\"1\">Class for decoding PCMU (Mu-Law) encoded data into linear 16-bit PCM samples.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1428,7 +1984,11 @@
           "relative_path": "api/SipLib.Media.PcmuEncoder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.PcmuEncoder",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.PcmuEncoder.yml\" sourcestartlinenumber=\"1\">Class for encoding linear 16-bit PCM samples into PCMU (G.711 Mu-Law) samples</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1438,7 +1998,11 @@
           "relative_path": "api/SipLib.Media.PortRange.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.PortRange",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.PortRange.yml\" sourcestartlinenumber=\"1\">Stores the port range for a single media type</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1448,7 +2012,11 @@
           "relative_path": "api/SipLib.Media.RtpEncryptionEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media.RtpEncryptionEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Media.RtpEncryptionEnum.yml\" sourcestartlinenumber=\"1\">Enumeration for the RTP media encryption methods</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1458,7 +2026,11 @@
           "relative_path": "api/SipLib.Media.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Media",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Media.md\" sourcestartlinenumber=\"5\">Classes for encoding and decoding audio. The supported codecs are G.711 Mu-Law, G.711 A-Law and G.722.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1468,7 +2040,11 @@
           "relative_path": "api/SipLib.Msrp.ByteRangeHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.ByteRangeHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.ByteRangeHeader.yml\" sourcestartlinenumber=\"1\">Class for parsing and processing the Byte-Range header of a MSRP message. See RFC 4975.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1478,7 +2054,11 @@
           "relative_path": "api/SipLib.Msrp.CpimMessage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.CpimMessage",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.CpimMessage.yml\" sourcestartlinenumber=\"1\">Class for Common Profile for Instant Messaging (CPIM) messages defined by RFC 3862. CPIM messages\nare not used in standalone manner in NG9-1-1 applications. They are always encapsulated in MSRP messages.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1488,7 +2068,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpCompletionStatus.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpCompletionStatus",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpCompletionStatus.yml\" sourcestartlinenumber=\"1\">Enumeration that defines the possible status conditions for a single MSRP message.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1498,7 +2082,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpConnection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpConnection",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpConnection.yml\" sourcestartlinenumber=\"1\">Class for managing a single MSRP connection to either a remote server or from a remote client.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1508,7 +2096,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpConnectionStatusDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpConnectionStatusDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpConnectionStatusDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the MsrpConnectionEstablished and the MsrpConnectionFailed events of the MsrpConnection\nclass.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1518,7 +2110,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpMessage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpMessage",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpMessage.yml\" sourcestartlinenumber=\"1\">Class for MSRP messages. See RFC 4975.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1528,7 +2124,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpMessageDeliveryFailedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpMessageDeliveryFailedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpMessageDeliveryFailedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the MsrpMessageDeliveryFailed event of the MsrpConnection class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1538,7 +2138,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpMessageReceivedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpMessageReceivedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpMessageReceivedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the MsrpMessageReceived event of the MsrpConnection class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1548,7 +2152,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpMessageSentDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpMessageSentDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpMessageSentDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the MsrpMessageSent event of th MsrpConnection class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1558,7 +2166,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpMessageType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpMessageType",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpMessageType.yml\" sourcestartlinenumber=\"1\">Enumeration for MSRP message types.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1568,7 +2180,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpPathHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpPathHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpPathHeader.yml\" sourcestartlinenumber=\"1\">Class for a MSRP To-Path or a From-Path header value. See RFC 4975. Both the To-Path and the\nFrom-Path MSRP message headers can contain multiple MSRP URIs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1578,7 +2194,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpStatusHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpStatusHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpStatusHeader.yml\" sourcestartlinenumber=\"1\">Class for the Status header of a MSRP message. See RFC 4975</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1588,7 +2208,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpStreamParser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpStreamParser",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpStreamParser.yml\" sourcestartlinenumber=\"1\">This class parses each byte received in a TCP/TLS stream and extracts complete MSRP\nmessages from the steam.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1598,7 +2222,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpTextMessageReceivedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpTextMessageReceivedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpTextMessageReceivedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the MsrpTextMessageReceived event of the MsrpConnection class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1608,7 +2236,11 @@
           "relative_path": "api/SipLib.Msrp.MsrpUri.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.MsrpUri",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.MsrpUri.yml\" sourcestartlinenumber=\"1\">Class for managing a MSRP URI. See Section 9 of RFC 4975.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1618,7 +2250,11 @@
           "relative_path": "api/SipLib.Msrp.ReportReceivedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp.ReportReceivedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Msrp.ReportReceivedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the ReportReceived event of the MsrpConnection class. This event is fired\nwhen it receives a MSRP REPORT request if a success report was request in call to the SendMsrpMessage\nmethod.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1628,7 +2264,11 @@
           "relative_path": "api/SipLib.Msrp.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Msrp",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Msrp.md\" sourcestartlinenumber=\"5\">Message Session Relay Protocol (MSRP, see RFC 4975) related classes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1638,7 +2278,11 @@
           "relative_path": "api/SipLib.Network.IpUtils.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Network.IpUtils",
+      "Summary": "<p sourcefile=\"api/SipLib.Network.IpUtils.yml\" sourcestartlinenumber=\"1\">Static class that contains various utility functions relating to IP addresses.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1648,7 +2292,11 @@
           "relative_path": "api/SipLib.Network.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Network",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Network.md\" sourcestartlinenumber=\"5\">Contains a utility helper class for performing network protocol related functions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1658,7 +2306,11 @@
           "relative_path": "api/SipLib.RealTimeText.RttCharactersReceivedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RealTimeText.RttCharactersReceivedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.RealTimeText.RttCharactersReceivedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the RttCharactersReceived event of the RttReceiver class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1668,7 +2320,11 @@
           "relative_path": "api/SipLib.RealTimeText.RttParameters.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RealTimeText.RttParameters",
+      "Summary": "<p sourcefile=\"api/SipLib.RealTimeText.RttParameters.yml\" sourcestartlinenumber=\"1\">Holds the RTT protocol parameters for a RTT session</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1678,7 +2334,11 @@
           "relative_path": "api/SipLib.RealTimeText.RttReceiver.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RealTimeText.RttReceiver",
+      "Summary": "<p sourcefile=\"api/SipLib.RealTimeText.RttReceiver.yml\" sourcestartlinenumber=\"1\">This class handles Real Time Protocol (RTP) packets containing Real Time Text (RTT, RFC 4103)\nand notifies the user of this class when complete messages are available. A complete message may\nbe one character or several characters.</p>\n<p>\nThis class handles RTT redundancy as specified in Section 4.2 of RFC 4103 and is capable of recovering\nthe original message even if there are dropped RTP packets.\n</p>\n<p>This class supports receiving characters from a mixer-aware remote endpoint as described in\nRFC 9071 RTP-Mixer Formatting of Multiparty Real-Time Text.\n</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1688,7 +2348,11 @@
           "relative_path": "api/SipLib.RealTimeText.RttRedundantBlock.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RealTimeText.RttRedundantBlock",
+      "Summary": "<p sourcefile=\"api/SipLib.RealTimeText.RttRedundantBlock.yml\" sourcestartlinenumber=\"1\">Class for representing redundant RTT blocks in an RTP packet. See RFC 4103.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1698,7 +2362,11 @@
           "relative_path": "api/SipLib.RealTimeText.RttRtpSendDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RealTimeText.RttRtpSendDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.RealTimeText.RttRtpSendDelegate.yml\" sourcestartlinenumber=\"1\">Delegate for a function that sends an RTP packet containing RTT data over an established RTT channel.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1708,7 +2376,11 @@
           "relative_path": "api/SipLib.RealTimeText.RttSender.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RealTimeText.RttSender",
+      "Summary": "<p sourcefile=\"api/SipLib.RealTimeText.RttSender.yml\" sourcestartlinenumber=\"1\">This class manages the sending side of a RTT media session. See RFC 4103. This class manages the\ntransmission of redundant or non-redundant RTP packets containing RTT payloads based on the timing\nrequirements specified in RFC 4103.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1718,7 +2390,11 @@
           "relative_path": "api/SipLib.RealTimeText.RttUtils.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RealTimeText.RttUtils",
+      "Summary": "<p sourcefile=\"api/SipLib.RealTimeText.RttUtils.yml\" sourcestartlinenumber=\"1\">Provides various helper utility functions and definitions for Real Time Text (RTT, RFC 4103)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1728,7 +2404,11 @@
           "relative_path": "api/SipLib.RealTimeText.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RealTimeText",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.RealTimeText.md\" sourcestartlinenumber=\"5\">Classes for the Real Time Text (RTT, see RFC 4103) protocol.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1738,7 +2418,11 @@
           "relative_path": "api/SipLib.Rtp.ByePacket.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.ByePacket",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.ByePacket.yml\" sourcestartlinenumber=\"1\">Class for building and parsing RTCP BYE packets. See Section 6.6 of RFC 3550.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1748,7 +2432,11 @@
           "relative_path": "api/SipLib.Rtp.DtlsHandshakeFailedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.DtlsHandshakeFailedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.DtlsHandshakeFailedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the DtlsHandshakeFailed event of the RtpChannel class</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1758,7 +2446,11 @@
           "relative_path": "api/SipLib.Rtp.DtmfEventEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.DtmfEventEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.DtmfEventEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of DTMF event codes. See Section 3.2 of RFC 4733.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1768,7 +2460,11 @@
           "relative_path": "api/SipLib.Rtp.DtmfPacket.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.DtmfPacket",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.DtmfPacket.yml\" sourcestartlinenumber=\"1\">Class for representing a DTMF event packet RTP payload. See Section 2.3 of RFC 4733.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1778,7 +2474,11 @@
           "relative_path": "api/SipLib.Rtp.JitterStatistics.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.JitterStatistics",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.JitterStatistics.yml\" sourcestartlinenumber=\"1\">Container class for storing RTP packet jitter statistics for a sampled interval</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1788,7 +2488,11 @@
           "relative_path": "api/SipLib.Rtp.MeanOpinionScore.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.MeanOpinionScore",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.MeanOpinionScore.yml\" sourcestartlinenumber=\"1\">Class for calculating and storing the Mean Opinion Score (MOS) values. The MOS is a numerical\nestimation of the audio quality.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1798,7 +2502,11 @@
           "relative_path": "api/SipLib.Rtp.ReceiveStatisticsReadyDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.ReceiveStatisticsReadyDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.ReceiveStatisticsReadyDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the ReceiveStatisticsReady event of the RtpChannel class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1808,7 +2516,11 @@
           "relative_path": "api/SipLib.Rtp.ReceiverReport.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.ReceiverReport",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.ReceiverReport.yml\" sourcestartlinenumber=\"1\">Class for building and parsing RTCP Receiver Report packets. See Section 6.4.2 of RFC 3550.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1818,7 +2530,11 @@
           "relative_path": "api/SipLib.Rtp.ReportBlock.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.ReportBlock",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.ReportBlock.yml\" sourcestartlinenumber=\"1\">Class for building or parsing the report block portion of a RTCP Sender Report or Receiver Report.\nSee Section 6.4.1 of RFC 3550.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1828,7 +2544,11 @@
           "relative_path": "api/SipLib.Rtp.RtcpCompoundPacket.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.RtcpCompoundPacket",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.RtcpCompoundPacket.yml\" sourcestartlinenumber=\"1\">Class for building and sending compound RTCP packets and for parsing and processing compound RTCP packets\nreceived from the network. See RFC 3550.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1838,7 +2558,11 @@
           "relative_path": "api/SipLib.Rtp.RtcpHeader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.RtcpHeader",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.RtcpHeader.yml\" sourcestartlinenumber=\"1\">Class for creating and parsing Real Time Control Protocol (RTCP) headers.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1848,7 +2572,11 @@
           "relative_path": "api/SipLib.Rtp.RtcpPacketReceivedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.RtcpPacketReceivedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.RtcpPacketReceivedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the RtcpPacketReceived event of the RtpChannel class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1858,7 +2586,11 @@
           "relative_path": "api/SipLib.Rtp.RtcpPacketSentDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.RtcpPacketSentDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.RtcpPacketSentDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the RtcpPacketSent event of the RtpChannel class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1868,7 +2600,11 @@
           "relative_path": "api/SipLib.Rtp.RtcpPacketType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.RtcpPacketType",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.RtcpPacketType.yml\" sourcestartlinenumber=\"1\">Enumeration for the RTCP packet type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1878,7 +2614,11 @@
           "relative_path": "api/SipLib.Rtp.RtpChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.RtpChannel",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.RtpChannel.yml\" sourcestartlinenumber=\"1\">Class for sending and receiving Real Time Protocol (RTP) media such as audio, video and text (RTT).\nEach instance of an RtpChannel class handles a single media type.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1888,7 +2628,11 @@
           "relative_path": "api/SipLib.Rtp.RtpPacket.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.RtpPacket",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.RtpPacket.yml\" sourcestartlinenumber=\"1\">Class for handling Real Time Protocol (RTP) network packets. See RFC 3550.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1898,7 +2642,11 @@
           "relative_path": "api/SipLib.Rtp.RtpPacketReceivedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.RtpPacketReceivedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.RtpPacketReceivedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the RtpPacketReceived event of the RtpChannel class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1908,7 +2656,11 @@
           "relative_path": "api/SipLib.Rtp.RtpPacketSentDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.RtpPacketSentDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.RtpPacketSentDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the RtpPacketSent event of the RtpChannel class.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1918,7 +2670,11 @@
           "relative_path": "api/SipLib.Rtp.RtpReceiveStatistics.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.RtpReceiveStatistics",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.RtpReceiveStatistics.yml\" sourcestartlinenumber=\"1\">Class for storing statistics related to received RTP packets.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1928,7 +2684,11 @@
           "relative_path": "api/SipLib.Rtp.RtpUtils.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.RtpUtils",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.RtpUtils.yml\" sourcestartlinenumber=\"1\">This class contains various static functions for reading and writing words, double words (4 bytes) and\ndouble double words (8 bytes) from byte arrays.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1938,7 +2698,11 @@
           "relative_path": "api/SipLib.Rtp.SdesChunk.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.SdesChunk",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.SdesChunk.yml\" sourcestartlinenumber=\"1\">Class for parsing and building a SDES chunk for an RTCP SDES packet. See Section 6.5 of RFC 3550.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1948,7 +2712,11 @@
           "relative_path": "api/SipLib.Rtp.SdesItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.SdesItem",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.SdesItem.yml\" sourcestartlinenumber=\"1\">Class for parsing and building SDES items. See Section 6.5 of RFC 3550.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1958,7 +2726,11 @@
           "relative_path": "api/SipLib.Rtp.SdesItemType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.SdesItemType",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.SdesItemType.yml\" sourcestartlinenumber=\"1\">Enumeration for identifying a SDES chunk type. See Section 6.5 of RFC 3550.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1968,7 +2740,11 @@
           "relative_path": "api/SipLib.Rtp.SdesPacket.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.SdesPacket",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.SdesPacket.yml\" sourcestartlinenumber=\"1\">Class for parsing and building SDES (Source Description) RTCP packets. See Section 6.5 of RFC 3550.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1978,7 +2754,11 @@
           "relative_path": "api/SipLib.Rtp.SenderInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.SenderInfo",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.SenderInfo.yml\" sourcestartlinenumber=\"1\">Class for the Sender Info part of a Sender Report RTCP packet. See Section 6.4.1 of RFC 3550.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1988,7 +2768,11 @@
           "relative_path": "api/SipLib.Rtp.SenderReport.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp.SenderReport",
+      "Summary": "<p sourcefile=\"api/SipLib.Rtp.SenderReport.yml\" sourcestartlinenumber=\"1\">Class for building and parsing RTCP Sender Report packets.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1998,7 +2782,11 @@
           "relative_path": "api/SipLib.Rtp.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Rtp",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Rtp.md\" sourcestartlinenumber=\"5\">Classes for the Real Time Protocol (RTP, see RFC 3550). The main class is called RtpChannel. This class supports unencrypted RTP media as well as encryption using the SDES-SRTP (RFC 3711, RFC 4568) and SDES-DTLS (RFC 5763, RFC 5764) protocols.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2008,7 +2796,11 @@
           "relative_path": "api/SipLib.RtpCrypto.AesFunctions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.AesFunctions",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.AesFunctions.yml\" sourcestartlinenumber=\"1\">This class contains static fuctions for performing AES encryption and decryption operations for SRTP\nand SRTCP.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2018,7 +2810,11 @@
           "relative_path": "api/SipLib.RtpCrypto.CryptoAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.CryptoAttribute",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.CryptoAttribute.yml\" sourcestartlinenumber=\"1\">Class for the crypto SDP attribute for SRTP. See Section 9 of RFC 4568.\nThe format is like:</p>\n<p>\na=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:PS1uQCVeeCFCanVmcjkpPywjNWhcYD0mXXtxaVBR|2^20|1:4\n</p>\n<p>There may be more than one inline parameter. inline parameters are delimited by a \";\".</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2028,7 +2824,11 @@
           "relative_path": "api/SipLib.RtpCrypto.CryptoContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.CryptoContext",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.CryptoContext.yml\" sourcestartlinenumber=\"1\">Class for storing the settings and status of the cryptographic context for SRTP and SRTCP.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2038,7 +2838,11 @@
           "relative_path": "api/SipLib.RtpCrypto.CryptoSuites.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.CryptoSuites",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.CryptoSuites.yml\" sourcestartlinenumber=\"1\">Class that provides information about the crypto suites for SRTP that this class library supports.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2048,7 +2852,11 @@
           "relative_path": "api/SipLib.RtpCrypto.InlineParams.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.InlineParams",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.InlineParams.yml\" sourcestartlinenumber=\"1\">Class for storing and managing the parameter of the &quot;inline&quot; SRTP key-param of an SDP crypto media attribute.\nSee Section 9 of RFC 4568.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2058,7 +2866,11 @@
           "relative_path": "api/SipLib.RtpCrypto.MasterKeys.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.MasterKeys",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.MasterKeys.yml\" sourcestartlinenumber=\"1\">Class for storing a single SRTP master key, master salt and parameters related to these.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2068,7 +2880,11 @@
           "relative_path": "api/SipLib.RtpCrypto.RocVals.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.RocVals",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.RocVals.yml\" sourcestartlinenumber=\"1\">Class for storing the Roll Over Counter (ROC) for SRTP encryption. The ROC counts the number of times\nthat the RTP packet sequence number has wrapped around in a RTP media session.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2078,7 +2894,11 @@
           "relative_path": "api/SipLib.RtpCrypto.RocValues.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.RocValues",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.RocValues.yml\" sourcestartlinenumber=\"1\">Class for storing the Roll Over Counter (ROC) for SRTP encryption. The ROC counts the number of times\nthat the RTP packet sequence number has wrapped around in a RTP media session.\nSee Section 3.3.1 of RFC 3711.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2088,7 +2908,11 @@
           "relative_path": "api/SipLib.RtpCrypto.SRtpErrorsEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.SRtpErrorsEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.SRtpErrorsEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of SRTP error conditions</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2098,7 +2922,11 @@
           "relative_path": "api/SipLib.RtpCrypto.SRtpUtils.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.SRtpUtils",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.SRtpUtils.yml\" sourcestartlinenumber=\"1\">Static class that provides static functions for performing various Secure RTP (SRTP) calculations.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2108,7 +2936,11 @@
           "relative_path": "api/SipLib.RtpCrypto.SessionKeys.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.SessionKeys",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.SessionKeys.yml\" sourcestartlinenumber=\"1\">Class for storing the current session key, salt and authentication keys for SRTP</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2118,7 +2950,11 @@
           "relative_path": "api/SipLib.RtpCrypto.SrtpDecryptor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.SrtpDecryptor",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.SrtpDecryptor.yml\" sourcestartlinenumber=\"1\">Class for decrypting SRTP and SRTCP packets received from a remote endpoint.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2128,7 +2964,11 @@
           "relative_path": "api/SipLib.RtpCrypto.SrtpEncryptor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.SrtpEncryptor",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.SrtpEncryptor.yml\" sourcestartlinenumber=\"1\">Class for encypting RTP and RTCP packets to be sent. See RFC 3711.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2138,7 +2978,11 @@
           "relative_path": "api/SipLib.RtpCrypto.SrtpLabelItem.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.SrtpLabelItem",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.SrtpLabelItem.yml\" sourcestartlinenumber=\"1\">Enumeration for the valid value of the &quot;label&quot; specified in Sections 4.3.1 and 4.3.2 of RFC 3711. This\nenumeration is used by the DeriveSrtpSessionKey() function to determine what type of session item\nto generate.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2148,7 +2992,11 @@
           "relative_path": "api/SipLib.RtpCrypto.SrtpTransformBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto.SrtpTransformBase",
+      "Summary": "<p sourcefile=\"api/SipLib.RtpCrypto.SrtpTransformBase.yml\" sourcestartlinenumber=\"1\">Base class for the SrtpEncryptor and SrtpDecryptor classes</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2158,7 +3006,11 @@
           "relative_path": "api/SipLib.RtpCrypto.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.RtpCrypto",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.RtpCrypto.md\" sourcestartlinenumber=\"5\">Classes that implement the SDES-SRTP protocols used in secure RTP. The classes in this namespace are used by the RtpChannel class for encrypting and decrypting RTP media data. Users of the SipLib class library do not normally need to use the classes in this namespace.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2168,7 +3020,11 @@
           "relative_path": "api/SipLib.Sdp.ConnectionData.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Sdp.ConnectionData",
+      "Summary": "<p sourcefile=\"api/SipLib.Sdp.ConnectionData.yml\" sourcestartlinenumber=\"1\">Class for processing the Connection Data &quot;c=&quot; type of the SDP contents.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2178,7 +3034,11 @@
           "relative_path": "api/SipLib.Sdp.MediaDescription.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Sdp.MediaDescription",
+      "Summary": "<p sourcefile=\"api/SipLib.Sdp.MediaDescription.yml\" sourcestartlinenumber=\"1\">Class for processing the Media Description &quot;m=&quot; type for the SDP contents. See Section 5.14 of RFC 8866.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2188,7 +3048,11 @@
           "relative_path": "api/SipLib.Sdp.MediaDirectionEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Sdp.MediaDirectionEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Sdp.MediaDirectionEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of values for the Media Direction SDP attribute. See Section 6.7 of RFC 8866.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2198,7 +3062,11 @@
           "relative_path": "api/SipLib.Sdp.Origin.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Sdp.Origin",
+      "Summary": "<p sourcefile=\"api/SipLib.Sdp.Origin.yml\" sourcestartlinenumber=\"1\">Class for processing the Origin &quot;o=&quot; SDP line. See Section 5.2 of RFC 4566.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2208,7 +3076,11 @@
           "relative_path": "api/SipLib.Sdp.RtpMapAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Sdp.RtpMapAttribute",
+      "Summary": "<p sourcefile=\"api/SipLib.Sdp.RtpMapAttribute.yml\" sourcestartlinenumber=\"1\">Class for represent an SDP rtpmap attribute. See Section 6.6 of RFC 8866.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2218,7 +3090,11 @@
           "relative_path": "api/SipLib.Sdp.Sdp.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Sdp.Sdp",
+      "Summary": "<p sourcefile=\"api/SipLib.Sdp.Sdp.yml\" sourcestartlinenumber=\"1\">Class for processing the Session Description Protocol message contents of a SIP message. See RFC 8866.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2228,7 +3104,11 @@
           "relative_path": "api/SipLib.Sdp.SdpAnswerSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Sdp.SdpAnswerSettings",
+      "Summary": "<p sourcefile=\"api/SipLib.Sdp.SdpAnswerSettings.yml\" sourcestartlinenumber=\"1\">Class for passing the media settings to use when building an SDP object in response to an\noffered SDP</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2238,7 +3118,11 @@
           "relative_path": "api/SipLib.Sdp.SdpAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Sdp.SdpAttribute",
+      "Summary": "<p sourcefile=\"api/SipLib.Sdp.SdpAttribute.yml\" sourcestartlinenumber=\"1\">Class for processing the Attributes &quot;a=&quot; type of the SDP contents. See Section 5.13 of RFC 4566.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2248,7 +3132,11 @@
           "relative_path": "api/SipLib.Sdp.SdpUtils.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Sdp.SdpUtils",
+      "Summary": "<p sourcefile=\"api/SipLib.Sdp.SdpUtils.yml\" sourcestartlinenumber=\"1\">Static class that provides various functions for working with the Session Description Protocol (SDP)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2258,7 +3146,11 @@
           "relative_path": "api/SipLib.Sdp.SetupType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Sdp.SetupType",
+      "Summary": "<p sourcefile=\"api/SipLib.Sdp.SetupType.yml\" sourcestartlinenumber=\"1\">Enumeration that specifies the type of connection setup to use as described in RFC 4145. This depends\non the a=setup:xxx SDP attribute.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2268,7 +3160,11 @@
           "relative_path": "api/SipLib.Sdp.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Sdp",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Sdp.md\" sourcestartlinenumber=\"5\">Classes used for the Session Description Protocol (SDP, see RFC 8866).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2278,7 +3174,11 @@
           "relative_path": "api/SipLib.Threading.QueuedActionWorkerTask.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Threading.QueuedActionWorkerTask",
+      "Summary": "<p>\nThis class is intended to be the base class for other classes that need to queue actions and\nexecute them on a single thread context. It is generally not used directly in a stand-alone manner.\n</p>\n<p>\nAfter constructing a class derived from this class, the derived class must call the Start() method\nto start the background task. When the derived class is shutting down, it must call the Shutdown() method.\n</p>\n<p>\nActions are queued for execution by calling the EnqueueAction() method.\n</p>\n<p>\nDerived classes can override the DoTimedEvents() methods so that they can do work periodically within\nthe tread context of this class. The DoTimedEvents() method is called each time through the task loop.\nThe maximum period of execution is the WaitIntervalMsec value provided in the constructor.\n</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2288,7 +3188,11 @@
           "relative_path": "api/SipLib.Threading.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Threading",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2298,7 +3202,11 @@
           "relative_path": "api/SipLib.Transactions.ClientInviteTransaction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions.ClientInviteTransaction",
+      "Summary": "<p sourcefile=\"api/SipLib.Transactions.ClientInviteTransaction.yml\" sourcestartlinenumber=\"1\">Class for managing a single SIP client INVITE transaction. See Section 17.1.1 of RFC 3261.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2308,7 +3216,11 @@
           "relative_path": "api/SipLib.Transactions.ClientNonInviteTransaction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions.ClientNonInviteTransaction",
+      "Summary": "<p sourcefile=\"api/SipLib.Transactions.ClientNonInviteTransaction.yml\" sourcestartlinenumber=\"1\">Class for managing a single SIP client non-INVITE transaction. See Section 17.1.2 of RFC 3261.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2318,7 +3230,11 @@
           "relative_path": "api/SipLib.Transactions.ServerInviteTransaction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions.ServerInviteTransaction",
+      "Summary": "<p sourcefile=\"api/SipLib.Transactions.ServerInviteTransaction.yml\" sourcestartlinenumber=\"1\">Class for managing a SIP server INVITE transaction. See Section 17.2.1 of RFC 3261.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2328,7 +3244,11 @@
           "relative_path": "api/SipLib.Transactions.ServerNonInviteTransaction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions.ServerNonInviteTransaction",
+      "Summary": "<p sourcefile=\"api/SipLib.Transactions.ServerNonInviteTransaction.yml\" sourcestartlinenumber=\"1\">Class for handling a server non-INVITE transaction. See Section 17.2.2 of RFC 3261.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2338,7 +3258,11 @@
           "relative_path": "api/SipLib.Transactions.SipInviteTransaction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions.SipInviteTransaction",
+      "Summary": "<p sourcefile=\"api/SipLib.Transactions.SipInviteTransaction.yml\" sourcestartlinenumber=\"1\">Data class for a single SIP client INVITE transaction</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2348,7 +3272,11 @@
           "relative_path": "api/SipLib.Transactions.SipTimers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions.SipTimers",
+      "Summary": "<p sourcefile=\"api/SipLib.Transactions.SipTimers.yml\" sourcestartlinenumber=\"1\">Defines the default timer intervals for SIP transactions defined in RFC 3261.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2358,7 +3286,11 @@
           "relative_path": "api/SipLib.Transactions.SipTransactionBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions.SipTransactionBase",
+      "Summary": "<p sourcefile=\"api/SipLib.Transactions.SipTransactionBase.yml\" sourcestartlinenumber=\"1\">Base class for SIP transactions. See Section 17 of RFC 3261.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2368,7 +3300,11 @@
           "relative_path": "api/SipLib.Transactions.SipTransport.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions.SipTransport",
+      "Summary": "<p sourcefile=\"api/SipLib.Transactions.SipTransport.yml\" sourcestartlinenumber=\"1\">This class manages sending and receiving SIP messages on a single SIPChannel. It also manages SIP\ntransactions for transactions on that SIPChannel.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2378,7 +3314,11 @@
           "relative_path": "api/SipLib.Transactions.TransactionRequestReceivedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions.TransactionRequestReceivedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Transactions.TransactionRequestReceivedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the RequestReceived event of all SipTransactionBase derived classes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2388,7 +3328,11 @@
           "relative_path": "api/SipLib.Transactions.TransactionResponseReceivedDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions.TransactionResponseReceivedDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Transactions.TransactionResponseReceivedDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for the ResponseReceived event of all SipTransactionBase derived classes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2398,7 +3342,11 @@
           "relative_path": "api/SipLib.Transactions.TransactionStateEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions.TransactionStateEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Transactions.TransactionStateEnum.yml\" sourcestartlinenumber=\"1\">SIP transaction states</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2408,7 +3356,11 @@
           "relative_path": "api/SipLib.Transactions.TransactionTerminationReasonEnum.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions.TransactionTerminationReasonEnum",
+      "Summary": "<p sourcefile=\"api/SipLib.Transactions.TransactionTerminationReasonEnum.yml\" sourcestartlinenumber=\"1\">Enumeration of the reasons that a transaction was terminated</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2418,7 +3370,11 @@
           "relative_path": "api/SipLib.Transactions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Transactions",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Transactions.md\" sourcestartlinenumber=\"5\">Classes for managing SIP transactions as specified in Section 17 of RFC 3261.</p>\n<p sourcefile=\"Namespaces/SipLib.Transactions.md\" sourcestartlinenumber=\"7\">The SipTransport class manages sending and receiving SIP messages on a single SIPChannel. It also manages SIP transactions for transactions on that SIPChannel.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2428,7 +3384,11 @@
           "relative_path": "api/SipLib.Video.H264Depacketiser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Video.H264Depacketiser",
+      "Summary": "<p sourcefile=\"api/SipLib.Video.H264Depacketiser.yml\" sourcestartlinenumber=\"1\">Class that receives H264 encoded video Network Access Layer (NALs) in RTP packets and builds complete\nH264 encoded access units that can then be decoded.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2438,7 +3398,11 @@
           "relative_path": "api/SipLib.Video.H264Packetiser.H264Nal.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Video.H264Packetiser.H264Nal",
+      "Summary": "<p sourcefile=\"api/SipLib.Video.H264Packetiser.H264Nal.yml\" sourcestartlinenumber=\"1\">Structure for representing an H264 NAL</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2448,7 +3412,11 @@
           "relative_path": "api/SipLib.Video.H264Packetiser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Video.H264Packetiser",
+      "Summary": "<p sourcefile=\"api/SipLib.Video.H264Packetiser.yml\" sourcestartlinenumber=\"1\">Contains functions to packetise an H264 Network Abstraction Layer Units (NAL or NALU) into an RTP payload.\nSee &quot;RTP Payload Format for H.264 Video&quot; <a href=\"https://tools.ietf.org/html/rfc6184\" sourcefile=\"api/SipLib.Video.H264Packetiser.yml\" sourcestartlinenumber=\"2\">https://tools.ietf.org/html/rfc6184</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2458,7 +3426,11 @@
           "relative_path": "api/SipLib.Video.H264RtpReceiver.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Video.H264RtpReceiver",
+      "Summary": "<p sourcefile=\"api/SipLib.Video.H264RtpReceiver.yml\" sourcestartlinenumber=\"1\">Class that processes RTP packets containing H264 encoded video data.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2468,7 +3440,11 @@
           "relative_path": "api/SipLib.Video.H264RtpSender.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Video.H264RtpSender",
+      "Summary": "<p sourcefile=\"api/SipLib.Video.H264RtpSender.yml\" sourcestartlinenumber=\"1\">Class that processes H264 encoded access units and packetizes H264 NAL units into RTP packets so the\nH264 encoded data can be sent over the network.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2478,7 +3454,11 @@
           "relative_path": "api/SipLib.Video.RtpSendDelegate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Video.RtpSendDelegate",
+      "Summary": "<p sourcefile=\"api/SipLib.Video.RtpSendDelegate.yml\" sourcestartlinenumber=\"1\">Delegate type for a function that sends an RTP packet. Used for the H264RtpSender class when\nan RTP packet needs to be sent.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2488,7 +3468,11 @@
           "relative_path": "api/SipLib.Video.RtpVP8Header.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Video.RtpVP8Header",
+      "Summary": "<p sourcefile=\"api/SipLib.Video.RtpVP8Header.yml\" sourcestartlinenumber=\"1\">Representation of the VP8 RTP header as specified in RFC7741. See <a href=\"https://tools.ietf.org/html/rfc7741\" sourcefile=\"api/SipLib.Video.RtpVP8Header.yml\" sourcestartlinenumber=\"1\">https://tools.ietf.org/html/rfc7741</a>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2498,7 +3482,11 @@
           "relative_path": "api/SipLib.Video.VP8RtpReceiver.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Video.VP8RtpReceiver",
+      "Summary": "<p sourcefile=\"api/SipLib.Video.VP8RtpReceiver.yml\" sourcestartlinenumber=\"1\">Class for processing RTP packets containing VP8 encode video frames.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2508,7 +3496,11 @@
           "relative_path": "api/SipLib.Video.VP8RtpSender.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Video.VP8RtpSender",
+      "Summary": "<p sourcefile=\"api/SipLib.Video.VP8RtpSender.yml\" sourcestartlinenumber=\"1\">Class for processing VP8 encoding video frames and sending them in RTP packets.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2518,7 +3510,11 @@
           "relative_path": "api/SipLib.Video.VideoRtpReceiver.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Video.VideoRtpReceiver",
+      "Summary": "<p sourcefile=\"api/SipLib.Video.VideoRtpReceiver.yml\" sourcestartlinenumber=\"1\">Base class for classes that receive encoded RTP packets</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2528,7 +3524,11 @@
           "relative_path": "api/SipLib.Video.VideoRtpSender.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Video.VideoRtpSender",
+      "Summary": "<p sourcefile=\"api/SipLib.Video.VideoRtpSender.yml\" sourcestartlinenumber=\"1\">Base class for classes that need to send encoded video frames using RTP.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2538,7 +3538,11 @@
           "relative_path": "api/SipLib.Video.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SipLib.Video",
+      "Summary": "\n<p sourcefile=\"Namespaces/SipLib.Video.md\" sourcestartlinenumber=\"5\">Classes for packing and unpacking video frames for use in RTP channels for H.264 and VP8 video. The H.264 and VP8 codecs are not included here.</p>\n"
     },
     {
       "type": "Conceptual",
