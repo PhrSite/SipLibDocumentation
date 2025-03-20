@@ -1,3 +1,8 @@
+# Deprecated -- 20 Mar 2025
+The contents of this repository have been moved to the Documentation directory of the SipLib repository so this repository will no longer be maintained. See https://github.com/PhrSite/SipLib.
+
+The GitHub pages for the SipLib repository a now located at: https://phrsite.github.io/SipLib.
+
 # The SipLibDocumentation Project
 This is the GitHub Pages documentation project for the SipLib class library.
 
